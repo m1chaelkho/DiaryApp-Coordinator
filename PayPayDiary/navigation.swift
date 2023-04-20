@@ -9,15 +9,25 @@ import UIKit
 
 // ========================================================================================================
 // Module Router
+
+@propertyWrapper
+struct Once<Value> {
+    private var _wrappedValue: Value?
+    var wrappedValue: Value! {
+        get { _wrappedValue }
+        set {
+            if _wrappedValue != nil { return }
+            _wrappedValue = newValue
+        }
+    }
+}
+
 class Coordinator {
 
-    static var shared = Coordinator(
-        router: { _, _ in },
-        navigationController: UINavigationController()
-    )
+    @Once static var shared: Coordinator!
 
-    let navigationController: UINavigationController
-    let router: (WorldDestination, UINavigationController) -> Void
+    private let navigationController: UINavigationController
+    private let router: (WorldDestination, UINavigationController) -> Void
 
     init(router: @escaping (WorldDestination, UINavigationController) -> Void, navigationController: UINavigationController) {
         self.router = router
