@@ -8,17 +8,22 @@
 import UIKit
 
 // Module Router
-class Coordinator<Destination> {
+class Coordinator {
+
+    static var shared = Coordinator(
+        router: { _, _ in },
+        navigationController: UINavigationController()
+    )
 
     let navigationController: UINavigationController
-    let router: (Destination, UINavigationController) -> Void
+    let router: (WorldDestination, UINavigationController) -> Void
 
-    init(router: @escaping (Destination, UINavigationController) -> Void, navigationController: UINavigationController) {
+    init(router: @escaping (WorldDestination, UINavigationController) -> Void, navigationController: UINavigationController) {
         self.router = router
         self.navigationController = navigationController
     }
 
-    func route(_ destination: Destination) {
+    func route(_ destination: WorldDestination) {
         router(destination, navigationController)
     }
 }
@@ -38,6 +43,7 @@ enum WorldDestination {
     case indonesia(IndonesiaDestination)
 }
 
+// Module Main
 func worldRouter(_ destination: WorldDestination, navigationController: UINavigationController) {
     switch destination {
     case .japan(let japanDestination):
@@ -47,40 +53,40 @@ func worldRouter(_ destination: WorldDestination, navigationController: UINaviga
     }
 }
 
-func japanRouter(_ destination: JapanDestination, navigationController: UINavigationController) {
-    switch destination {
-    case .tokyo(let param):
-        let tokyo = Tokyo(param: param)
-        navigationController.pushViewController(tokyo, animated: true)
-    case .osaka:
-        let osaka = Osaka()
-        navigationController.pushViewController(osaka, animated: true)
+class MainAppDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+        Coordinator.shared = Coordinator(
+            router: worldRouter,
+            navigationController: UINavigationController()
+        )
+
+        return true
     }
-}
-
-func indonesiaRouter(_ destination: IndonesiaDestination, navigationController: UINavigationController) {
-    switch destination {
-    case .jakarta:
-        let jakarta = Jakarta()
-        navigationController.pushViewController(jakarta, animated: true)
-    case .bali:
-        let bali = Bali()
-        navigationController.pushViewController(bali, animated: true)
-    }
-}
-
-
-// Module app
-// import Router
-struct Something {
-    static let shared = Coordinator(
-        router: worldRouter,
-        navigationController: UINavigationController(rootViewController: UIViewController())
-    )
 }
 
 // Module Japan
 // import Router
+class SandboxJapanDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+        Coordinator.shared = Coordinator(
+            router: { destination, navigationController in
+                switch destination {
+                case .japan(let japanDestination):
+                    japanRouter(japanDestination, navigationController: navigationController)
+                case .indonesia:
+                    // asserting
+                    break
+                }
+            },
+            navigationController: UINavigationController()
+        )
+
+        return true
+    }
+}
+
 class Tokyo: UIViewController {
     let param: Int
 
@@ -94,13 +100,54 @@ class Tokyo: UIViewController {
     }
 
     func gotoJakarta() {
-        Something.shared.route(.indonesia(.jakarta))
+        Coordinator.shared.route(.indonesia(.jakarta))
+    }
+}
+class Osaka: UIViewController {}
+func japanRouter(_ destination: JapanDestination, navigationController: UINavigationController) {
+    switch destination {
+    case .tokyo(let param):
+        let tokyo = Tokyo(param: param)
+        navigationController.pushViewController(tokyo, animated: true)
+    case .osaka:
+        let osaka = Osaka()
+        navigationController.pushViewController(osaka, animated: true)
     }
 }
 
-class Osaka: UIViewController {}
-
 // Module Indonesia
 // import Router
+
+class SandboxIndonesiaDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+        Coordinator.shared = Coordinator(
+            router: { destination, navigationController in
+                switch destination {
+                case .japan:
+                    // asserting
+                    break
+                case .indonesia(let indonesiaDestination):
+                    indonesiaRouter(indonesiaDestination, navigationController: navigationController)
+                    break
+                }
+            },
+            navigationController: UINavigationController()
+        )
+
+        return true
+    }
+}
+
 class Jakarta: UIViewController {}
 class Bali: UIViewController {}
+func indonesiaRouter(_ destination: IndonesiaDestination, navigationController: UINavigationController) {
+    switch destination {
+    case .jakarta:
+        let jakarta = Jakarta()
+        navigationController.pushViewController(jakarta, animated: true)
+    case .bali:
+        let bali = Bali()
+        navigationController.pushViewController(bali, animated: true)
+    }
+}
