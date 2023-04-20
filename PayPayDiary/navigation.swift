@@ -148,6 +148,6 @@ func indonesiaRouter(_ destination: IndonesiaDestination, navigationController: 
         navigationController.pushViewController(jakarta, animated: true)
     case .bali:
         let bali = Bali()
-        navigationController.pushViewController(bali, animated: true)
+        navigationController.present(bali, animated: true)
     }
 }
