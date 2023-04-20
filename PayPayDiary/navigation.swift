@@ -10,16 +10,16 @@ import UIKit
 // Module Router
 class Coordinator<Destination> {
 
-    let parentViewController: UIViewController
-    let router: (Destination, UIViewController) -> Void
+    let navigationController: UINavigationController
+    let router: (Destination, UINavigationController) -> Void
 
-    init(router: @escaping (Destination, UIViewController) -> Void, parentViewController: UIViewController) {
+    init(router: @escaping (Destination, UINavigationController) -> Void, navigationController: UINavigationController) {
         self.router = router
-        self.parentViewController = parentViewController
+        self.navigationController = navigationController
     }
 
     func route(_ destination: Destination) {
-        router(destination, parentViewController)
+        router(destination, navigationController)
     }
 }
 
@@ -38,34 +38,34 @@ enum WorldDestination {
     case indonesia(IndonesiaDestination)
 }
 
-func worldRouter(_ destination: WorldDestination, parentViewController: UIViewController) {
+func worldRouter(_ destination: WorldDestination, navigationController: UINavigationController) {
     switch destination {
     case .japan(let japanDestination):
-        japanRouter(japanDestination, parentViewController: parentViewController)
+        japanRouter(japanDestination, navigationController: navigationController)
     case .indonesia(let indonesiaDestination):
-        indonesiaRouter(indonesiaDestination, parentViewController: parentViewController)
+        indonesiaRouter(indonesiaDestination, navigationController: navigationController)
     }
 }
 
-func japanRouter(_ destination: JapanDestination, parentViewController: UIViewController) {
+func japanRouter(_ destination: JapanDestination, navigationController: UINavigationController) {
     switch destination {
     case .tokyo(let param):
         let tokyo = Tokyo(param: param)
-        parentViewController.navigationController?.pushViewController(tokyo, animated: true)
+        navigationController.pushViewController(tokyo, animated: true)
     case .osaka:
         let osaka = Osaka()
-        parentViewController.navigationController?.pushViewController(osaka, animated: true)
+        navigationController.pushViewController(osaka, animated: true)
     }
 }
 
-func indonesiaRouter(_ destination: IndonesiaDestination, parentViewController: UIViewController) {
+func indonesiaRouter(_ destination: IndonesiaDestination, navigationController: UINavigationController) {
     switch destination {
     case .jakarta:
         let jakarta = Jakarta()
-        parentViewController.navigationController?.pushViewController(jakarta, animated: true)
+        navigationController.pushViewController(jakarta, animated: true)
     case .bali:
         let bali = Bali()
-        parentViewController.navigationController?.pushViewController(bali, animated: true)
+        navigationController.pushViewController(bali, animated: true)
     }
 }
 
@@ -75,7 +75,7 @@ func indonesiaRouter(_ destination: IndonesiaDestination, parentViewController: 
 struct Something {
     static let shared = Coordinator(
         router: worldRouter,
-        parentViewController: UINavigationController(rootViewController: UIViewController())
+        navigationController: UINavigationController(rootViewController: UIViewController())
     )
 }
 
