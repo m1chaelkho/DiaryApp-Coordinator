@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+use_frameworks! :linkage => :static
+inhibit_all_warnings!
+
+install! 'cocoapods',
+:generate_multiple_pod_projects => true,
+:incremental_installation => true
+
+def module_dependency_pod
+  #insert pod here if needed
+  pod 'DiaryFoundation', :path => '../DiaryFoundation'
+end
+
+target 'SandboxApp' do
+  module_dependency_pod
+
+  pod 'DiaryContent', :path => '.'
+end
+
+target 'DiaryContent' do
+  module_dependency_pod
+
+  target 'DiaryContentTests' do
+    
+  end
+end

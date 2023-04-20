@@ -1,0 +1,6 @@
+framework module DiaryFoundation {
+  umbrella header "DiaryFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

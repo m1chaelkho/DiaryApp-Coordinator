@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthViewController" customModule="AuthenticationResources" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLF-by-0jQ">
+                    <rect key="frame" x="169.66666666666666" y="350" width="74.666666666666657" height="36"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="YqV-d3-IBz">
+                    <rect key="frame" x="16" y="630" width="382" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="gxa-fl-8bP"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                    <connections>
+                        <action selector="loginButtonDidTapped:" destination="-1" eventType="touchUpInside" id="6IU-gW-0Dw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.8666666666666667" green="0.96862745098039216" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NLF-by-0jQ" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="BAQ-c9-6Vc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="YqV-d3-IBz" secondAttribute="bottom" constant="64" id="J8T-0T-D6l"/>
+                <constraint firstItem="YqV-d3-IBz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Q7R-D0-xAm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YqV-d3-IBz" secondAttribute="trailing" constant="16" id="VUS-cZ-I7N"/>
+                <constraint firstItem="NLF-by-0jQ" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="bQB-Uz-cMv"/>
+            </constraints>
+            <point key="canvasLocation" x="-74" y="20"/>
+        </view>
+    </objects>
+</document>

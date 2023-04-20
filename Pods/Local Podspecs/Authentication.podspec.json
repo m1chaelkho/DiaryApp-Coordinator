@@ -1,0 +1,29 @@
+{
+  "name": "Authentication",
+  "version": "0.1.0",
+  "summary": "A short description of Authentication.",
+  "homepage": "https://github.com/michaelkho/Authentication",
+  "authors": {
+    "michaelkho": "michael.kho@paypay-corp.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/michaelkho/Authentication.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Authentication/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "AuthenticationResources": [
+      "Authentication/**/*.xib",
+      "AuthenticationResources/**/*.xib",
+      "AuthenticationResources/Images.xcassets"
+    ]
+  },
+  "dependencies": {
+    "DiaryFoundation": [
+
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  DiaryFoundation:
+    BUILD_SETTINGS_CHECKSUM:
+      DiaryFoundation:
+        :debug: 32d19eb0ea7d560aa60be12fc23972e0
+        :release: 32d19eb0ea7d560aa60be12fc23972e0
+    CHECKSUM: d5daa40e88c40783a37234b4ad677c39a23fa6bc
+    FILES:
+      - "../DiaryFoundation/DiaryFoundation.h"
+    PROJECT_NAME: DiaryFoundation
+    SPECS:
+      - DiaryFoundation (0.1.0)
+  Pods-DiaryFoundation:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+  Pods-DiaryFoundation-DiaryFoundationTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+  Pods-SandboxApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: af6dff96baaad8c24f85a04e22e7c3e3
+      Release: af6dff96baaad8c24f85a04e22e7c3e3
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  parallel_pod_download_thread_pool_size: 40
+  parallel_pod_downloads: false
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 50
+PLUGINS:
+  {}

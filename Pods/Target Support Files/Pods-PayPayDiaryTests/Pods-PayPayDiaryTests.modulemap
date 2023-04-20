@@ -1,0 +1,6 @@
+framework module Pods_PayPayDiaryTests {
+  umbrella header "Pods-PayPayDiaryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Authentication.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DiaryContent.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DiaryFoundation.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Settings.framework

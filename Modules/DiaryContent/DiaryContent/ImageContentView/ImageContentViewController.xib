@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContentViewController" customModule="DiaryContentResources" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="tbk-tT-qVm" id="1OS-oI-oKi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sakura-potrait" translatesAutoresizingMaskIntoConstraints="NO" id="tbk-tT-qVm">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tbk-tT-qVm" secondAttribute="bottom" id="IjL-z8-4z7"/>
+                <constraint firstItem="tbk-tT-qVm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="M90-pT-Uix"/>
+                <constraint firstItem="tbk-tT-qVm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YDR-JP-xbm"/>
+                <constraint firstAttribute="trailing" secondItem="tbk-tT-qVm" secondAttribute="trailing" id="yzO-c1-lfm"/>
+            </constraints>
+            <point key="canvasLocation" x="-74" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sakura-potrait" width="1000" height="1500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

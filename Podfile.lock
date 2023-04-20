@@ -1,0 +1,34 @@
+PODS:
+  - Authentication (0.1.0):
+    - DiaryFoundation
+  - DiaryContent (0.1.0):
+    - DiaryFoundation
+  - DiaryFoundation (0.1.0)
+  - Settings (0.1.0):
+    - DiaryFoundation
+
+DEPENDENCIES:
+  - Authentication (from `Modules/Authentication`)
+  - DiaryContent (from `Modules/DiaryContent`)
+  - DiaryFoundation (from `Modules/DiaryFoundation`)
+  - Settings (from `Modules/Settings`)
+
+EXTERNAL SOURCES:
+  Authentication:
+    :path: Modules/Authentication
+  DiaryContent:
+    :path: Modules/DiaryContent
+  DiaryFoundation:
+    :path: Modules/DiaryFoundation
+  Settings:
+    :path: Modules/Settings
+
+SPEC CHECKSUMS:
+  Authentication: 3c64503f1c1469c69b071f24c576357b84d90a1f
+  DiaryContent: fb7125788ff3d22028d6d4ab2fb78aa0835f2270
+  DiaryFoundation: d5daa40e88c40783a37234b4ad677c39a23fa6bc
+  Settings: 54e0f885c871939962764fbc3dfb038449aa5928
+
+PODFILE CHECKSUM: ccab3a694a0c4a3b1cfd7b8b114304aa27e66088
+
+COCOAPODS: 1.12.0

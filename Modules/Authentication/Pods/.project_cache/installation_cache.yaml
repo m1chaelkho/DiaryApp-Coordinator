@@ -1,0 +1,73 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Authentication:
+    BUILD_SETTINGS_CHECKSUM:
+      Authentication:
+        :debug: 05cbfbf3dd3891d53fc25d3590f241ef
+        :release: 05cbfbf3dd3891d53fc25d3590f241ef
+    CHECKSUM: 3c64503f1c1469c69b071f24c576357b84d90a1f
+    FILES:
+      - "../Authentication/Auth/AuthViewController.swift"
+      - "../Authentication/Auth/AuthViewController.xib"
+      - "../Authentication/Auth/AuthViewModel.swift"
+      - "../Authentication/Authentication.h"
+      - "../Authentication/Coordinator/AuthCoordinator.swift"
+      - "../Authentication/Internal/AuthInternalUtils.swift"
+      - "../Authentication/OTP/OTPViewController.swift"
+      - "../Authentication/OTP/OTPViewController.xib"
+      - "../Authentication/OTP/OTPViewModel.swift"
+      - "../AuthenticationResources/Images.xcassets"
+    PROJECT_NAME: Authentication
+    SPECS:
+      - Authentication (0.1.0)
+  DiaryFoundation:
+    BUILD_SETTINGS_CHECKSUM:
+      DiaryFoundation:
+        :debug: ebc0b28bc190fed8973ee1f4617dc100
+        :release: ebc0b28bc190fed8973ee1f4617dc100
+    CHECKSUM: d5daa40e88c40783a37234b4ad677c39a23fa6bc
+    FILES:
+      - "../../DiaryFoundation/DiaryFoundation/AppCoordinator.swift"
+      - "../../DiaryFoundation/DiaryFoundation/AppCoordinatorProtocol.swift"
+      - "../../DiaryFoundation/DiaryFoundation/BaseCoordinator.swift"
+      - "../../DiaryFoundation/DiaryFoundation/BaseViewController.swift"
+      - "../../DiaryFoundation/DiaryFoundation/Coordinator.swift"
+      - "../../DiaryFoundation/DiaryFoundation/DiaryFoundation.h"
+    PROJECT_NAME: DiaryFoundation
+    SPECS:
+      - DiaryFoundation (0.1.0)
+  Pods-Authentication:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: d0af029837d446579bef864658d7520e
+      Release: d0af029837d446579bef864658d7520e
+  Pods-AuthenticationTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 19ca392ba3da9676dc56367c931be73b
+      Release: 19ca392ba3da9676dc56367c931be73b
+  Pods-SandboxApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: ab4b0ef861f2a7d5fd172814691b9ef0
+      Release: ab4b0ef861f2a7d5fd172814691b9ef0
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/Authentication/AuthenticationResources.bundle"
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  parallel_pod_download_thread_pool_size: 40
+  parallel_pod_downloads: false
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 51
+PLUGINS:
+  {}

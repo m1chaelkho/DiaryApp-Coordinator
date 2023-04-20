@@ -1,0 +1,22 @@
+PODS:
+  - DiaryFoundation (0.1.0)
+  - Settings (0.1.0):
+    - DiaryFoundation
+
+DEPENDENCIES:
+  - DiaryFoundation (from `../DiaryFoundation`)
+  - Settings (from `.`)
+
+EXTERNAL SOURCES:
+  DiaryFoundation:
+    :path: "../DiaryFoundation"
+  Settings:
+    :path: "."
+
+SPEC CHECKSUMS:
+  DiaryFoundation: d5daa40e88c40783a37234b4ad677c39a23fa6bc
+  Settings: 54e0f885c871939962764fbc3dfb038449aa5928
+
+PODFILE CHECKSUM: aefbbf13da080f555d3c7af3765a98912aea4b84
+
+COCOAPODS: 1.12.0

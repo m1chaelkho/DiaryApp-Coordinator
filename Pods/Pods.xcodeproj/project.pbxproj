@@ -1,0 +1,2243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B54095A130B91018DF1F8727B73E55F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96C1B4DAB7CB10424887326FFFA8F0E /* AuthViewController.swift */; };
+		2786C0B46DF6E0ABEF15B9595EB9BA84 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551756554FCE51C8547BEC726867512 /* SettingsCoordinator.swift */; };
+		3482A6062F3E5D4197B1CFD490021E03 /* Pods-PayPayDiary-PayPayDiaryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC73538A4246B1E7540062B72B2339D0 /* Pods-PayPayDiary-PayPayDiaryUITests-dummy.m */; };
+		39778885FDEFF24F46EDE556D0C4570F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D3B05FE29DCB3D6E070B2665FA08B70 /* VideoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174D86964DACF0F42F9AFF8295EF1DF /* VideoContentViewController.swift */; };
+		405AF81508C1F1D79DE56A4C3DAE3B83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		423AFE84185F3A7E58EFA0C831F31468 /* Pods-PayPayDiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440E19BFF68EB5B1A8E5F21F758395AF /* Pods-PayPayDiary-dummy.m */; };
+		438549D77802E1425A27B5473E8E094B /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = E628A8BFF755C00DAF3731DFCFF5ABC6 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C161F9B762F7010921577D52414B7D1 /* Authentication-AuthenticationResources in Resources */ = {isa = PBXBuildFile; fileRef = AE1264EA76D30F102BBA7B8D8AB27A33 /* Authentication-AuthenticationResources */; };
+		4EB04573CD0CB86880922023A3D7F843 /* DiaryFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C178D0C88BE75D5E32DDBDB154E7FB /* DiaryFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519C3F9887AAFBD3CCE6FB926977A3B3 /* Pods-PayPayDiaryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE7AF1DCF2E22C1E06953AE1F8F39D /* Pods-PayPayDiaryTests-dummy.m */; };
+		588F7E60B2B155EA0AF1EE29FAC5D113 /* ImageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA0FC4273B71042632C4F598D5A28A1 /* ImageContentViewController.xib */; };
+		5ADAE21990EBD069AB40E3614B4D6421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		60A132B75E97317405C0E875B0567F8D /* Authentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8059638F4779218BDAF6E0D04FBCEC02 /* Authentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6888151C3679AFD30D9F3047F1A48CFC /* DiaryContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0AEBB481CD0C9E49097F37CAE5240A /* DiaryContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2886548903DCB56D4446F273F127C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6CBDB0F7A50A6F8C345E168012A9DB61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D1D11B2255D9894F7C32C2B6510B22 /* Images.xcassets */; };
+		706D261432FE0A241671941E91AAE7D2 /* DiaryContent.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB9F9363015190BCB413CFD48B9592D /* DiaryContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730A08109CA39CF2ADCFB3411DA0DF89 /* DiaryContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BE39570DE47F83D67450117C19EDB6 /* DiaryContentCoordinator.swift */; };
+		73BC3DE97155F957F946274E25E3F188 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED232396AD86236046C0AECF2F9A67FB /* OTPViewController.swift */; };
+		7464C80AD88BBD949AC33010486F967C /* Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2AF676B2656ECFC1D93E685B4D37D6 /* Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755F82A7B443AC1C44AFE8262EAD1844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D3525D78FD743A9B2B5B7AD4BB1182 /* Images.xcassets */; };
+		779A73AAF6C336FE3FFDD2030C6CA7C1 /* Settings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0854988A40E20749E044E0DAA2CDF3 /* Settings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78206FE92A7247E34DFB34A59E05A558 /* DiaryContentInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848E3587C5D565C6372DC4689F6C7C4 /* DiaryContentInternalUtils.swift */; };
+		79A6E2E6B4F1E38095916BFCE1B8F6D7 /* AuthInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710893B7FC7816F5624075AD3D27AFC /* AuthInternalUtils.swift */; };
+		7E2975136A9FDD35E0A67C4B1609608B /* Settings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAF6120813CD2E98164210BC3FC06D /* Settings-dummy.m */; };
+		8A487A01B9DA006E49F9D45BD9E6D119 /* Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = A01FA6EC8EFF068F12F79D01662470CE /* Settings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A903494B1192C10E25FF0E50406954C /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD70E27CBDF350129F36711AD80BAA31 /* OTPViewController.xib */; };
+		8D0AE20C92796400651E047CF6BE8662 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27223A2E45F1CA7E35E039491E2331 /* OTPViewModel.swift */; };
+		9BBD9C624F3FD3A9EF6434C591453614 /* Pods-PayPayDiaryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 032B8A57E8664B52B39F2AAB40C764E1 /* Pods-PayPayDiaryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEC688DC52A0CB4C890B63E67B89CD3 /* Settings-SettingsResources in Resources */ = {isa = PBXBuildFile; fileRef = 19CC55B09C99E72AAAA449B5088DBF86 /* Settings-SettingsResources */; };
+		9CFEC25D0796DEE6716AC6021BD2AE7E /* SettingsInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF93D6D5CEA3A39C490980C528EC9B /* SettingsInternalUtils.swift */; };
+		A239EB01DE54570AD24D2560DD2B1323 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A89AF27CAB7EBF5F06C486AA482CF8 /* SettingsViewController.swift */; };
+		AF6C85C054714BD96C9C628BD5A73FE1 /* DiaryFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FDCBB30A8B3CA19467524CB984CEC /* DiaryFoundation-dummy.m */; };
+		B1F822C545B8CBF5FA2AAB73230552AB /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C867AC3271D007492C2FACB51CBE3 /* AuthCoordinator.swift */; };
+		B8AEDE3F299958F58CC172BE22FFC82C /* DiaryFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0347CD6199147B99E77994F80267DA /* DiaryFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC41440505FB99CFECDD07F0236D9C88 /* DiaryContent-DiaryContentResources in Resources */ = {isa = PBXBuildFile; fileRef = ACD957E619B014DF0D27BF3EB9B21CB0 /* DiaryContent-DiaryContentResources */; };
+		C7C0CD0631ECE5DFB79CEA3847FB222A /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389D34B0251293D1891457364ACD040 /* AppCoordinatorProtocol.swift */; };
+		C827DAAC6828959002182D212EFFA69F /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2807A24AD295C62E4BE33C065B9ECBD2 /* AuthViewController.xib */; };
+		C8A2E8F0648B89D10D2E8078E946C53E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248B2A276D09B3D8022468E3D790A91 /* BaseViewController.swift */; };
+		C8D979F91B29C401E90E742F9B4FCF7A /* Pods-PayPayDiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D46CAF366C4BB873D66BF8E30AC90C /* Pods-PayPayDiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB696A3EAE048E20DA6A0CDCFD69FEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CC0A97A67D997C3F1586E8E381B9CAA1 /* ImageContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A4F2515E48D776CF79891B1562A58 /* ImageContentViewModel.swift */; };
+		CF53972CCAC55DE6BEA74CD3BEFA64E0 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A06C07F20414DA53537C978C2B233 /* BaseCoordinator.swift */; };
+		D0F8CC6F5D7D660F6DC281F2A0FF8155 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF882A94903E115DBF76634E5BE5D9 /* Coordinator.swift */; };
+		D5939E51301929656B3CC8DC2F92EED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31EA4BD4202868C24250D365A5958D0 /* Images.xcassets */; };
+		D93CB35641AA84CDECC6D56E7302C2A8 /* DiaryContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602CDF749A287775CDFC19C2EE42326 /* DiaryContent-dummy.m */; };
+		DA3DAF8AAF863A49ACFF11B754524C8A /* Authentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5488DAEC0FC31D5027876333D142B /* Authentication-dummy.m */; };
+		E19DC8568E848FC14DDA51679F635604 /* VideoContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6499AF7E0C11B1CB952D3D69EFA5BB22 /* VideoContentViewController.xib */; };
+		E73883C35C1CD02CDB1035BD9112A85F /* VideoContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8396F3093DE93AB179CB37BBE690C9 /* VideoContentViewModel.swift */; };
+		E923F1238F27294CD295061DA820BAF3 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2283058BF8289A91A8B8A3D00C78D6 /* SettingsViewController.xib */; };
+		ED0468739AE3A53815A2FDE8F22E84FC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A1BAA16740FF34D001A391789FFDE /* AppCoordinator.swift */; };
+		EEAE4727EF9E65283EA594B422067647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0647A007E476719D199628D3FBDDFBE /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87088DE7EE5B8DE18C75BED0FC6C14 /* AuthViewModel.swift */; };
+		FB6963C052690CAAECD7714235C75088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE113EC4D36AB958D5107DF8C1008DB3 /* ImageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EEEFFD5855CFC1DC412D121D5A9E07 /* ImageContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D0BF2193FC296911014F6866718633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34AB9345387FA5DFC24BB2A842E8975;
+			remoteInfo = "DiaryContent-DiaryContentResources";
+		};
+		258C0C3CD874D2290959447CE93A3AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7402BFE63752370DED4BAEB2CF4777A2;
+			remoteInfo = "Authentication-AuthenticationResources";
+		};
+		2C8E423D40F8E3648AA7B72D676E7662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307B74B70A76AD712BC36FB1B64604F4;
+			remoteInfo = DiaryFoundation;
+		};
+		320AC8A54A831CEB800B7FCA6AF71872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0ADF0F0C87209E3C5E74997D67E1DC0;
+			remoteInfo = DiaryContent;
+		};
+		58A470C48405A14EC7EF7F841232D71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B93804D49754208DBEC09C29894AA3;
+			remoteInfo = "Settings-SettingsResources";
+		};
+		613EBC949219A80BC5F44ACBAF473522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3AC922FC0CDC946DF14AB005C69F80;
+			remoteInfo = Settings;
+		};
+		662D77A1843A82AA290DE6DE12B23132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B99209DB5B4B89CE2238AF1B23F9303;
+			remoteInfo = "Pods-PayPayDiary";
+		};
+		700E0A1894DB820D69A90E4692FF8BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3AC922FC0CDC946DF14AB005C69F80;
+			remoteInfo = Settings;
+		};
+		91D8C21C306164E1B6BD2826DEDBF20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D57627682C7035CC27CD09665C455A;
+			remoteInfo = Authentication;
+		};
+		AD9E3300DC83A5F3243E0C9620AA86F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307B74B70A76AD712BC36FB1B64604F4;
+			remoteInfo = DiaryFoundation;
+		};
+		C3723659C8813187A7FDC2CB603BC3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307B74B70A76AD712BC36FB1B64604F4;
+			remoteInfo = DiaryFoundation;
+		};
+		EDE2100D44E916C0FE49DF70A6392F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307B74B70A76AD712BC36FB1B64604F4;
+			remoteInfo = DiaryFoundation;
+		};
+		EFBCE36A930176DB2E9FDAC2DB834F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0ADF0F0C87209E3C5E74997D67E1DC0;
+			remoteInfo = DiaryContent;
+		};
+		F7D94D5ECAC09A2100D1DAABB8C837B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D57627682C7035CC27CD09665C455A;
+			remoteInfo = Authentication;
+		};
+		FAADFABCCF4D0FFCC69E2262DBA53E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307B74B70A76AD712BC36FB1B64604F4;
+			remoteInfo = DiaryFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0017EA57CDF0E7A7EED6B152EF811E4C /* Pods-PayPayDiary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiary-acknowledgements.plist"; sourceTree = "<group>"; };
+		032B8A57E8664B52B39F2AAB40C764E1 /* Pods-PayPayDiaryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayPayDiaryTests-umbrella.h"; sourceTree = "<group>"; };
+		0D8D10E4BE21FC4A57178A96F0FABF87 /* Settings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Settings.debug.xcconfig; sourceTree = "<group>"; };
+		152C9580358720FB2003A67939F59FA5 /* Settings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Settings.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1710893B7FC7816F5624075AD3D27AFC /* AuthInternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthInternalUtils.swift; sourceTree = "<group>"; };
+		19345FAB47D353AFA5BC3BF1B86ADDCE /* Pods-PayPayDiary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayPayDiary.modulemap"; sourceTree = "<group>"; };
+		19CC55B09C99E72AAAA449B5088DBF86 /* Settings-SettingsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Settings-SettingsResources"; path = SettingsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAA7C81F56CD012FA9E6E1D1A9F61D3 /* Pods-PayPayDiaryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiaryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DEFB4650BA8ECC58F63C5DB2CB97A96 /* DiaryFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DiaryFoundation; path = DiaryFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE7AF1DCF2E22C1E06953AE1F8F39D /* Pods-PayPayDiaryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayPayDiaryTests-dummy.m"; sourceTree = "<group>"; };
+		21E22A2B9E8118824043BB1E0C205536 /* Authentication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Authentication; path = Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B154E78DA5CC1A8E6B611317F82972 /* Authentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Authentication.modulemap; sourceTree = "<group>"; };
+		2807A24AD295C62E4BE33C065B9ECBD2 /* AuthViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		2848E3587C5D565C6372DC4689F6C7C4 /* DiaryContentInternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentInternalUtils.swift; sourceTree = "<group>"; };
+		2BFB099C039BCAC9E9E06C9B5898C9D8 /* Pods-PayPayDiary-PayPayDiaryUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiary-PayPayDiaryUITests-Info.plist"; sourceTree = "<group>"; };
+		3103A7A8CE40F3728F86D8B55C40C52D /* DiaryFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiaryFoundation.modulemap; sourceTree = "<group>"; };
+		3248B2A276D09B3D8022468E3D790A91 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = DiaryFoundation/BaseViewController.swift; sourceTree = "<group>"; };
+		33ACEC7FE8DF55B14928C53F4CD919EF /* Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33C178D0C88BE75D5E32DDBDB154E7FB /* DiaryFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiaryFoundation.h; path = DiaryFoundation/DiaryFoundation.h; sourceTree = "<group>"; };
+		37D3525D78FD743A9B2B5B7AD4BB1182 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B87088DE7EE5B8DE18C75BED0FC6C14 /* AuthViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3DBAF6120813CD2E98164210BC3FC06D /* Settings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Settings-dummy.m"; sourceTree = "<group>"; };
+		3E2A1BAA16740FF34D001A391789FFDE /* AppCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppCoordinator.swift; path = DiaryFoundation/AppCoordinator.swift; sourceTree = "<group>"; };
+		440E19BFF68EB5B1A8E5F21F758395AF /* Pods-PayPayDiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayPayDiary-dummy.m"; sourceTree = "<group>"; };
+		48EEEFFD5855CFC1DC412D121D5A9E07 /* ImageContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewController.swift; sourceTree = "<group>"; };
+		4AEF882A94903E115DBF76634E5BE5D9 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = DiaryFoundation/Coordinator.swift; sourceTree = "<group>"; };
+		55BE39570DE47F83D67450117C19EDB6 /* DiaryContentCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentCoordinator.swift; sourceTree = "<group>"; };
+		58B810628AFAC8A8E88533D6C8FE0D9F /* Settings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Settings-Info.plist"; sourceTree = "<group>"; };
+		5C2283058BF8289A91A8B8A3D00C78D6 /* SettingsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		5D2A4F2515E48D776CF79891B1562A58 /* ImageContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewModel.swift; sourceTree = "<group>"; };
+		60D5CEFA105DD28393CDF74EA768007A /* DiaryFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryFoundation-prefix.pch"; sourceTree = "<group>"; };
+		63C140C38ADEA0E78929906311AE6EDA /* Settings */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Settings; path = Settings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6499AF7E0C11B1CB952D3D69EFA5BB22 /* VideoContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = VideoContentViewController.xib; sourceTree = "<group>"; };
+		64FF46461C7B420DD3B27A3E694DE8F9 /* Authentication.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Authentication.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66DA7CB8AC1808648A4E9D1D58DC9B8C /* Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67E29E52F1F736FED0234331D5A45655 /* DiaryContent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DiaryContent; path = DiaryContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2E0B749A5AEF86BAC88334A0E1D618 /* DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.release.xcconfig; sourceTree = "<group>"; };
+		6BB8F65BDA7CD429271B0BBBBBF551EE /* Pods-PayPayDiary-PayPayDiaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiary-PayPayDiaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71A89AF27CAB7EBF5F06C486AA482CF8 /* SettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Settings/SettingsViewController.swift; sourceTree = "<group>"; };
+		7274D9D733AF04F89A27AB8C3C6C3F21 /* Pods-PayPayDiary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayPayDiary-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74D1D11B2255D9894F7C32C2B6510B22 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		756B769D68EF80266E0D4D5E2CA50659 /* Pods-PayPayDiaryTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiaryTests-Info.plist"; sourceTree = "<group>"; };
+		7C1D300CF94C0EB67545F59C76B71BE4 /* DiaryFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryFoundation.release.xcconfig; sourceTree = "<group>"; };
+		7D3FDCBB30A8B3CA19467524CB984CEC /* DiaryFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiaryFoundation-dummy.m"; sourceTree = "<group>"; };
+		7ED5488DAEC0FC31D5027876333D142B /* Authentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Authentication-dummy.m"; sourceTree = "<group>"; };
+		8059638F4779218BDAF6E0D04FBCEC02 /* Authentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Authentication-umbrella.h"; sourceTree = "<group>"; };
+		8174D86964DACF0F42F9AFF8295EF1DF /* VideoContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewController.swift; sourceTree = "<group>"; };
+		8521ED7F0E4147744DEDE623F9364CF6 /* DiaryFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiaryFoundation-Info.plist"; sourceTree = "<group>"; };
+		8602CDF749A287775CDFC19C2EE42326 /* DiaryContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiaryContent-dummy.m"; sourceTree = "<group>"; };
+		8D0347CD6199147B99E77994F80267DA /* DiaryFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryFoundation-umbrella.h"; sourceTree = "<group>"; };
+		90A70009416F96AB3A48E58688F22388 /* Authentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Authentication-Info.plist"; sourceTree = "<group>"; };
+		94DF93D6D5CEA3A39C490980C528EC9B /* SettingsInternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsInternalUtils.swift; sourceTree = "<group>"; };
+		981914CF1660F1F9D1F33FE2F9E2333D /* ResourceBundle-AuthenticationResources-Authentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AuthenticationResources-Authentication-Info.plist"; sourceTree = "<group>"; };
+		9A0854988A40E20749E044E0DAA2CDF3 /* Settings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Settings-umbrella.h"; sourceTree = "<group>"; };
+		9C27223A2E45F1CA7E35E039491E2331 /* OTPViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		9D0635DFC628F4377ECA4DF323CBDE97 /* Settings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Settings.modulemap; sourceTree = "<group>"; };
+		9D4D657A933E1066B1AC9EBE8E7094FF /* DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		9D8FA4EAFA92AAA2D00D0E2584F19F3B /* ResourceBundle-SettingsResources-Settings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SettingsResources-Settings-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01FA6EC8EFF068F12F79D01662470CE /* Settings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Settings/Settings.h; sourceTree = "<group>"; };
+		A6286F162931DD487641017849E127EF /* Pods-PayPayDiaryTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PayPayDiaryTests"; path = Pods_PayPayDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EA403B3184AE111FB32DEF4420DA2A /* Authentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Authentication-prefix.pch"; sourceTree = "<group>"; };
+		A85BF948B47BC5503E5944ABFEB4A846 /* DiaryFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		AC682A539437B96ADC78341C35DEA19A /* Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC8396F3093DE93AB179CB37BBE690C9 /* VideoContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewModel.swift; sourceTree = "<group>"; };
+		ACBA1475C2BEE55F41C724679F568D17 /* Pods-PayPayDiary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayPayDiary-Info.plist"; sourceTree = "<group>"; };
+		ACD957E619B014DF0D27BF3EB9B21CB0 /* DiaryContent-DiaryContentResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DiaryContent-DiaryContentResources"; path = DiaryContentResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1264EA76D30F102BBA7B8D8AB27A33 /* Authentication-AuthenticationResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Authentication-AuthenticationResources"; path = AuthenticationResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA441F29A1D895B34D8CF62F05BD53AA /* Pods-PayPayDiary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PayPayDiary"; path = Pods_PayPayDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA0FC4273B71042632C4F598D5A28A1 /* ImageContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageContentViewController.xib; sourceTree = "<group>"; };
+		BEF25FB0AC887FE3A15D49789F5F28B3 /* Pods-PayPayDiary-PayPayDiaryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayPayDiary-PayPayDiaryUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BF602C0CF6F65F108C25D8E24A1678AA /* DiaryContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.debug.xcconfig; sourceTree = "<group>"; };
+		C551756554FCE51C8547BEC726867512 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		C66B320D76182B00A698FA0187920663 /* Pods-PayPayDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A2720C901082D3C5E2A16F32C6B3BB /* DiaryContent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-prefix.pch"; sourceTree = "<group>"; };
+		CA0AEBB481CD0C9E49097F37CAE5240A /* DiaryContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-umbrella.h"; sourceTree = "<group>"; };
+		CB0A352C1B7311E32CEB54574F332B97 /* Authentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Authentication.debug.xcconfig; sourceTree = "<group>"; };
+		CF2AF676B2656ECFC1D93E685B4D37D6 /* Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h"; sourceTree = "<group>"; };
+		D08A06C07F20414DA53537C978C2B233 /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = DiaryFoundation/BaseCoordinator.swift; sourceTree = "<group>"; };
+		D3E1EAE25096363E94AD0BB212F14BB1 /* Pods-PayPayDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D46CAF366C4BB873D66BF8E30AC90C /* Pods-PayPayDiary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayPayDiary-umbrella.h"; sourceTree = "<group>"; };
+		D96C1B4DAB7CB10424887326FFFA8F0E /* AuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		DAEF56148ACC5CA62A6762701E92B498 /* Authentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Authentication.release.xcconfig; sourceTree = "<group>"; };
+		DB12466E75711003998EA9D4B2D6BD60 /* Pods-PayPayDiaryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayPayDiaryTests.modulemap"; sourceTree = "<group>"; };
+		DB32B5229C847057F0AD4ED6C77A1E9B /* DiaryContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiaryContent.modulemap; sourceTree = "<group>"; };
+		DBB9F9363015190BCB413CFD48B9592D /* DiaryContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiaryContent.h; path = DiaryContent/DiaryContent.h; sourceTree = "<group>"; };
+		DD45F43972430693B6ACAAEE8359D4FF /* Pods-PayPayDiaryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayPayDiaryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E156FC7972D135A4BC31105B5B333ECE /* Pods-PayPayDiaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E20D3EC7A67461B7CC8D8CAC714CFD43 /* Settings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Settings-prefix.pch"; sourceTree = "<group>"; };
+		E31EA4BD4202868C24250D365A5958D0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E628A8BFF755C00DAF3731DFCFF5ABC6 /* Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Authentication.h; path = Authentication/Authentication.h; sourceTree = "<group>"; };
+		EB6C867AC3271D007492C2FACB51CBE3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		EC73538A4246B1E7540062B72B2339D0 /* Pods-PayPayDiary-PayPayDiaryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayPayDiary-PayPayDiaryUITests-dummy.m"; sourceTree = "<group>"; };
+		ED155BB8485A617F027080C389F0284D /* DiaryContent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DiaryContent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED232396AD86236046C0AECF2F9A67FB /* OTPViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		EDCE05AA6EB67E3C6E0CD75B4A7E4CDC /* DiaryFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DiaryFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F31781B0B70152F6E75D66F409902D9B /* Pods-PayPayDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayPayDiary.release.xcconfig"; sourceTree = "<group>"; };
+		F389D34B0251293D1891457364ACD040 /* AppCoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppCoordinatorProtocol.swift; path = DiaryFoundation/AppCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		F38C76C2461E77F03509DAA144A16A59 /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DiaryContentResources-DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		F5C817398B87CC05BE765B86583E9C7D /* Pods-PayPayDiary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayPayDiary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F1C19CF60A74DE6D22AA321E600C86 /* Settings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Settings.release.xcconfig; sourceTree = "<group>"; };
+		FA8D1C1A06F637368558620FE0AF5FC3 /* Pods-PayPayDiary-PayPayDiaryUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PayPayDiary-PayPayDiaryUITests"; path = Pods_PayPayDiary_PayPayDiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABBDD75174504DD2D4A667BEA44C9B8 /* Pods-PayPayDiary-PayPayDiaryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayPayDiary-PayPayDiaryUITests.modulemap"; sourceTree = "<group>"; };
+		FD70E27CBDF350129F36711AD80BAA31 /* OTPViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B611D29F50148B0CF1DC4FC9C520DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2886548903DCB56D4446F273F127C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723F4EDCF2CBC9803206528D6AE380F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D479F78658AA2CA8412AC78421F919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39778885FDEFF24F46EDE556D0C4570F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3C462FA78EFD30BE56833E349358B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2738607A335DD3886792EEFB13A4210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB696A3EAE048E20DA6A0CDCFD69FEE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0953C38C7FBC4CB63727CBA12A9E2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97078BD18BA69911ADC62387EE27F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADAE21990EBD069AB40E3614B4D6421 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA53B08E54A434D30BE850D0A19A2005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAE4727EF9E65283EA594B422067647 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB3FBCD60AA1935F4A6806FE33FB475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405AF81508C1F1D79DE56A4C3DAE3B83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4EEF1DF82B3B1A0CD02C8635252B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6963C052690CAAECD7714235C75088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F429AB0298BC6944D80B9F7DC441FA3 /* DiaryContent */ = {
+			isa = PBXGroup;
+			children = (
+				8B14B2F85E1B015D644D65448E8ECBFF /* ImageContentView */,
+				355214706F6D7084FB17E1CA93347961 /* VideoContentView */,
+			);
+			name = DiaryContent;
+			path = DiaryContent;
+			sourceTree = "<group>";
+		};
+		21BF213714559B0A5D5979907A10873D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A01FA6EC8EFF068F12F79D01662470CE /* Settings.h */,
+				71A89AF27CAB7EBF5F06C486AA482CF8 /* SettingsViewController.swift */,
+				9D8480EB81A6C7B24A6FC301031D01B6 /* Coordinator */,
+				A2A2E09173E6B156BB76F46C0028B934 /* Internal */,
+				880B9120D5D2D5DB1C9DD33DFB639D5D /* Pod */,
+				3D13500ACC2D3ACDB30312F646FF6A9B /* Settings */,
+				98C2F1C9CD39F4ADC2261065A49D06D9 /* SettingsResources */,
+				DC28FD6F0DFE65B23703398973B1943F /* Support Files */,
+			);
+			name = Settings;
+			path = ../Modules/Settings;
+			sourceTree = "<group>";
+		};
+		33205D3C76AD7A800C96C9F7BEDBC3C6 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				ED232396AD86236046C0AECF2F9A67FB /* OTPViewController.swift */,
+				9C27223A2E45F1CA7E35E039491E2331 /* OTPViewModel.swift */,
+			);
+			name = OTP;
+			path = Authentication/OTP;
+			sourceTree = "<group>";
+		};
+		344BEE0D6D8218C5DEC183C8BFA134FB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED155BB8485A617F027080C389F0284D /* DiaryContent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34EBFFEE986C23F15FDDF24F66E9DE73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE05AA6EB67E3C6E0CD75B4A7E4CDC /* DiaryFoundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		355214706F6D7084FB17E1CA93347961 /* VideoContentView */ = {
+			isa = PBXGroup;
+			children = (
+				6499AF7E0C11B1CB952D3D69EFA5BB22 /* VideoContentViewController.xib */,
+			);
+			name = VideoContentView;
+			path = VideoContentView;
+			sourceTree = "<group>";
+		};
+		3A66F9C33037AE184327806A228F240D /* AuthenticationResources */ = {
+			isa = PBXGroup;
+			children = (
+				74D1D11B2255D9894F7C32C2B6510B22 /* Images.xcassets */,
+			);
+			name = AuthenticationResources;
+			path = AuthenticationResources;
+			sourceTree = "<group>";
+		};
+		3D13500ACC2D3ACDB30312F646FF6A9B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5C2283058BF8289A91A8B8A3D00C78D6 /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4385EAE8E6C536CF0055AAEF9012A60E /* DiaryContentResources */ = {
+			isa = PBXGroup;
+			children = (
+				E31EA4BD4202868C24250D365A5958D0 /* Images.xcassets */,
+			);
+			name = DiaryContentResources;
+			path = DiaryContentResources;
+			sourceTree = "<group>";
+		};
+		5358966775226CC7DC3B526BAE33BB76 /* VideoContentView */ = {
+			isa = PBXGroup;
+			children = (
+				8174D86964DACF0F42F9AFF8295EF1DF /* VideoContentViewController.swift */,
+				AC8396F3093DE93AB179CB37BBE690C9 /* VideoContentViewModel.swift */,
+			);
+			name = VideoContentView;
+			path = DiaryContent/VideoContentView;
+			sourceTree = "<group>";
+		};
+		55E7AACBA9898320A93612EC9E4D5CC9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2807A24AD295C62E4BE33C065B9ECBD2 /* AuthViewController.xib */,
+			);
+			name = Auth;
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		567C3081E1692051521BDC84558E63AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB32B5229C847057F0AD4ED6C77A1E9B /* DiaryContent.modulemap */,
+				8602CDF749A287775CDFC19C2EE42326 /* DiaryContent-dummy.m */,
+				9D4D657A933E1066B1AC9EBE8E7094FF /* DiaryContent-Info.plist */,
+				C9A2720C901082D3C5E2A16F32C6B3BB /* DiaryContent-prefix.pch */,
+				CA0AEBB481CD0C9E49097F37CAE5240A /* DiaryContent-umbrella.h */,
+				BF602C0CF6F65F108C25D8E24A1678AA /* DiaryContent.debug.xcconfig */,
+				6B2E0B749A5AEF86BAC88334A0E1D618 /* DiaryContent.release.xcconfig */,
+				F38C76C2461E77F03509DAA144A16A59 /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DiaryContent";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E81BEC5FF5B4515B10073F53AE58E14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA375ABF5CCFDE4EDEFACFDD8FC88921 /* Authentication */,
+				A1793BA2FAAA5F8C5DBCA4438F1F74C2 /* DiaryContent */,
+				826BFEBE6B41ED0915DBD734ACD8EAA5 /* DiaryFoundation */,
+				21BF213714559B0A5D5979907A10873D /* Settings */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F126BC66A8F0FC2814070B6865A70F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B154E78DA5CC1A8E6B611317F82972 /* Authentication.modulemap */,
+				7ED5488DAEC0FC31D5027876333D142B /* Authentication-dummy.m */,
+				90A70009416F96AB3A48E58688F22388 /* Authentication-Info.plist */,
+				A7EA403B3184AE111FB32DEF4420DA2A /* Authentication-prefix.pch */,
+				8059638F4779218BDAF6E0D04FBCEC02 /* Authentication-umbrella.h */,
+				CB0A352C1B7311E32CEB54574F332B97 /* Authentication.debug.xcconfig */,
+				DAEF56148ACC5CA62A6762701E92B498 /* Authentication.release.xcconfig */,
+				981914CF1660F1F9D1F33FE2F9E2333D /* ResourceBundle-AuthenticationResources-Authentication-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Authentication";
+			sourceTree = "<group>";
+		};
+		5F21AE4292517D2B4032B386F3828E53 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				64FF46461C7B420DD3B27A3E694DE8F9 /* Authentication.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		66AC871F175459A8D77C7A066BFEE5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21E22A2B9E8118824043BB1E0C205536 /* Authentication */,
+				AE1264EA76D30F102BBA7B8D8AB27A33 /* Authentication-AuthenticationResources */,
+				67E29E52F1F736FED0234331D5A45655 /* DiaryContent */,
+				ACD957E619B014DF0D27BF3EB9B21CB0 /* DiaryContent-DiaryContentResources */,
+				1DEFB4650BA8ECC58F63C5DB2CB97A96 /* DiaryFoundation */,
+				BA441F29A1D895B34D8CF62F05BD53AA /* Pods-PayPayDiary */,
+				FA8D1C1A06F637368558620FE0AF5FC3 /* Pods-PayPayDiary-PayPayDiaryUITests */,
+				A6286F162931DD487641017849E127EF /* Pods-PayPayDiaryTests */,
+				63C140C38ADEA0E78929906311AE6EDA /* Settings */,
+				19CC55B09C99E72AAAA449B5088DBF86 /* Settings-SettingsResources */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8154652CDF183056D9465350C2C388EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8918808D87FE5C641EF9BAD0E12E0F2 /* Pods-PayPayDiary */,
+				C813F08AE382E44C381C4ABC26BC5070 /* Pods-PayPayDiary-PayPayDiaryUITests */,
+				89B4862D9220AA8FCEDDDC98378B0FA3 /* Pods-PayPayDiaryTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		826BFEBE6B41ED0915DBD734ACD8EAA5 /* DiaryFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				3E2A1BAA16740FF34D001A391789FFDE /* AppCoordinator.swift */,
+				F389D34B0251293D1891457364ACD040 /* AppCoordinatorProtocol.swift */,
+				D08A06C07F20414DA53537C978C2B233 /* BaseCoordinator.swift */,
+				3248B2A276D09B3D8022468E3D790A91 /* BaseViewController.swift */,
+				4AEF882A94903E115DBF76634E5BE5D9 /* Coordinator.swift */,
+				33C178D0C88BE75D5E32DDBDB154E7FB /* DiaryFoundation.h */,
+				34EBFFEE986C23F15FDDF24F66E9DE73 /* Pod */,
+				9FA0FC28A979A19DCE79EBB8BED66032 /* Support Files */,
+			);
+			name = DiaryFoundation;
+			path = ../Modules/DiaryFoundation;
+			sourceTree = "<group>";
+		};
+		8497631C9B1ED0595E1DAD62F1A57F75 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D96C1B4DAB7CB10424887326FFFA8F0E /* AuthViewController.swift */,
+				3B87088DE7EE5B8DE18C75BED0FC6C14 /* AuthViewModel.swift */,
+			);
+			name = Auth;
+			path = Authentication/Auth;
+			sourceTree = "<group>";
+		};
+		880B9120D5D2D5DB1C9DD33DFB639D5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				152C9580358720FB2003A67939F59FA5 /* Settings.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8886AC43C03A36E0DCDA745FB50E59DF /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				1710893B7FC7816F5624075AD3D27AFC /* AuthInternalUtils.swift */,
+			);
+			name = Internal;
+			path = Authentication/Internal;
+			sourceTree = "<group>";
+		};
+		89B4862D9220AA8FCEDDDC98378B0FA3 /* Pods-PayPayDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB12466E75711003998EA9D4B2D6BD60 /* Pods-PayPayDiaryTests.modulemap */,
+				DD45F43972430693B6ACAAEE8359D4FF /* Pods-PayPayDiaryTests-acknowledgements.markdown */,
+				1CAA7C81F56CD012FA9E6E1D1A9F61D3 /* Pods-PayPayDiaryTests-acknowledgements.plist */,
+				1EAE7AF1DCF2E22C1E06953AE1F8F39D /* Pods-PayPayDiaryTests-dummy.m */,
+				756B769D68EF80266E0D4D5E2CA50659 /* Pods-PayPayDiaryTests-Info.plist */,
+				032B8A57E8664B52B39F2AAB40C764E1 /* Pods-PayPayDiaryTests-umbrella.h */,
+				E156FC7972D135A4BC31105B5B333ECE /* Pods-PayPayDiaryTests.debug.xcconfig */,
+				D3E1EAE25096363E94AD0BB212F14BB1 /* Pods-PayPayDiaryTests.release.xcconfig */,
+			);
+			name = "Pods-PayPayDiaryTests";
+			path = "Target Support Files/Pods-PayPayDiaryTests";
+			sourceTree = "<group>";
+		};
+		8B14B2F85E1B015D644D65448E8ECBFF /* ImageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0FC4273B71042632C4F598D5A28A1 /* ImageContentViewController.xib */,
+			);
+			name = ImageContentView;
+			path = ImageContentView;
+			sourceTree = "<group>";
+		};
+		8CEFB54E0476A0C9B91EF5AB5EF0F67E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C867AC3271D007492C2FACB51CBE3 /* AuthCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = Authentication/Coordinator;
+			sourceTree = "<group>";
+		};
+		98C2F1C9CD39F4ADC2261065A49D06D9 /* SettingsResources */ = {
+			isa = PBXGroup;
+			children = (
+				37D3525D78FD743A9B2B5B7AD4BB1182 /* Images.xcassets */,
+			);
+			name = SettingsResources;
+			path = SettingsResources;
+			sourceTree = "<group>";
+		};
+		9D8480EB81A6C7B24A6FC301031D01B6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C551756554FCE51C8547BEC726867512 /* SettingsCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = Settings/Coordinator;
+			sourceTree = "<group>";
+		};
+		9FA0FC28A979A19DCE79EBB8BED66032 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3103A7A8CE40F3728F86D8B55C40C52D /* DiaryFoundation.modulemap */,
+				7D3FDCBB30A8B3CA19467524CB984CEC /* DiaryFoundation-dummy.m */,
+				8521ED7F0E4147744DEDE623F9364CF6 /* DiaryFoundation-Info.plist */,
+				60D5CEFA105DD28393CDF74EA768007A /* DiaryFoundation-prefix.pch */,
+				8D0347CD6199147B99E77994F80267DA /* DiaryFoundation-umbrella.h */,
+				A85BF948B47BC5503E5944ABFEB4A846 /* DiaryFoundation.debug.xcconfig */,
+				7C1D300CF94C0EB67545F59C76B71BE4 /* DiaryFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DiaryFoundation";
+			sourceTree = "<group>";
+		};
+		A1793BA2FAAA5F8C5DBCA4438F1F74C2 /* DiaryContent */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9F9363015190BCB413CFD48B9592D /* DiaryContent.h */,
+				A881BA43245F468296DFA24E746A5EE0 /* Coordinator */,
+				0F429AB0298BC6944D80B9F7DC441FA3 /* DiaryContent */,
+				4385EAE8E6C536CF0055AAEF9012A60E /* DiaryContentResources */,
+				E9EB7110F9DD852F5CDA774D511D23A8 /* ImageContentView */,
+				B853CFA8943F1B7BBB1AEA1AEC621258 /* Internal */,
+				344BEE0D6D8218C5DEC183C8BFA134FB /* Pod */,
+				567C3081E1692051521BDC84558E63AC /* Support Files */,
+				5358966775226CC7DC3B526BAE33BB76 /* VideoContentView */,
+			);
+			name = DiaryContent;
+			path = ../Modules/DiaryContent;
+			sourceTree = "<group>";
+		};
+		A2A2E09173E6B156BB76F46C0028B934 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				94DF93D6D5CEA3A39C490980C528EC9B /* SettingsInternalUtils.swift */,
+			);
+			name = Internal;
+			path = Settings/Internal;
+			sourceTree = "<group>";
+		};
+		A510CA3921BBDC002C97FB8262727FCC /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				FD70E27CBDF350129F36711AD80BAA31 /* OTPViewController.xib */,
+			);
+			name = OTP;
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		A881BA43245F468296DFA24E746A5EE0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				55BE39570DE47F83D67450117C19EDB6 /* DiaryContentCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = DiaryContent/Coordinator;
+			sourceTree = "<group>";
+		};
+		B853CFA8943F1B7BBB1AEA1AEC621258 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				2848E3587C5D565C6372DC4689F6C7C4 /* DiaryContentInternalUtils.swift */,
+			);
+			name = Internal;
+			path = DiaryContent/Internal;
+			sourceTree = "<group>";
+		};
+		C6F60C628A2F9701B14B0D394AC4F5C6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				55E7AACBA9898320A93612EC9E4D5CC9 /* Auth */,
+				A510CA3921BBDC002C97FB8262727FCC /* OTP */,
+			);
+			name = Authentication;
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C813F08AE382E44C381C4ABC26BC5070 /* Pods-PayPayDiary-PayPayDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABBDD75174504DD2D4A667BEA44C9B8 /* Pods-PayPayDiary-PayPayDiaryUITests.modulemap */,
+				66DA7CB8AC1808648A4E9D1D58DC9B8C /* Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.markdown */,
+				33ACEC7FE8DF55B14928C53F4CD919EF /* Pods-PayPayDiary-PayPayDiaryUITests-acknowledgements.plist */,
+				EC73538A4246B1E7540062B72B2339D0 /* Pods-PayPayDiary-PayPayDiaryUITests-dummy.m */,
+				BEF25FB0AC887FE3A15D49789F5F28B3 /* Pods-PayPayDiary-PayPayDiaryUITests-frameworks.sh */,
+				2BFB099C039BCAC9E9E06C9B5898C9D8 /* Pods-PayPayDiary-PayPayDiaryUITests-Info.plist */,
+				CF2AF676B2656ECFC1D93E685B4D37D6 /* Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h */,
+				6BB8F65BDA7CD429271B0BBBBBF551EE /* Pods-PayPayDiary-PayPayDiaryUITests.debug.xcconfig */,
+				AC682A539437B96ADC78341C35DEA19A /* Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig */,
+			);
+			name = "Pods-PayPayDiary-PayPayDiaryUITests";
+			path = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5E81BEC5FF5B4515B10073F53AE58E14 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				66AC871F175459A8D77C7A066BFEE5EA /* Products */,
+				8154652CDF183056D9465350C2C388EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8918808D87FE5C641EF9BAD0E12E0F2 /* Pods-PayPayDiary */ = {
+			isa = PBXGroup;
+			children = (
+				19345FAB47D353AFA5BC3BF1B86ADDCE /* Pods-PayPayDiary.modulemap */,
+				F5C817398B87CC05BE765B86583E9C7D /* Pods-PayPayDiary-acknowledgements.markdown */,
+				0017EA57CDF0E7A7EED6B152EF811E4C /* Pods-PayPayDiary-acknowledgements.plist */,
+				440E19BFF68EB5B1A8E5F21F758395AF /* Pods-PayPayDiary-dummy.m */,
+				7274D9D733AF04F89A27AB8C3C6C3F21 /* Pods-PayPayDiary-frameworks.sh */,
+				ACBA1475C2BEE55F41C724679F568D17 /* Pods-PayPayDiary-Info.plist */,
+				D5D46CAF366C4BB873D66BF8E30AC90C /* Pods-PayPayDiary-umbrella.h */,
+				C66B320D76182B00A698FA0187920663 /* Pods-PayPayDiary.debug.xcconfig */,
+				F31781B0B70152F6E75D66F409902D9B /* Pods-PayPayDiary.release.xcconfig */,
+			);
+			name = "Pods-PayPayDiary";
+			path = "Target Support Files/Pods-PayPayDiary";
+			sourceTree = "<group>";
+		};
+		DC28FD6F0DFE65B23703398973B1943F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FA4EAFA92AAA2D00D0E2584F19F3B /* ResourceBundle-SettingsResources-Settings-Info.plist */,
+				9D0635DFC628F4377ECA4DF323CBDE97 /* Settings.modulemap */,
+				3DBAF6120813CD2E98164210BC3FC06D /* Settings-dummy.m */,
+				58B810628AFAC8A8E88533D6C8FE0D9F /* Settings-Info.plist */,
+				E20D3EC7A67461B7CC8D8CAC714CFD43 /* Settings-prefix.pch */,
+				9A0854988A40E20749E044E0DAA2CDF3 /* Settings-umbrella.h */,
+				0D8D10E4BE21FC4A57178A96F0FABF87 /* Settings.debug.xcconfig */,
+				F7F1C19CF60A74DE6D22AA321E600C86 /* Settings.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Settings";
+			sourceTree = "<group>";
+		};
+		E9EB7110F9DD852F5CDA774D511D23A8 /* ImageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				48EEEFFD5855CFC1DC412D121D5A9E07 /* ImageContentViewController.swift */,
+				5D2A4F2515E48D776CF79891B1562A58 /* ImageContentViewModel.swift */,
+			);
+			name = ImageContentView;
+			path = DiaryContent/ImageContentView;
+			sourceTree = "<group>";
+		};
+		EA375ABF5CCFDE4EDEFACFDD8FC88921 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E628A8BFF755C00DAF3731DFCFF5ABC6 /* Authentication.h */,
+				8497631C9B1ED0595E1DAD62F1A57F75 /* Auth */,
+				C6F60C628A2F9701B14B0D394AC4F5C6 /* Authentication */,
+				3A66F9C33037AE184327806A228F240D /* AuthenticationResources */,
+				8CEFB54E0476A0C9B91EF5AB5EF0F67E /* Coordinator */,
+				8886AC43C03A36E0DCDA745FB50E59DF /* Internal */,
+				33205D3C76AD7A800C96C9F7BEDBC3C6 /* OTP */,
+				5F21AE4292517D2B4032B386F3828E53 /* Pod */,
+				5F126BC66A8F0FC2814070B6865A70F9 /* Support Files */,
+			);
+			name = Authentication;
+			path = ../Modules/Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15AB57035C86E58AA01BF3E1EF1037F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A487A01B9DA006E49F9D45BD9E6D119 /* Settings.h in Headers */,
+				779A73AAF6C336FE3FFDD2030C6CA7C1 /* Settings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DADB6DC6962CA955F4123DD0916107 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D979F91B29C401E90E742F9B4FCF7A /* Pods-PayPayDiary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4485FD5BD8052CF143253E39F58655 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706D261432FE0A241671941E91AAE7D2 /* DiaryContent.h in Headers */,
+				6888151C3679AFD30D9F3047F1A48CFC /* DiaryContent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9382438E8120E49C313B450B13DCF31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438549D77802E1425A27B5473E8E094B /* Authentication.h in Headers */,
+				60A132B75E97317405C0E875B0567F8D /* Authentication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1F3EBEB67CB1227E9E2AEE562C521 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB04573CD0CB86880922023A3D7F843 /* DiaryFoundation.h in Headers */,
+				B8AEDE3F299958F58CC172BE22FFC82C /* DiaryFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE1102E4049E29F7C141EC9469B90B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464C80AD88BBD949AC33010486F967C /* Pods-PayPayDiary-PayPayDiaryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B00305DDE8CAEB76A4F40B1D1C9631 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBD9C624F3FD3A9EF6434C591453614 /* Pods-PayPayDiaryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23D57627682C7035CC27CD09665C455A /* Authentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7A8B0C6151132625DF1FF92346FE99 /* Build configuration list for PBXNativeTarget "Authentication" */;
+			buildPhases = (
+				9382438E8120E49C313B450B13DCF31E /* Headers */,
+				CA316CE95CBA2EF88234D1074C2E9966 /* Sources */,
+				E97078BD18BA69911ADC62387EE27F4B /* Frameworks */,
+				D47875FBD7FA5809C167E283572485B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA709601696797E0758A3761133B95F3 /* PBXTargetDependency */,
+				2EA8492268D100B88AB81FE032DB9C1C /* PBXTargetDependency */,
+			);
+			name = Authentication;
+			productName = Authentication;
+			productReference = 21E22A2B9E8118824043BB1E0C205536 /* Authentication */;
+			productType = "com.apple.product-type.framework";
+		};
+		307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B605D35CF8A74D6C16CE54351F341C /* Build configuration list for PBXNativeTarget "DiaryFoundation" */;
+			buildPhases = (
+				A4F1F3EBEB67CB1227E9E2AEE562C521 /* Headers */,
+				AA99B411B6F1968D3AC4A392105C0F9B /* Sources */,
+				EAB3FBCD60AA1935F4A6806FE33FB475 /* Frameworks */,
+				311F79472E454D1E8BFB79C5E26B20F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaryFoundation;
+			productName = DiaryFoundation;
+			productReference = 1DEFB4650BA8ECC58F63C5DB2CB97A96 /* DiaryFoundation */;
+			productType = "com.apple.product-type.framework";
+		};
+		43F54AC619D7B51D602DE8AECDF3EA8B /* Pods-PayPayDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B455D88AD16DEE98BCAC84D4D84E6D /* Build configuration list for PBXNativeTarget "Pods-PayPayDiaryTests" */;
+			buildPhases = (
+				E8B00305DDE8CAEB76A4F40B1D1C9631 /* Headers */,
+				6EDA4962985A5C738D1F2B7ECAF5BC6A /* Sources */,
+				1B611D29F50148B0CF1DC4FC9C520DDF /* Frameworks */,
+				859F8A46759545AE58881700D8E952F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6990A7E31A62AC8C8DFDA86727AE1D81 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayPayDiaryTests";
+			productName = Pods_PayPayDiaryTests;
+			productReference = A6286F162931DD487641017849E127EF /* Pods-PayPayDiaryTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B99209DB5B4B89CE2238AF1B23F9303 /* Pods-PayPayDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFBD232ED479D8BDFDC3456C683F23D /* Build configuration list for PBXNativeTarget "Pods-PayPayDiary" */;
+			buildPhases = (
+				28DADB6DC6962CA955F4123DD0916107 /* Headers */,
+				03CEBC97CADD7A4BBA0F1EA60D3E787D /* Sources */,
+				B2738607A335DD3886792EEFB13A4210 /* Frameworks */,
+				2E3860113CE2710AAA8561953172BA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8390B870E388E20873C1D6FAA52ACDDF /* PBXTargetDependency */,
+				8B7D7A3767982617754F7048B73BC79F /* PBXTargetDependency */,
+				BB06AD5B86D53B8EEF5F0CA0A015524D /* PBXTargetDependency */,
+				8E0C473DF24098A7BFEA327CAB655F82 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayPayDiary";
+			productName = Pods_PayPayDiary;
+			productReference = BA441F29A1D895B34D8CF62F05BD53AA /* Pods-PayPayDiary */;
+			productType = "com.apple.product-type.framework";
+		};
+		7402BFE63752370DED4BAEB2CF4777A2 /* Authentication-AuthenticationResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2AC6786303D860F1F569ADE6D15A61E /* Build configuration list for PBXNativeTarget "Authentication-AuthenticationResources" */;
+			buildPhases = (
+				C05F3A62A3F9B17A49370E9180A082F4 /* Sources */,
+				723F4EDCF2CBC9803206528D6AE380F4 /* Frameworks */,
+				01DD270ABA1309A57217A2B47190187E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Authentication-AuthenticationResources";
+			productName = AuthenticationResources;
+			productReference = AE1264EA76D30F102BBA7B8D8AB27A33 /* Authentication-AuthenticationResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		93DBA32879F767E9EB578570FB22F0AD /* Pods-PayPayDiary-PayPayDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C0B48CC9B7A8AEC5827F16F9926FA9 /* Build configuration list for PBXNativeTarget "Pods-PayPayDiary-PayPayDiaryUITests" */;
+			buildPhases = (
+				BFE1102E4049E29F7C141EC9469B90B7 /* Headers */,
+				209D0FF7B22624EE3D2C3C02EC6D000B /* Sources */,
+				EC4EEF1DF82B3B1A0CD02C8635252B58 /* Frameworks */,
+				DD74F74E8F07C49BEF81FE10235C7B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E17BC76F5D5265D9BD29D40F3F9A03C /* PBXTargetDependency */,
+				FDFF3D2C87663815DB804E611668E59C /* PBXTargetDependency */,
+				9D456686115062A1234AD24CEB713E0F /* PBXTargetDependency */,
+				C2C06A426AFB454ACF186E6980827E99 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayPayDiary-PayPayDiaryUITests";
+			productName = Pods_PayPayDiary_PayPayDiaryUITests;
+			productReference = FA8D1C1A06F637368558620FE0AF5FC3 /* Pods-PayPayDiary-PayPayDiaryUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		96B93804D49754208DBEC09C29894AA3 /* Settings-SettingsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56DE50AB810008B2357B4FE0E0C203D /* Build configuration list for PBXNativeTarget "Settings-SettingsResources" */;
+			buildPhases = (
+				0573CD5BC3812A10E51B9E968514AABC /* Sources */,
+				C0953C38C7FBC4CB63727CBA12A9E2A6 /* Frameworks */,
+				FCBAEC13DFD84A348CC0D507CB316FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Settings-SettingsResources";
+			productName = SettingsResources;
+			productReference = 19CC55B09C99E72AAAA449B5088DBF86 /* Settings-SettingsResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D0ADF0F0C87209E3C5E74997D67E1DC0 /* DiaryContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8726662B8F8DE3C802ABB121833259EB /* Build configuration list for PBXNativeTarget "DiaryContent" */;
+			buildPhases = (
+				3F4485FD5BD8052CF143253E39F58655 /* Headers */,
+				38D6D99971E35D462150C4A0551CBDC9 /* Sources */,
+				EA53B08E54A434D30BE850D0A19A2005 /* Frameworks */,
+				7D4F95E967D4312F6E8BDA0F5A8A2FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7B9006E1C4B1AD11BE76582D6954F8 /* PBXTargetDependency */,
+				7BC7745B3FE67108BA6898AA2C6844B5 /* PBXTargetDependency */,
+			);
+			name = DiaryContent;
+			productName = DiaryContent;
+			productReference = 67E29E52F1F736FED0234331D5A45655 /* DiaryContent */;
+			productType = "com.apple.product-type.framework";
+		};
+		D34AB9345387FA5DFC24BB2A842E8975 /* DiaryContent-DiaryContentResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78354AEB2CC963FF2984110583D51729 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */;
+			buildPhases = (
+				E84FE6D96730D0ADA45CAE5CAFD92F95 /* Sources */,
+				8B3C462FA78EFD30BE56833E349358B2 /* Frameworks */,
+				39C1AC692E085450CA8132A474BF8B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DiaryContent-DiaryContentResources";
+			productName = DiaryContentResources;
+			productReference = ACD957E619B014DF0D27BF3EB9B21CB0 /* DiaryContent-DiaryContentResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DE3AC922FC0CDC946DF14AB005C69F80 /* Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1500513FFDF4F227F908E934AE535740 /* Build configuration list for PBXNativeTarget "Settings" */;
+			buildPhases = (
+				15AB57035C86E58AA01BF3E1EF1037F9 /* Headers */,
+				BA6CF200C8F8E2525079C4E1BB4ACD42 /* Sources */,
+				84D479F78658AA2CA8412AC78421F919 /* Frameworks */,
+				D84BBF91160084FC5C27BA2C7FB3D94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6473672E698A98E142B5DE4EBB667BC2 /* PBXTargetDependency */,
+				3785A7FD56A2701BE7959073C41963EE /* PBXTargetDependency */,
+			);
+			name = Settings;
+			productName = Settings;
+			productReference = 63C140C38ADEA0E78929906311AE6EDA /* Settings */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 66AC871F175459A8D77C7A066BFEE5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D57627682C7035CC27CD09665C455A /* Authentication */,
+				7402BFE63752370DED4BAEB2CF4777A2 /* Authentication-AuthenticationResources */,
+				D0ADF0F0C87209E3C5E74997D67E1DC0 /* DiaryContent */,
+				D34AB9345387FA5DFC24BB2A842E8975 /* DiaryContent-DiaryContentResources */,
+				307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */,
+				5B99209DB5B4B89CE2238AF1B23F9303 /* Pods-PayPayDiary */,
+				93DBA32879F767E9EB578570FB22F0AD /* Pods-PayPayDiary-PayPayDiaryUITests */,
+				43F54AC619D7B51D602DE8AECDF3EA8B /* Pods-PayPayDiaryTests */,
+				DE3AC922FC0CDC946DF14AB005C69F80 /* Settings */,
+				96B93804D49754208DBEC09C29894AA3 /* Settings-SettingsResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DD270ABA1309A57217A2B47190187E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C827DAAC6828959002182D212EFFA69F /* AuthViewController.xib in Resources */,
+				6CBDB0F7A50A6F8C345E168012A9DB61 /* Images.xcassets in Resources */,
+				8A903494B1192C10E25FF0E50406954C /* OTPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3860113CE2710AAA8561953172BA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311F79472E454D1E8BFB79C5E26B20F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C1AC692E085450CA8132A474BF8B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588F7E60B2B155EA0AF1EE29FAC5D113 /* ImageContentViewController.xib in Resources */,
+				D5939E51301929656B3CC8DC2F92EED0 /* Images.xcassets in Resources */,
+				E19DC8568E848FC14DDA51679F635604 /* VideoContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4F95E967D4312F6E8BDA0F5A8A2FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC41440505FB99CFECDD07F0236D9C88 /* DiaryContent-DiaryContentResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859F8A46759545AE58881700D8E952F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47875FBD7FA5809C167E283572485B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C161F9B762F7010921577D52414B7D1 /* Authentication-AuthenticationResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BBF91160084FC5C27BA2C7FB3D94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC688DC52A0CB4C890B63E67B89CD3 /* Settings-SettingsResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD74F74E8F07C49BEF81FE10235C7B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBAEC13DFD84A348CC0D507CB316FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755F82A7B443AC1C44AFE8262EAD1844 /* Images.xcassets in Resources */,
+				E923F1238F27294CD295061DA820BAF3 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CEBC97CADD7A4BBA0F1EA60D3E787D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423AFE84185F3A7E58EFA0C831F31468 /* Pods-PayPayDiary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573CD5BC3812A10E51B9E968514AABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D0FF7B22624EE3D2C3C02EC6D000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3482A6062F3E5D4197B1CFD490021E03 /* Pods-PayPayDiary-PayPayDiaryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D6D99971E35D462150C4A0551CBDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CB35641AA84CDECC6D56E7302C2A8 /* DiaryContent-dummy.m in Sources */,
+				730A08109CA39CF2ADCFB3411DA0DF89 /* DiaryContentCoordinator.swift in Sources */,
+				78206FE92A7247E34DFB34A59E05A558 /* DiaryContentInternalUtils.swift in Sources */,
+				FE113EC4D36AB958D5107DF8C1008DB3 /* ImageContentViewController.swift in Sources */,
+				CC0A97A67D997C3F1586E8E381B9CAA1 /* ImageContentViewModel.swift in Sources */,
+				3D3B05FE29DCB3D6E070B2665FA08B70 /* VideoContentViewController.swift in Sources */,
+				E73883C35C1CD02CDB1035BD9112A85F /* VideoContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EDA4962985A5C738D1F2B7ECAF5BC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519C3F9887AAFBD3CCE6FB926977A3B3 /* Pods-PayPayDiaryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA99B411B6F1968D3AC4A392105C0F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0468739AE3A53815A2FDE8F22E84FC /* AppCoordinator.swift in Sources */,
+				C7C0CD0631ECE5DFB79CEA3847FB222A /* AppCoordinatorProtocol.swift in Sources */,
+				CF53972CCAC55DE6BEA74CD3BEFA64E0 /* BaseCoordinator.swift in Sources */,
+				C8A2E8F0648B89D10D2E8078E946C53E /* BaseViewController.swift in Sources */,
+				D0F8CC6F5D7D660F6DC281F2A0FF8155 /* Coordinator.swift in Sources */,
+				AF6C85C054714BD96C9C628BD5A73FE1 /* DiaryFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6CF200C8F8E2525079C4E1BB4ACD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2975136A9FDD35E0A67C4B1609608B /* Settings-dummy.m in Sources */,
+				2786C0B46DF6E0ABEF15B9595EB9BA84 /* SettingsCoordinator.swift in Sources */,
+				9CFEC25D0796DEE6716AC6021BD2AE7E /* SettingsInternalUtils.swift in Sources */,
+				A239EB01DE54570AD24D2560DD2B1323 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05F3A62A3F9B17A49370E9180A082F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA316CE95CBA2EF88234D1074C2E9966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F822C545B8CBF5FA2AAB73230552AB /* AuthCoordinator.swift in Sources */,
+				DA3DAF8AAF863A49ACFF11B754524C8A /* Authentication-dummy.m in Sources */,
+				79A6E2E6B4F1E38095916BFCE1B8F6D7 /* AuthInternalUtils.swift in Sources */,
+				0B54095A130B91018DF1F8727B73E55F /* AuthViewController.swift in Sources */,
+				F0647A007E476719D199628D3FBDDFBE /* AuthViewModel.swift in Sources */,
+				73BC3DE97155F957F946274E25E3F188 /* OTPViewController.swift in Sources */,
+				8D0AE20C92796400651E047CF6BE8662 /* OTPViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84FE6D96730D0ADA45CAE5CAFD92F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA8492268D100B88AB81FE032DB9C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			target = 307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */;
+			targetProxy = FAADFABCCF4D0FFCC69E2262DBA53E19 /* PBXContainerItemProxy */;
+		};
+		3785A7FD56A2701BE7959073C41963EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Settings-SettingsResources";
+			target = 96B93804D49754208DBEC09C29894AA3 /* Settings-SettingsResources */;
+			targetProxy = 58A470C48405A14EC7EF7F841232D71D /* PBXContainerItemProxy */;
+		};
+		5E17BC76F5D5265D9BD29D40F3F9A03C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Authentication;
+			target = 23D57627682C7035CC27CD09665C455A /* Authentication */;
+			targetProxy = F7D94D5ECAC09A2100D1DAABB8C837B8 /* PBXContainerItemProxy */;
+		};
+		6473672E698A98E142B5DE4EBB667BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			target = 307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */;
+			targetProxy = EDE2100D44E916C0FE49DF70A6392F74 /* PBXContainerItemProxy */;
+		};
+		6990A7E31A62AC8C8DFDA86727AE1D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayPayDiary";
+			target = 5B99209DB5B4B89CE2238AF1B23F9303 /* Pods-PayPayDiary */;
+			targetProxy = 662D77A1843A82AA290DE6DE12B23132 /* PBXContainerItemProxy */;
+		};
+		7BC7745B3FE67108BA6898AA2C6844B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			target = 307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */;
+			targetProxy = AD9E3300DC83A5F3243E0C9620AA86F4 /* PBXContainerItemProxy */;
+		};
+		8390B870E388E20873C1D6FAA52ACDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Authentication;
+			target = 23D57627682C7035CC27CD09665C455A /* Authentication */;
+			targetProxy = 91D8C21C306164E1B6BD2826DEDBF20F /* PBXContainerItemProxy */;
+		};
+		8B7D7A3767982617754F7048B73BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryContent;
+			target = D0ADF0F0C87209E3C5E74997D67E1DC0 /* DiaryContent */;
+			targetProxy = EFBCE36A930176DB2E9FDAC2DB834F68 /* PBXContainerItemProxy */;
+		};
+		8E0C473DF24098A7BFEA327CAB655F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Settings;
+			target = DE3AC922FC0CDC946DF14AB005C69F80 /* Settings */;
+			targetProxy = 700E0A1894DB820D69A90E4692FF8BA5 /* PBXContainerItemProxy */;
+		};
+		9D456686115062A1234AD24CEB713E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			target = 307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */;
+			targetProxy = 2C8E423D40F8E3648AA7B72D676E7662 /* PBXContainerItemProxy */;
+		};
+		BA709601696797E0758A3761133B95F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Authentication-AuthenticationResources";
+			target = 7402BFE63752370DED4BAEB2CF4777A2 /* Authentication-AuthenticationResources */;
+			targetProxy = 258C0C3CD874D2290959447CE93A3AD2 /* PBXContainerItemProxy */;
+		};
+		BB06AD5B86D53B8EEF5F0CA0A015524D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			target = 307B74B70A76AD712BC36FB1B64604F4 /* DiaryFoundation */;
+			targetProxy = C3723659C8813187A7FDC2CB603BC3BC /* PBXContainerItemProxy */;
+		};
+		C2C06A426AFB454ACF186E6980827E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Settings;
+			target = DE3AC922FC0CDC946DF14AB005C69F80 /* Settings */;
+			targetProxy = 613EBC949219A80BC5F44ACBAF473522 /* PBXContainerItemProxy */;
+		};
+		DD7B9006E1C4B1AD11BE76582D6954F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DiaryContent-DiaryContentResources";
+			target = D34AB9345387FA5DFC24BB2A842E8975 /* DiaryContent-DiaryContentResources */;
+			targetProxy = 03D0BF2193FC296911014F6866718633 /* PBXContainerItemProxy */;
+		};
+		FDFF3D2C87663815DB804E611668E59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryContent;
+			target = D0ADF0F0C87209E3C5E74997D67E1DC0 /* DiaryContent */;
+			targetProxy = 320AC8A54A831CEB800B7FCA6AF71872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C5812199A564CA75A0701FD3FCEFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEF56148ACC5CA62A6762701E92B498 /* Authentication.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Authentication/Authentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Authentication/Authentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Authentication/Authentication.modulemap";
+				PRODUCT_MODULE_NAME = Authentication;
+				PRODUCT_NAME = Authentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12AE9967F350F551EAD4F5706E107E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC682A539437B96ADC78341C35DEA19A /* Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests/Pods-PayPayDiary-PayPayDiaryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests/Pods-PayPayDiary-PayPayDiaryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		159ACB6B5459465ACDC51E074C2A7875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2E0B749A5AEF86BAC88334A0E1D618 /* DiaryContent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiaryContent/DiaryContent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/DiaryContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DiaryContent/DiaryContent.modulemap";
+				PRODUCT_MODULE_NAME = DiaryContent;
+				PRODUCT_NAME = DiaryContent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1636AF7BAED6B74CF6304A15078BABD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2E0B749A5AEF86BAC88334A0E1D618 /* DiaryContent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DiaryContent";
+				IBSC_MODULE = DiaryContent;
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/ResourceBundle-DiaryContentResources-DiaryContent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = DiaryContentResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		19B16650E9C3BF2C06454EFA85D8ADB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEF56148ACC5CA62A6762701E92B498 /* Authentication.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Authentication";
+				IBSC_MODULE = Authentication;
+				INFOPLIST_FILE = "Target Support Files/Authentication/ResourceBundle-AuthenticationResources-Authentication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AuthenticationResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		345E0F3DD48CA1BAD7CD839ABB429D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66B320D76182B00A698FA0187920663 /* Pods-PayPayDiary.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51645B61CD24047E178B6BCB9226AAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E1EAE25096363E94AD0BB212F14BB1 /* Pods-PayPayDiaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiaryTests/Pods-PayPayDiaryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiaryTests/Pods-PayPayDiaryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559312AD0B53F382981615F85F70FC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F1C19CF60A74DE6D22AA321E600C86 /* Settings.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Settings/Settings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Settings/Settings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Settings/Settings.modulemap";
+				PRODUCT_MODULE_NAME = Settings;
+				PRODUCT_NAME = Settings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F47E98CD9E2AE17477F0FCCCBC27EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF602C0CF6F65F108C25D8E24A1678AA /* DiaryContent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiaryContent/DiaryContent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/DiaryContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DiaryContent/DiaryContent.modulemap";
+				PRODUCT_MODULE_NAME = DiaryContent;
+				PRODUCT_NAME = DiaryContent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		683FC8B5BACC21302F67C73A8C2F4977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0A352C1B7311E32CEB54574F332B97 /* Authentication.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Authentication/Authentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Authentication/Authentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Authentication/Authentication.modulemap";
+				PRODUCT_MODULE_NAME = Authentication;
+				PRODUCT_NAME = Authentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74207B9F41DE7B77216D025273898F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1D300CF94C0EB67545F59C76B71BE4 /* DiaryFoundation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiaryFoundation/DiaryFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiaryFoundation/DiaryFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DiaryFoundation/DiaryFoundation.modulemap";
+				PRODUCT_MODULE_NAME = DiaryFoundation;
+				PRODUCT_NAME = DiaryFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DC05C451BE7AEF1A747A38E67DD921C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31781B0B70152F6E75D66F409902D9B /* Pods-PayPayDiary.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		911EE019B7F1F88ACA9AF62ED3F19550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F1C19CF60A74DE6D22AA321E600C86 /* Settings.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Settings";
+				IBSC_MODULE = Settings;
+				INFOPLIST_FILE = "Target Support Files/Settings/ResourceBundle-SettingsResources-Settings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SettingsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		929F677814ECDB875E4ED808ABDA2CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8D10E4BE21FC4A57178A96F0FABF87 /* Settings.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Settings";
+				IBSC_MODULE = Settings;
+				INFOPLIST_FILE = "Target Support Files/Settings/ResourceBundle-SettingsResources-Settings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SettingsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A0B7D98B5B63E3ECCA8702FCEF373884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E156FC7972D135A4BC31105B5B333ECE /* Pods-PayPayDiaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiaryTests/Pods-PayPayDiaryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiaryTests/Pods-PayPayDiaryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A16B24BB574496B78B00CDD6392DB32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB8F65BDA7CD429271B0BBBBBF551EE /* Pods-PayPayDiary-PayPayDiaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests/Pods-PayPayDiary-PayPayDiaryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests/Pods-PayPayDiary-PayPayDiaryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA4131EEAB3AE887D5D5632B259FD4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85BF948B47BC5503E5944ABFEB4A846 /* DiaryFoundation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiaryFoundation/DiaryFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiaryFoundation/DiaryFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DiaryFoundation/DiaryFoundation.modulemap";
+				PRODUCT_MODULE_NAME = DiaryFoundation;
+				PRODUCT_NAME = DiaryFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7640A89745EE76B03DD983D216B30D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8D10E4BE21FC4A57178A96F0FABF87 /* Settings.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Settings/Settings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Settings/Settings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Settings/Settings.modulemap";
+				PRODUCT_MODULE_NAME = Settings;
+				PRODUCT_NAME = Settings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAA899E114E8B1BC06F71F372A0D3F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF602C0CF6F65F108C25D8E24A1678AA /* DiaryContent.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DiaryContent";
+				IBSC_MODULE = DiaryContent;
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/ResourceBundle-DiaryContentResources-DiaryContent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = DiaryContentResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F9E86B891ECE18D2DF431EF8B6D3E6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0A352C1B7311E32CEB54574F332B97 /* Authentication.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Authentication";
+				IBSC_MODULE = Authentication;
+				INFOPLIST_FILE = "Target Support Files/Authentication/ResourceBundle-AuthenticationResources-Authentication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AuthenticationResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B455D88AD16DEE98BCAC84D4D84E6D /* Build configuration list for PBXNativeTarget "Pods-PayPayDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7D98B5B63E3ECCA8702FCEF373884 /* Debug */,
+				51645B61CD24047E178B6BCB9226AAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1500513FFDF4F227F908E934AE535740 /* Build configuration list for PBXNativeTarget "Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7640A89745EE76B03DD983D216B30D3 /* Debug */,
+				559312AD0B53F382981615F85F70FC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFBD232ED479D8BDFDC3456C683F23D /* Build configuration list for PBXNativeTarget "Pods-PayPayDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345E0F3DD48CA1BAD7CD839ABB429D1F /* Debug */,
+				7DC05C451BE7AEF1A747A38E67DD921C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7A8B0C6151132625DF1FF92346FE99 /* Build configuration list for PBXNativeTarget "Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683FC8B5BACC21302F67C73A8C2F4977 /* Debug */,
+				07C5812199A564CA75A0701FD3FCEFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78354AEB2CC963FF2984110583D51729 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA899E114E8B1BC06F71F372A0D3F32 /* Debug */,
+				1636AF7BAED6B74CF6304A15078BABD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8726662B8F8DE3C802ABB121833259EB /* Build configuration list for PBXNativeTarget "DiaryContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F47E98CD9E2AE17477F0FCCCBC27EAB /* Debug */,
+				159ACB6B5459465ACDC51E074C2A7875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2AC6786303D860F1F569ADE6D15A61E /* Build configuration list for PBXNativeTarget "Authentication-AuthenticationResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E86B891ECE18D2DF431EF8B6D3E6DB /* Debug */,
+				19B16650E9C3BF2C06454EFA85D8ADB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56DE50AB810008B2357B4FE0E0C203D /* Build configuration list for PBXNativeTarget "Settings-SettingsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929F677814ECDB875E4ED808ABDA2CEC /* Debug */,
+				911EE019B7F1F88ACA9AF62ED3F19550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C0B48CC9B7A8AEC5827F16F9926FA9 /* Build configuration list for PBXNativeTarget "Pods-PayPayDiary-PayPayDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16B24BB574496B78B00CDD6392DB32A /* Debug */,
+				12AE9967F350F551EAD4F5706E107E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B605D35CF8A74D6C16CE54351F341C /* Build configuration list for PBXNativeTarget "DiaryFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4131EEAB3AE887D5D5632B259FD4C2 /* Debug */,
+				74207B9F41DE7B77216D025273898F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
