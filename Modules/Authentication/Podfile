@@ -20,7 +20,6 @@ target 'SandboxApp' do
   module_dependency_pod
 
   pod 'Authentication', :path => '.'
-  pod 'Settings', :path => 
 
   target 'AuthenticationTests' do
     inherit! :search_paths
