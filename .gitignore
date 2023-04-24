@@ -80,3 +80,6 @@ UserInterfaceState.xcuserstate
 
 .bundle/
 */bundle/
+
+# ignore reporting file
+*/unused_code_report.log

@@ -1,6 +1,0 @@
-framework module Pods_DiaryContent {
-  umbrella header "Pods-DiaryContent-umbrella.h"
-
-  export *
-  module * { export * }
-}
