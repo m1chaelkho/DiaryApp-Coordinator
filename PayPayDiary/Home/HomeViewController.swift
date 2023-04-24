@@ -5,7 +5,7 @@
 //  Created by Michael Kho on 2023/03/10.
 //
 
-import DiaryFoundation
+import DiaryCoordinator
 import UIKit
 
 class HomeViewController: UIViewController {
@@ -29,8 +29,8 @@ class HomeViewController: UIViewController {
 
     @objc
     private func goToSettingsButtonTapped() {
-        guard let appCoordinator = UIApplication.shared.connectedScenes.first?.delegate as? AppCoordinatorProtocol else { return }
-        appCoordinator.navigateTo(destination: .settingPage(profileId: "some-profile-id"))
+        GlobalCoordinator.shared.navigate(.settings(.setting(
+            profileId: "some-profile-id")))
     }
 }
 
@@ -47,13 +47,17 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let appCoordinator = UIApplication.shared.connectedScenes.first?.delegate as? AppCoordinatorProtocol else { return }
-        appCoordinator.navigateTo(
-            destination: .diaryContentPage(
-                videoURLString: indexPath.row % 2 == 0 ? "some-url" : nil,
-                imageURLString: indexPath.row % 2 == 0 ? nil : "some-url",
-                title: "some-title",
-                content: "some-content"))
+        if indexPath.row % 2 == 0 {
+            GlobalCoordinator.shared.navigate(.content(.imageContent(
+                title: "abc",
+                content: "abc",
+                urlString: "abc")))
+        } else {
+            GlobalCoordinator.shared.navigate(.content(.videoContent(
+                title: "def",
+                content: "def",
+                urlString: "def")))
+        }
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

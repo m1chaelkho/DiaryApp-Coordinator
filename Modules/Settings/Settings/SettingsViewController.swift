@@ -9,10 +9,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    private let coordinator: SettingsCoordinatorProtocol
-
-    init(coordinator: SettingsCoordinatorProtocol) {
-        self.coordinator = coordinator
+    init(profileId: String) {
         super.init(nibName: "SettingsViewController", bundle: .SettingsBundle)
     }
 
@@ -27,6 +24,5 @@ class SettingsViewController: UIViewController {
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        coordinator.finish()
     }
 }

@@ -10,7 +10,7 @@
 		159091484528338EA79DCD85 /* Pods_Settings_SettingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4901A8F5F4F3887747192D20 /* Pods_Settings_SettingsTests.framework */; };
 		4C31C44229C025FB00584456 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C44029C025FB00584456 /* SettingsViewController.swift */; };
 		4C31C44529C0263900584456 /* SettingsInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C44429C0263900584456 /* SettingsInternalUtils.swift */; };
-		4C31C44829C026DE00584456 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C44729C026DE00584456 /* SettingsCoordinator.swift */; };
+		4C31C44829C026DE00584456 /* SettingsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C44729C026DE00584456 /* SettingsNavigator.swift */; };
 		593FA92E0A5B1ED2792FAAE8 /* Pods_Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10DB175ADDC951AD2DCFBED /* Pods_Settings.framework */; };
 		B1B16F0724165E6E0057E2A7 /* Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B16EFD24165E6E0057E2A7 /* Settings.framework */; };
 		B1B16F0E24165E6E0057E2A7 /* Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B16F0024165E6E0057E2A7 /* Settings.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +39,7 @@
 		4C31C44029C025FB00584456 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4C31C44129C025FB00584456 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		4C31C44429C0263900584456 /* SettingsInternalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInternalUtils.swift; sourceTree = "<group>"; };
-		4C31C44729C026DE00584456 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		4C31C44729C026DE00584456 /* SettingsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigator.swift; sourceTree = "<group>"; };
 		4C3F19C328F8DD0000E918FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667BA7D6B71E4C76050991F5 /* Pods-Settings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Settings.release.xcconfig"; path = "Target Support Files/Pods-Settings/Pods-Settings.release.xcconfig"; sourceTree = "<group>"; };
 		75A875DA5ABC51FC85DF1D60 /* Pods_SandboxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandboxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,12 +98,12 @@
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		4C31C44629C026CD00584456 /* Coordinator */ = {
+		4C31C44629C026CD00584456 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
-				4C31C44729C026DE00584456 /* SettingsCoordinator.swift */,
+				4C31C44729C026DE00584456 /* SettingsNavigator.swift */,
 			);
-			path = Coordinator;
+			path = Navigator;
 			sourceTree = "<group>";
 		};
 		B144E084AFE7A4BB73BEEE12 /* Frameworks */ = {
@@ -143,7 +143,7 @@
 		B1B16EFF24165E6E0057E2A7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				4C31C44629C026CD00584456 /* Coordinator */,
+				4C31C44629C026CD00584456 /* Navigator */,
 				4C31C44329C0261B00584456 /* Internal */,
 				4C3F19C328F8DD0000E918FF /* Info.plist */,
 				B1B16F0024165E6E0057E2A7 /* Settings.h */,
@@ -225,6 +225,7 @@
 				B1B16EF824165E6E0057E2A7 /* Headers */,
 				B1B16EF924165E6E0057E2A7 /* Sources */,
 				B1B16EFA24165E6E0057E2A7 /* Frameworks */,
+				8EB5138774BBB591F3AA45C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +244,7 @@
 				B1B16F0224165E6E0057E2A7 /* Sources */,
 				B1B16F0324165E6E0057E2A7 /* Frameworks */,
 				B1B16F0424165E6E0057E2A7 /* Resources */,
+				C0899B585DF18B4A385226F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +397,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SandboxApp/Pods-SandboxApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8EB5138774BBB591F3AA45C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Settings/Pods-Settings-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Settings/Pods-Settings-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Settings/Pods-Settings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0899B585DF18B4A385226F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Settings-SettingsTests/Pods-Settings-SettingsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Settings-SettingsTests/Pods-Settings-SettingsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Settings-SettingsTests/Pods-Settings-SettingsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F9431AF579ABD444B2937154 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,7 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C31C44229C025FB00584456 /* SettingsViewController.swift in Sources */,
-				4C31C44829C026DE00584456 /* SettingsCoordinator.swift in Sources */,
+				4C31C44829C026DE00584456 /* SettingsNavigator.swift in Sources */,
 				4C31C44529C0263900584456 /* SettingsInternalUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

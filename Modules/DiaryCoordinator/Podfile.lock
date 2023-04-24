@@ -1,0 +1,16 @@
+PODS:
+  - DiaryCoordinator (0.1.0)
+
+DEPENDENCIES:
+  - DiaryCoordinator (from `.`)
+
+EXTERNAL SOURCES:
+  DiaryCoordinator:
+    :path: "."
+
+SPEC CHECKSUMS:
+  DiaryCoordinator: 337f9f408241fd22803ce6d207b136b1caf3758d
+
+PODFILE CHECKSUM: 83fca354579d7657977b5fa7f6a75f02a4eb4625
+
+COCOAPODS: 1.12.1

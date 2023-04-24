@@ -5,7 +5,7 @@
 //  Created by Michael Kho on 2023/04/06.
 //
 
-import DiaryFoundation
+import DiaryCoordinator
 import UIKit
 
 class HomeViewController: UIViewController {
@@ -15,26 +15,16 @@ class HomeViewController: UIViewController {
     }
 
     @IBAction func goToImageContentViewButtonTapped(_ sender: Any) {
-        guard let appCoordinator = UIApplication.shared.delegate as? AppCoordinatorProtocol else {
-            return
-        }
-        appCoordinator.navigateTo(destination:
-                .diaryContentPage(
-                    videoURLString: nil,
-                    imageURLString: "some-url",
-                    title: "some-title",
-                    content: "some-content"))
+        GlobalCoordinator.shared.navigate(.content(.imageContent(
+            title: "abc",
+            content: "abc",
+            urlString: "abc")))
     }
 
     @IBAction func goToVideoContentViewButtonTapped(_ sender: Any) {
-        guard let appCoordinator = UIApplication.shared.delegate as? AppCoordinatorProtocol else {
-            return
-        }
-        appCoordinator.navigateTo(destination:
-                .diaryContentPage(
-                    videoURLString: "some-url",
-                    imageURLString: nil,
-                    title: "some-title",
-                    content: "some-content"))
+        GlobalCoordinator.shared.navigate(.content(.videoContent(
+            title: "abc",
+            content: "abc",
+            urlString: "abc")))
     }
 }

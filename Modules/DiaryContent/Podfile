@@ -9,6 +9,7 @@ install! 'cocoapods',
 
 def module_dependency_pod
   #insert pod here if needed
+  pod 'DiaryCoordinator', :path => '../DiaryCoordinator'
   pod 'DiaryFoundation', :path => '../DiaryFoundation'
 end
 

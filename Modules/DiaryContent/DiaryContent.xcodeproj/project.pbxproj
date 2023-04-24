@@ -13,7 +13,7 @@
 		4C31C42429BFFF6D00584456 /* DiaryContentInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C42329BFFF6D00584456 /* DiaryContentInternalUtils.swift */; };
 		4CC4819E29C1964F00104D70 /* VideoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4819C29C1964F00104D70 /* VideoContentViewController.swift */; };
 		4CC481A029C1965D00104D70 /* VideoContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4819F29C1965D00104D70 /* VideoContentViewModel.swift */; };
-		4CC481A329C198B000104D70 /* DiaryContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC481A229C198B000104D70 /* DiaryContentCoordinator.swift */; };
+		4CC481A329C198B000104D70 /* DiaryContentNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC481A229C198B000104D70 /* DiaryContentNavigator.swift */; };
 		4CFF9C2529DE68BC007792C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF9C2329DE68BC007792C5 /* HomeViewController.swift */; };
 		4CFF9C2629DE68BC007792C5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF9C2429DE68BC007792C5 /* HomeViewController.xib */; };
 		84205BF14621165C6A6228BF /* Pods_DiaryContent_DiaryContentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60E68813032F7F6608C521E /* Pods_DiaryContent_DiaryContentTests.framework */; };
@@ -50,7 +50,7 @@
 		4CC4819C29C1964F00104D70 /* VideoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContentViewController.swift; sourceTree = "<group>"; };
 		4CC4819D29C1964F00104D70 /* VideoContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoContentViewController.xib; sourceTree = "<group>"; };
 		4CC4819F29C1965D00104D70 /* VideoContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContentViewModel.swift; sourceTree = "<group>"; };
-		4CC481A229C198B000104D70 /* DiaryContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryContentCoordinator.swift; sourceTree = "<group>"; };
+		4CC481A229C198B000104D70 /* DiaryContentNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryContentNavigator.swift; sourceTree = "<group>"; };
 		4CFF9C2329DE68BC007792C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4CFF9C2429DE68BC007792C5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9EDC254CC983766591329F3D /* Pods-DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryContent.release.xcconfig"; path = "Target Support Files/Pods-DiaryContent/Pods-DiaryContent.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,12 +142,12 @@
 			path = VideoContentView;
 			sourceTree = "<group>";
 		};
-		4CC481A129C1987A00104D70 /* Coordinator */ = {
+		4CC481A129C1987A00104D70 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
-				4CC481A229C198B000104D70 /* DiaryContentCoordinator.swift */,
+				4CC481A229C198B000104D70 /* DiaryContentNavigator.swift */,
 			);
-			path = Coordinator;
+			path = Navigator;
 			sourceTree = "<group>";
 		};
 		4CFF9C2229DE68A8007792C5 /* Home */ = {
@@ -196,7 +196,7 @@
 		B1B16EFF24165E6E0057E2A7 /* DiaryContent */ = {
 			isa = PBXGroup;
 			children = (
-				4CC481A129C1987A00104D70 /* Coordinator */,
+				4CC481A129C1987A00104D70 /* Navigator */,
 				4C31C42229BFFF5400584456 /* Internal */,
 				4C31C41C29BFFDFF00584456 /* ImageContentView */,
 				4CC4819B29C1962A00104D70 /* VideoContentView */,
@@ -266,6 +266,7 @@
 				B1B16EF824165E6E0057E2A7 /* Headers */,
 				B1B16EF924165E6E0057E2A7 /* Sources */,
 				B1B16EFA24165E6E0057E2A7 /* Frameworks */,
+				18D10947B348B9D36376144A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +285,7 @@
 				B1B16F0224165E6E0057E2A7 /* Sources */,
 				B1B16F0324165E6E0057E2A7 /* Frameworks */,
 				B1B16F0424165E6E0057E2A7 /* Resources */,
+				2AEFB52FF90437824F89C3EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,6 +378,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18D10947B348B9D36376144A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryContent/Pods-DiaryContent-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryContent/Pods-DiaryContent-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryContent/Pods-DiaryContent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1DAC2E526019E453A4660505 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +415,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AEFB52FF90437824F89C3EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6450A6DEE12DD6CAECEA7D44 /* [CP] Check Pods Manifest.lock */ = {
@@ -470,7 +506,7 @@
 				4CC481A029C1965D00104D70 /* VideoContentViewModel.swift in Sources */,
 				4C31C42129BFFEB100584456 /* ImageContentViewModel.swift in Sources */,
 				4C31C41F29BFFE2A00584456 /* ImageContentViewController.swift in Sources */,
-				4CC481A329C198B000104D70 /* DiaryContentCoordinator.swift in Sources */,
+				4CC481A329C198B000104D70 /* DiaryContentNavigator.swift in Sources */,
 				4C31C42429BFFF6D00584456 /* DiaryContentInternalUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

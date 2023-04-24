@@ -24,6 +24,7 @@
 		4C31C35229BB059100584456 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C31C35029BB059100584456 /* HomeViewController.xib */; };
 		4C31C35A29BB104600584456 /* EntriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C35829BB104600584456 /* EntriesCell.swift */; };
 		4C31C35B29BB104600584456 /* EntriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C31C35929BB104600584456 /* EntriesCell.xib */; };
+		4C3CC6B129F6742500ABBEFE /* MainNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CC6B029F6742500ABBEFE /* MainNavigator.swift */; };
 		9728FF5F822A718DEC3E92D2 /* Pods_PayPayDiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBF5872DA57F27FA7F6CD15 /* Pods_PayPayDiaryTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		4C31C35029BB059100584456 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		4C31C35829BB104600584456 /* EntriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesCell.swift; sourceTree = "<group>"; };
 		4C31C35929BB104600584456 /* EntriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntriesCell.xib; sourceTree = "<group>"; };
+		4C3CC6B029F6742500ABBEFE /* MainNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigator.swift; sourceTree = "<group>"; };
 		5298E7653D47CFDECEA048CD /* Pods-PayPayDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPayDiary.release.xcconfig"; path = "Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary.release.xcconfig"; sourceTree = "<group>"; };
 		6EBF5872DA57F27FA7F6CD15 /* Pods_PayPayDiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPayDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8C07AC4FEE93FB6D73989D /* Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig"; path = "Target Support Files/Pods-PayPayDiary-PayPayDiaryUITests/Pods-PayPayDiary-PayPayDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				4C31C31E29BB057800584456 /* AppDelegate.swift */,
 				4C31C32029BB057800584456 /* SceneDelegate.swift */,
+				4C3CC6B029F6742500ABBEFE /* MainNavigator.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3CC6B129F6742500ABBEFE /* MainNavigator.swift in Sources */,
 				4C31C35A29BB104600584456 /* EntriesCell.swift in Sources */,
 				12ACFE4C29F11196006584FE /* navigation.swift in Sources */,
 				4C31C32329BB057800584456 /* ViewController.swift in Sources */,
