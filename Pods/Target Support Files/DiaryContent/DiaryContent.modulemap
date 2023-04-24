@@ -1,6 +1,0 @@
-framework module DiaryContent {
-  umbrella header "DiaryContent-umbrella.h"
-
-  export *
-  module * { export * }
-}

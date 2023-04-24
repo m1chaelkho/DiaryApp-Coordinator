@@ -1,5 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-PayPayDiary/Pods-PayPayDiary-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Authentication/Authentication.framework
-${BUILT_PRODUCTS_DIR}/DiaryContent/DiaryContent.framework
-${BUILT_PRODUCTS_DIR}/DiaryFoundation/DiaryFoundation.framework
-${BUILT_PRODUCTS_DIR}/Settings/Settings.framework
