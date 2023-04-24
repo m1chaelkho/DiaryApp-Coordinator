@@ -32,7 +32,8 @@ public final class GlobalCoordinator: GlobalCoordinatorProtocol {
     private let navigationController: UINavigationController
     private let router: (GlobalDestination, UINavigationController) -> Void
 
-    public init(router: @escaping (GlobalDestination, UINavigationController) -> Void, navigationController: UINavigationController) {
+    public init(router: @escaping (GlobalDestination, UINavigationController) -> Void,
+                navigationController: UINavigationController) {
         self.router = router
         self.navigationController = navigationController
     }

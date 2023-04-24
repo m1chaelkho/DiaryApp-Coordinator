@@ -23,8 +23,7 @@ public final class OTPViewModel: OTPViewModelProtocol {
     }
 
     public func goToSettingsButtonDidTapped() {
-        coordinator.navigate(.settings(
-            profileId: "some-profile-id"))
+        coordinator.navigate(.settings(.setting(profileId: "some-profile-id")))
     }
 
     public func confirmButtonDidTapped() {

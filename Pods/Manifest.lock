@@ -1,15 +1,20 @@
 PODS:
   - Authentication (0.1.0):
+    - DiaryCoordinator
     - DiaryFoundation
   - DiaryContent (0.1.0):
+    - DiaryCoordinator
     - DiaryFoundation
+  - DiaryCoordinator (0.1.0)
   - DiaryFoundation (0.1.0)
   - Settings (0.1.0):
+    - DiaryCoordinator
     - DiaryFoundation
 
 DEPENDENCIES:
   - Authentication (from `Modules/Authentication`)
   - DiaryContent (from `Modules/DiaryContent`)
+  - DiaryCoordinator (from `Modules/DiaryCoordinator`)
   - DiaryFoundation (from `Modules/DiaryFoundation`)
   - Settings (from `Modules/Settings`)
 
@@ -18,17 +23,20 @@ EXTERNAL SOURCES:
     :path: Modules/Authentication
   DiaryContent:
     :path: Modules/DiaryContent
+  DiaryCoordinator:
+    :path: Modules/DiaryCoordinator
   DiaryFoundation:
     :path: Modules/DiaryFoundation
   Settings:
     :path: Modules/Settings
 
 SPEC CHECKSUMS:
-  Authentication: 3c64503f1c1469c69b071f24c576357b84d90a1f
-  DiaryContent: fb7125788ff3d22028d6d4ab2fb78aa0835f2270
+  Authentication: a89efd0d657fd597e9eccc73c5dd627c4383f1fa
+  DiaryContent: afd945994fcb2da010f5f3cb1c5e5280c083c411
+  DiaryCoordinator: 337f9f408241fd22803ce6d207b136b1caf3758d
   DiaryFoundation: d5daa40e88c40783a37234b4ad677c39a23fa6bc
-  Settings: 54e0f885c871939962764fbc3dfb038449aa5928
+  Settings: 5126b8d889441e04f36c9728d907d05f25e22a6c
 
-PODFILE CHECKSUM: ccab3a694a0c4a3b1cfd7b8b114304aa27e66088
+PODFILE CHECKSUM: dc4163526a3e950b54c02e9d71e099dfe003f2ed
 
 COCOAPODS: 1.12.1

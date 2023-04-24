@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         setupGlobalCoordinator()
-        GlobalCoordinator.shared.navigate(.settings(profileId: "some-profile-id"))
+        GlobalCoordinator.shared.navigate(.settings(.setting(profileId: "some-profile-id")))
         
         return true
     }
@@ -33,9 +33,9 @@ extension AppDelegate {
         GlobalCoordinator.shared = GlobalCoordinator(
             router: { destination, navigationController in
                 switch destination {
-                case .settings(let profileId):
+                case .settings(let settingsDestination):
                     let navigator = SettingsNavigator(navigationController: navigationController)
-                    navigator.navigate(.settings(profileId: profileId))
+                    navigator.navigate(settingsDestination)
                 case .back:
                     navigationController.popViewController(animated: true)
                 case .popToRootVC:

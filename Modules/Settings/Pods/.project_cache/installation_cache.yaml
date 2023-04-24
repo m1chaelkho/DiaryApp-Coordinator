@@ -10,6 +10,7 @@ CACHE_KEYS:
     CHECKSUM: 337f9f408241fd22803ce6d207b136b1caf3758d
     FILES:
       - "../../DiaryCoordinator/DiaryCoordinator/Destination/AuthenticationDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/DiaryContentDestination.swift"
       - "../../DiaryCoordinator/DiaryCoordinator/Destination/GlobalDestination.swift"
       - "../../DiaryCoordinator/DiaryCoordinator/Destination/SettingsDestination.swift"
       - "../../DiaryCoordinator/DiaryCoordinator/DiaryCoordinator.h"

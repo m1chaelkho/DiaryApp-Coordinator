@@ -18,7 +18,7 @@ public final class SettingsNavigator {
 
     public func navigate(_ destination: SettingsDestination) {
         switch destination {
-        case .settings(let profileId):
+        case .setting(let profileId):
             navigationController.pushViewController(
                 SettingsViewController(profileId: profileId),
                 animated: true)

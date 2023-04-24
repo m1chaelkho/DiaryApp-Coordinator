@@ -8,5 +8,5 @@
 import Foundation
 
 public enum SettingsDestination {
-    case settings(profileId: String)
+    case setting(profileId: String)
 }

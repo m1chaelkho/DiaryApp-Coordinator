@@ -9,7 +9,7 @@ import Foundation
 
 public enum GlobalDestination {
     case auth(AuthenticationDestination)
-    case settings(profileId: String)
+    case settings(SettingsDestination)
     case home(sessionId: String, name: String, accessKey: String)
     case content(DiaryContentDestination)
     case back

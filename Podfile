@@ -6,6 +6,7 @@ target 'PayPayDiary' do
   use_frameworks!
   pod 'Authentication', :path => 'Modules/Authentication'
   pod 'DiaryContent', :path => 'Modules/DiaryContent'
+  pod 'DiaryCoordinator', :path => 'Modules/DiaryCoordinator'
   pod 'DiaryFoundation', :path => 'Modules/DiaryFoundation'
   pod 'Settings', :path => 'Modules/Settings'
 

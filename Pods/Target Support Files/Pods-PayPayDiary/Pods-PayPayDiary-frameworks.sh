@@ -178,12 +178,14 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Authentication/Authentication.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DiaryContent/DiaryContent.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DiaryCoordinator/DiaryCoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DiaryFoundation/DiaryFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Settings/Settings.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Authentication/Authentication.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DiaryContent/DiaryContent.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DiaryCoordinator/DiaryCoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DiaryFoundation/DiaryFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Settings/Settings.framework"
 fi
