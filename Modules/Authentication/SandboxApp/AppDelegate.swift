@@ -36,7 +36,7 @@ extension AppDelegate: AppCoordinatorProtocol {
     func navigateTo(destination: Destination) {
         switch destination {
         case let .homePage(name, accessKey):
-            assert(name == "some-name")
+            assert(name == "some-name-and-some-session-id")
             assert(accessKey == "some-accessKey")
 
             let dummyVC = UIViewController()

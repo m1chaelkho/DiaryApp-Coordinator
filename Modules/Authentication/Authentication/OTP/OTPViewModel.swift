@@ -22,14 +22,14 @@ public final class OTPViewModel: OTPViewModelProtocol {
     }
 
     public func goToSettingsButtonDidTapped() {
-        coordinator.navigateToSettingsPage(profileId: "some-profile-id")
+        coordinator.navigate(.settings(profileId: "some-profile-id"))
     }
 
     public func confirmButtonDidTapped() {
-        coordinator.navigateToDiaryHome(sessionId: "some-session-id")
+        coordinator.navigate(.home(sessionId: "some-session-id"))
     }
 
     public func cancelButtonDidTapped() {
-        coordinator.popViewController()
+        coordinator.navigate(.back)
     }
 }

@@ -20,7 +20,6 @@ public final class AuthViewModel: AuthViewModelProtocol {
     }
 
     public func loginButtonDidTapped() {
-        let otpViewModel = OTPViewModel(coordinator: coordinator)
-        coordinator.navigateToOTPViewController(viewModel: otpViewModel)
+        coordinator.navigate(.otp)
     }
 }
