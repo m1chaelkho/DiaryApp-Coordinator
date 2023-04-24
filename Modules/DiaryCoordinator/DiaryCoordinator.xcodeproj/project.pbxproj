@@ -12,6 +12,7 @@
 		4C3CC63B29F6089A00ABBEFE /* GlobalCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CC63829F6089A00ABBEFE /* GlobalCoordinator.swift */; };
 		4C3CC65329F61AE800ABBEFE /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CC65229F61AE800ABBEFE /* BaseNavigator.swift */; };
 		4C3CC68529F64D3E00ABBEFE /* SettingsDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CC68429F64D3E00ABBEFE /* SettingsDestination.swift */; };
+		4C3CC6AB29F667FF00ABBEFE /* DiaryContentDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CC6AA29F667FF00ABBEFE /* DiaryContentDestination.swift */; };
 		5B570AFC2C8211B34DBBBB75 /* Pods_SandboxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80013D871FA9FD5CEB003643 /* Pods_SandboxApp.framework */; };
 		62C7EAE53053C08AA0FBD429 /* Pods_DiaryCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1BCD43C321F83E37918ADC /* Pods_DiaryCoordinator.framework */; };
 		89EE8245C33BDE9E06A04BC2 /* Pods_DiaryCoordinator_DiaryCoordinatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F3E368C8C0A970CD9C6980 /* Pods_DiaryCoordinator_DiaryCoordinatorTests.framework */; };
@@ -44,6 +45,7 @@
 		4C3CC63829F6089A00ABBEFE /* GlobalCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalCoordinator.swift; sourceTree = "<group>"; };
 		4C3CC65229F61AE800ABBEFE /* BaseNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigator.swift; sourceTree = "<group>"; };
 		4C3CC68429F64D3E00ABBEFE /* SettingsDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDestination.swift; sourceTree = "<group>"; };
+		4C3CC6AA29F667FF00ABBEFE /* DiaryContentDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryContentDestination.swift; sourceTree = "<group>"; };
 		4C3F19C328F8DD0000E918FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B3B3A462841465C22F863D /* DiaryCoordinator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = DiaryCoordinator.podspec; sourceTree = "<group>"; };
 		80013D871FA9FD5CEB003643 /* Pods_SandboxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandboxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4C3CC63529F6089A00ABBEFE /* AuthenticationDestination.swift */,
+				4C3CC6AA29F667FF00ABBEFE /* DiaryContentDestination.swift */,
 				4C3CC63629F6089A00ABBEFE /* GlobalDestination.swift */,
 				4C3CC68429F64D3E00ABBEFE /* SettingsDestination.swift */,
 			);
@@ -427,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3CC6AB29F667FF00ABBEFE /* DiaryContentDestination.swift in Sources */,
 				4C3CC65329F61AE800ABBEFE /* BaseNavigator.swift in Sources */,
 				4C3CC63929F6089A00ABBEFE /* AuthenticationDestination.swift in Sources */,
 				4C3CC63A29F6089A00ABBEFE /* GlobalDestination.swift in Sources */,

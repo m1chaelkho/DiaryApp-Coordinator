@@ -7,74 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B6A36A8A6AB046019E27E654F950AB9 /* VideoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0398CFAFD4A872BB7C0C5A7AEAD0981 /* VideoContentViewController.swift */; };
-		440419FD297BCF9736B0526BC1AF43CC /* DiaryContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5C377CF9C3705392DE6332E43B1BD1 /* DiaryContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56539ADB7E1A1384B2ACFB2BD2326958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2203FDF07A3678861F83487E71D99D2A /* Images.xcassets */; };
-		643768C9AE8A327A71C1821C64742692 /* ImageContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4856923110CD6B01E7C2B0F8387092 /* ImageContentViewModel.swift */; };
-		7808FE8E10774A9FFB506A64BE9E20D9 /* DiaryContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304EEC0E8C184664A0BC55098AACB847 /* DiaryContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7865818888DEDA4E02F9ADC9F5D1E514 /* DiaryContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F28C74F80922B849A5EC8991CBFA25 /* DiaryContent-dummy.m */; };
-		81F274780BFD4C9BF7EF609AEEE93C84 /* DiaryContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22849679A20682228DFE4DB497BAF477 /* DiaryContentCoordinator.swift */; };
-		8BF35DD2E782E7323704CA53468FB434 /* VideoContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828AA266EC7BC5667BB5900B7481128 /* VideoContentViewModel.swift */; };
-		9EF82ABF5989AF292846243869F5E88D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB9B37EDD20FC9ADF090E2C62AD4218 /* Foundation.framework */; };
-		A2D8C31BC4C0994DFF1C289151DDBE6D /* ImageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B54E217C1FADBE3F64421449B0518 /* ImageContentViewController.swift */; };
-		B8D1FD66A559A8D3244D31301C88BE53 /* VideoContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7164BE825438D79C291D3CF6B419364E /* VideoContentViewController.xib */; };
-		C43767851DE12BBB81BC31A9BA228AFF /* ImageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F85E387F0ECCB5C5C07DE23AC543125 /* ImageContentViewController.xib */; };
-		E69941B49DBA500DE65D8926AC80F121 /* DiaryContentInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD646D95B6F41D6FBFB68C01326E5F /* DiaryContentInternalUtils.swift */; };
+		03BFDBD4AE2E38BC771B644A8F1CA65E /* ImageContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F69B4C02E432CCD75891307B5EF399 /* ImageContentViewModel.swift */; };
+		1F88E026FDE7A01A682DE01E34F2DA22 /* VideoContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329B50A7E711C2EA730000D913D37414 /* VideoContentViewController.xib */; };
+		2016D38E748D6A30D95617481218455D /* DiaryContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1A17BFF6800A7F593A295F9AFDBA2 /* DiaryContent-dummy.m */; };
+		3247984FC7FD912147F1E74B5B418A6E /* VideoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3861824C570C44D2B48D89D40975500 /* VideoContentViewController.swift */; };
+		345964AC96ADBB7F30DA4F2E6004947F /* DiaryContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19171E40EBE04CCD9B2A3711BB91E42B /* DiaryContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFD156D681A7BAA553AF074B6F543A3 /* VideoContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE915BFC8954A8771D49600E564F6B /* VideoContentViewModel.swift */; };
+		4E69C744FF89FCBDFA9764BFBC60118E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB9B37EDD20FC9ADF090E2C62AD4218 /* Foundation.framework */; };
+		5C6DF32F9476BB1F6F7EC3F79ED09BAF /* ImageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C83E3777BC6283D7125F9CA4D8E7B /* ImageContentViewController.swift */; };
+		AF4C22B6B81A517D529BDE8C1885A6D8 /* ImageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CFDDB037636B16E8850D927E76DB34 /* ImageContentViewController.xib */; };
+		BF45702CB8CE19667218A8CD6C204CF2 /* DiaryContentInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60D20D98519F50B69F26A310793DADB /* DiaryContentInternalUtils.swift */; };
+		D02AC9412E401C9B71329E592B6A9A95 /* DiaryContentNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E179B0BF8070FA3C149038884EB96 /* DiaryContentNavigator.swift */; };
+		DF160AF87730EE5E00433A30437AE346 /* DiaryContent.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAE7F9E0739E9ACD3900AE39676A65F /* DiaryContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD95F0A19D12B892B969F8C7978E5314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FA1523B1E4EE9DD5E593F0701F9AF1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C2A2F2B456A4074127139A6A0A0677D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
-			remoteInfo = DiaryFoundation;
-		};
-		4A1BAF5D7BFAE2A2196254F80D77D1DE /* PBXContainerItemProxy */ = {
+		4FE4874D8A7E03D295CB79684C5F2BBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42F3E9E4850F95E827DCAA9D4AE0E10E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B8BB438F4224C99EA412AE50A202B25;
 			remoteInfo = "DiaryContent-DiaryContentResources";
 		};
+		CB25C62EB5DB3EFECAC62BB03B91E442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEA9B64D708EB51C00641CC019C3871 /* DiaryFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
+			remoteInfo = DiaryFoundation;
+		};
+		D08B9C5C685FD7973A32DDA03BC53CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6948D5687BF6CFD9703F2234AB26E09 /* DiaryCoordinator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A184C4053EEA252E52204D55711A2;
+			remoteInfo = DiaryCoordinator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1828AA266EC7BC5667BB5900B7481128 /* VideoContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewModel.swift; sourceTree = "<group>"; };
-		1E5C377CF9C3705392DE6332E43B1BD1 /* DiaryContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiaryContent.h; path = DiaryContent/DiaryContent.h; sourceTree = "<group>"; };
-		2203FDF07A3678861F83487E71D99D2A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		22849679A20682228DFE4DB497BAF477 /* DiaryContentCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentCoordinator.swift; sourceTree = "<group>"; };
-		304EEC0E8C184664A0BC55098AACB847 /* DiaryContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-umbrella.h"; sourceTree = "<group>"; };
-		3113E043EE75314B89F0B5327A194834 /* DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		19171E40EBE04CCD9B2A3711BB91E42B /* DiaryContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-umbrella.h"; sourceTree = "<group>"; };
+		1E6E29471915FE71FDD4A8DEB5B23B0D /* DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		24CFDDB037636B16E8850D927E76DB34 /* ImageContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageContentViewController.xib; sourceTree = "<group>"; };
+		2EEA9B64D708EB51C00641CC019C3871 /* DiaryFoundation */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryFoundation; path = DiaryFoundation.xcodeproj; sourceTree = "<group>"; };
+		329B50A7E711C2EA730000D913D37414 /* VideoContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = VideoContentViewController.xib; sourceTree = "<group>"; };
 		39AE09E7E7E083C705E56F299CABC9B3 /* DiaryContent-DiaryContentResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DiaryContent-DiaryContentResources"; path = DiaryContentResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F85E387F0ECCB5C5C07DE23AC543125 /* ImageContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageContentViewController.xib; sourceTree = "<group>"; };
-		56F28C74F80922B849A5EC8991CBFA25 /* DiaryContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiaryContent-dummy.m"; sourceTree = "<group>"; };
-		673CFDF2085437EECD6B028A90B6DC2A /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DiaryContentResources-DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		428502A92404135CEE0FA493A6F6D5E7 /* DiaryContent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-prefix.pch"; sourceTree = "<group>"; };
+		47FE915BFC8954A8771D49600E564F6B /* VideoContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewModel.swift; sourceTree = "<group>"; };
+		58697BB54F1339180765C3AB35908A55 /* DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.release.xcconfig; sourceTree = "<group>"; };
+		60F494DE1B51A82C30648DEEF828A4A9 /* DiaryContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiaryContent.modulemap; sourceTree = "<group>"; };
+		673E179B0BF8070FA3C149038884EB96 /* DiaryContentNavigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentNavigator.swift; sourceTree = "<group>"; };
 		6EB9B37EDD20FC9ADF090E2C62AD4218 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7164BE825438D79C291D3CF6B419364E /* VideoContentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = VideoContentViewController.xib; sourceTree = "<group>"; };
-		745AC9F88D7DFAF11A94D19AA01C7B0F /* DiaryContent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DiaryContent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7B4856923110CD6B01E7C2B0F8387092 /* ImageContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewModel.swift; sourceTree = "<group>"; };
-		7BC7A1FF882BE823A42D33B45841B4B2 /* DiaryContent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiaryContent-prefix.pch"; sourceTree = "<group>"; };
 		7BFDF8D9332495D500B91549FFC6398B /* DiaryContent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DiaryContent; path = DiaryContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0398CFAFD4A872BB7C0C5A7AEAD0981 /* VideoContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewController.swift; sourceTree = "<group>"; };
-		B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryFoundation; path = DiaryFoundation.xcodeproj; sourceTree = "<group>"; };
-		CE73A6642981E1AB41D0F1E65EEAC936 /* DiaryContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.debug.xcconfig; sourceTree = "<group>"; };
-		D8BD646D95B6F41D6FBFB68C01326E5F /* DiaryContentInternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentInternalUtils.swift; sourceTree = "<group>"; };
-		DB5B54E217C1FADBE3F64421449B0518 /* ImageContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewController.swift; sourceTree = "<group>"; };
-		EB17F3E22B6D085E6DA56336C9264200 /* DiaryContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiaryContent.modulemap; sourceTree = "<group>"; };
-		FA03D433E6BCA430229014E2E0767CCC /* DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.release.xcconfig; sourceTree = "<group>"; };
+		7D5C83E3777BC6283D7125F9CA4D8E7B /* ImageContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewController.swift; sourceTree = "<group>"; };
+		8DC4C0D5D8145770A666B2FA7C7F7FB1 /* DiaryContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiaryContent.debug.xcconfig; sourceTree = "<group>"; };
+		9DA1A17BFF6800A7F593A295F9AFDBA2 /* DiaryContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiaryContent-dummy.m"; sourceTree = "<group>"; };
+		A5FA1523B1E4EE9DD5E593F0701F9AF1 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A60D20D98519F50B69F26A310793DADB /* DiaryContentInternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiaryContentInternalUtils.swift; sourceTree = "<group>"; };
+		A6948D5687BF6CFD9703F2234AB26E09 /* DiaryCoordinator */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryCoordinator; path = DiaryCoordinator.xcodeproj; sourceTree = "<group>"; };
+		AE55C51F50BE2B4C73885CA88449F960 /* DiaryContent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DiaryContent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6F69B4C02E432CCD75891307B5EF399 /* ImageContentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageContentViewModel.swift; sourceTree = "<group>"; };
+		D49235BC27008E7BEB1DE8CBD59DD6F4 /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DiaryContentResources-DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		F3861824C570C44D2B48D89D40975500 /* VideoContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoContentViewController.swift; sourceTree = "<group>"; };
+		FBAE7F9E0739E9ACD3900AE39676A65F /* DiaryContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiaryContent.h; path = DiaryContent/DiaryContent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		279B5445970EB6F78B15B0F25BD3AC02 /* Frameworks */ = {
+		6657FF08AF15004DEAA591D54C259986 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF82ABF5989AF292846243869F5E88D /* Foundation.framework in Frameworks */,
+				4E69C744FF89FCBDFA9764BFBC60118E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B957BB5DC78DDFBEC816489DD7FD4BF /* Frameworks */ = {
+		676706F201A140173A36B92FCCE65D9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,12 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C60963A310B0D6E4F4807B2DA956D5E /* Dependencies */ = {
+		11A595BCF2395FB8B0D3E0725433F307 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation */,
+				60F494DE1B51A82C30648DEEF828A4A9 /* DiaryContent.modulemap */,
+				9DA1A17BFF6800A7F593A295F9AFDBA2 /* DiaryContent-dummy.m */,
+				1E6E29471915FE71FDD4A8DEB5B23B0D /* DiaryContent-Info.plist */,
+				428502A92404135CEE0FA493A6F6D5E7 /* DiaryContent-prefix.pch */,
+				19171E40EBE04CCD9B2A3711BB91E42B /* DiaryContent-umbrella.h */,
+				8DC4C0D5D8145770A666B2FA7C7F7FB1 /* DiaryContent.debug.xcconfig */,
+				58697BB54F1339180765C3AB35908A55 /* DiaryContent.release.xcconfig */,
+				D49235BC27008E7BEB1DE8CBD59DD6F4 /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */,
 			);
-			name = Dependencies;
+			name = "Support Files";
+			path = "Pods/Target Support Files/DiaryContent";
 			sourceTree = "<group>";
 		};
 		21CB08AEA42DB9383E88D3BD23A7EBFB /* Products */ = {
@@ -104,56 +120,49 @@
 		2F8C35558862717FA77DEA8A4D01E0DF = {
 			isa = PBXGroup;
 			children = (
-				0C60963A310B0D6E4F4807B2DA956D5E /* Dependencies */,
-				D28013F7A551A81F3BE535249CCA1D74 /* DiaryContent */,
+				D06FAF2B200FF4BB45A1C96480773C78 /* Dependencies */,
+				856353C72AEBEA2978DBDBBD7C064ABE /* DiaryContent */,
 				7BCF15F0767F14F182679EF32CFDCF62 /* Frameworks */,
 				21CB08AEA42DB9383E88D3BD23A7EBFB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		393337DE889D8F76241C9F7F19F5EE50 /* VideoContentView */ = {
+		343507FCF9B6CE113379AC6CA4F2456D /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
-				B0398CFAFD4A872BB7C0C5A7AEAD0981 /* VideoContentViewController.swift */,
-				1828AA266EC7BC5667BB5900B7481128 /* VideoContentViewModel.swift */,
+				673E179B0BF8070FA3C149038884EB96 /* DiaryContentNavigator.swift */,
+			);
+			name = Navigator;
+			path = DiaryContent/Navigator;
+			sourceTree = "<group>";
+		};
+		35EE393EDC21C8A64CE27F6523207ABD /* VideoContentView */ = {
+			isa = PBXGroup;
+			children = (
+				329B50A7E711C2EA730000D913D37414 /* VideoContentViewController.xib */,
 			);
 			name = VideoContentView;
-			path = DiaryContent/VideoContentView;
+			path = VideoContentView;
 			sourceTree = "<group>";
 		};
-		3BC193D3674410E3755A5463819A8818 /* Support Files */ = {
+		45F53C3C4B3EC70912BF14DA58D25CD8 /* DiaryContent */ = {
 			isa = PBXGroup;
 			children = (
-				EB17F3E22B6D085E6DA56336C9264200 /* DiaryContent.modulemap */,
-				56F28C74F80922B849A5EC8991CBFA25 /* DiaryContent-dummy.m */,
-				3113E043EE75314B89F0B5327A194834 /* DiaryContent-Info.plist */,
-				7BC7A1FF882BE823A42D33B45841B4B2 /* DiaryContent-prefix.pch */,
-				304EEC0E8C184664A0BC55098AACB847 /* DiaryContent-umbrella.h */,
-				CE73A6642981E1AB41D0F1E65EEAC936 /* DiaryContent.debug.xcconfig */,
-				FA03D433E6BCA430229014E2E0767CCC /* DiaryContent.release.xcconfig */,
-				673CFDF2085437EECD6B028A90B6DC2A /* ResourceBundle-DiaryContentResources-DiaryContent-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/DiaryContent";
-			sourceTree = "<group>";
-		};
-		4225547F17B27197542D106D61C2CD88 /* ImageContentView */ = {
-			isa = PBXGroup;
-			children = (
-				4F85E387F0ECCB5C5C07DE23AC543125 /* ImageContentViewController.xib */,
-			);
-			name = ImageContentView;
-			path = ImageContentView;
-			sourceTree = "<group>";
-		};
-		4525FE9990F30C8CE958497FD73EBEFF /* DiaryContent */ = {
-			isa = PBXGroup;
-			children = (
-				4225547F17B27197542D106D61C2CD88 /* ImageContentView */,
-				F7DA273E547D8DECFF4E445E17A87E15 /* VideoContentView */,
+				9B367D1D6D202DC1FB4219113E330F32 /* ImageContentView */,
+				35EE393EDC21C8A64CE27F6523207ABD /* VideoContentView */,
 			);
 			name = DiaryContent;
 			path = DiaryContent;
+			sourceTree = "<group>";
+		};
+		59D8B89B133638CCB272D677E9547906 /* ImageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C83E3777BC6283D7125F9CA4D8E7B /* ImageContentViewController.swift */,
+				B6F69B4C02E432CCD75891307B5EF399 /* ImageContentViewModel.swift */,
+			);
+			name = ImageContentView;
+			path = DiaryContent/ImageContentView;
 			sourceTree = "<group>";
 		};
 		7BCF15F0767F14F182679EF32CFDCF62 /* Frameworks */ = {
@@ -164,57 +173,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A4E248C67F2378D34379E3E6CAE2D89A /* ImageContentView */ = {
+		7CD02A0F58A2ECB0D2E95C55B3F5F74D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DB5B54E217C1FADBE3F64421449B0518 /* ImageContentViewController.swift */,
-				7B4856923110CD6B01E7C2B0F8387092 /* ImageContentViewModel.swift */,
+				AE55C51F50BE2B4C73885CA88449F960 /* DiaryContent.podspec */,
 			);
-			name = ImageContentView;
-			path = DiaryContent/ImageContentView;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D28013F7A551A81F3BE535249CCA1D74 /* DiaryContent */ = {
+		856353C72AEBEA2978DBDBBD7C064ABE /* DiaryContent */ = {
 			isa = PBXGroup;
 			children = (
-				1E5C377CF9C3705392DE6332E43B1BD1 /* DiaryContent.h */,
-				DA770B410A27F7FCB7F5ADA08109BFF6 /* Coordinator */,
-				4525FE9990F30C8CE958497FD73EBEFF /* DiaryContent */,
-				EF4E1340A1BF15F6BD9A79D75E715E1A /* DiaryContentResources */,
-				A4E248C67F2378D34379E3E6CAE2D89A /* ImageContentView */,
-				D61E47CDC64D43B0602E8D731AAB2FAE /* Internal */,
-				D56F1786D75CBA38D3E2D797209BBC5D /* Pod */,
-				3BC193D3674410E3755A5463819A8818 /* Support Files */,
-				393337DE889D8F76241C9F7F19F5EE50 /* VideoContentView */,
+				FBAE7F9E0739E9ACD3900AE39676A65F /* DiaryContent.h */,
+				45F53C3C4B3EC70912BF14DA58D25CD8 /* DiaryContent */,
+				9C354CF23C0A46CAAADAF4828670F7F8 /* DiaryContentResources */,
+				59D8B89B133638CCB272D677E9547906 /* ImageContentView */,
+				BFC03CD59BD54A36A2FC0207EF0BE1F0 /* Internal */,
+				343507FCF9B6CE113379AC6CA4F2456D /* Navigator */,
+				7CD02A0F58A2ECB0D2E95C55B3F5F74D /* Pod */,
+				11A595BCF2395FB8B0D3E0725433F307 /* Support Files */,
+				B82BBB90FAF53681DB0C53A9EBD90DB2 /* VideoContentView */,
 			);
 			name = DiaryContent;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		D56F1786D75CBA38D3E2D797209BBC5D /* Pod */ = {
+		9B367D1D6D202DC1FB4219113E330F32 /* ImageContentView */ = {
 			isa = PBXGroup;
 			children = (
-				745AC9F88D7DFAF11A94D19AA01C7B0F /* DiaryContent.podspec */,
+				24CFDDB037636B16E8850D927E76DB34 /* ImageContentViewController.xib */,
 			);
-			name = Pod;
+			name = ImageContentView;
+			path = ImageContentView;
 			sourceTree = "<group>";
 		};
-		D61E47CDC64D43B0602E8D731AAB2FAE /* Internal */ = {
+		9C354CF23C0A46CAAADAF4828670F7F8 /* DiaryContentResources */ = {
 			isa = PBXGroup;
 			children = (
-				D8BD646D95B6F41D6FBFB68C01326E5F /* DiaryContentInternalUtils.swift */,
+				A5FA1523B1E4EE9DD5E593F0701F9AF1 /* Images.xcassets */,
+			);
+			name = DiaryContentResources;
+			path = DiaryContentResources;
+			sourceTree = "<group>";
+		};
+		B82BBB90FAF53681DB0C53A9EBD90DB2 /* VideoContentView */ = {
+			isa = PBXGroup;
+			children = (
+				F3861824C570C44D2B48D89D40975500 /* VideoContentViewController.swift */,
+				47FE915BFC8954A8771D49600E564F6B /* VideoContentViewModel.swift */,
+			);
+			name = VideoContentView;
+			path = DiaryContent/VideoContentView;
+			sourceTree = "<group>";
+		};
+		BFC03CD59BD54A36A2FC0207EF0BE1F0 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				A60D20D98519F50B69F26A310793DADB /* DiaryContentInternalUtils.swift */,
 			);
 			name = Internal;
 			path = DiaryContent/Internal;
 			sourceTree = "<group>";
 		};
-		DA770B410A27F7FCB7F5ADA08109BFF6 /* Coordinator */ = {
+		D06FAF2B200FF4BB45A1C96480773C78 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				22849679A20682228DFE4DB497BAF477 /* DiaryContentCoordinator.swift */,
+				A6948D5687BF6CFD9703F2234AB26E09 /* DiaryCoordinator */,
+				2EEA9B64D708EB51C00641CC019C3871 /* DiaryFoundation */,
 			);
-			name = Coordinator;
-			path = DiaryContent/Coordinator;
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
 		EB38295B1E3C87567488645279543054 /* iOS */ = {
@@ -225,33 +252,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EF4E1340A1BF15F6BD9A79D75E715E1A /* DiaryContentResources */ = {
-			isa = PBXGroup;
-			children = (
-				2203FDF07A3678861F83487E71D99D2A /* Images.xcassets */,
-			);
-			name = DiaryContentResources;
-			path = DiaryContentResources;
-			sourceTree = "<group>";
-		};
-		F7DA273E547D8DECFF4E445E17A87E15 /* VideoContentView */ = {
-			isa = PBXGroup;
-			children = (
-				7164BE825438D79C291D3CF6B419364E /* VideoContentViewController.xib */,
-			);
-			name = VideoContentView;
-			path = VideoContentView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AB2842823FFB2D84309D058A20B64841 /* Headers */ = {
+		69FD85D06D74678F9074A104B835B1AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440419FD297BCF9736B0526BC1AF43CC /* DiaryContent.h in Headers */,
-				7808FE8E10774A9FFB506A64BE9E20D9 /* DiaryContent-umbrella.h in Headers */,
+				DF160AF87730EE5E00433A30437AE346 /* DiaryContent.h in Headers */,
+				345964AC96ADBB7F30DA4F2E6004947F /* DiaryContent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,18 +269,19 @@
 /* Begin PBXNativeTarget section */
 		3076B5A7626A58966385963CBC743075 /* DiaryContent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 385ECCE900B5049585A2AB8644AB65EA /* Build configuration list for PBXNativeTarget "DiaryContent" */;
+			buildConfigurationList = 670F4BE8E9D01ADDB070E9EA9EA6CBA6 /* Build configuration list for PBXNativeTarget "DiaryContent" */;
 			buildPhases = (
-				AB2842823FFB2D84309D058A20B64841 /* Headers */,
-				88DB7FF45911F20E54636740ABF260A4 /* Sources */,
-				279B5445970EB6F78B15B0F25BD3AC02 /* Frameworks */,
-				F08272AEA99FDD79147B9442A6D4F259 /* Resources */,
+				69FD85D06D74678F9074A104B835B1AF /* Headers */,
+				73CCBE5F3700129E7CB8C360DF8C138E /* Sources */,
+				6657FF08AF15004DEAA591D54C259986 /* Frameworks */,
+				C9C971DE6148EAE100B693E390401411 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C39BC2C677C80D1EF141251F2F262194 /* PBXTargetDependency */,
-				6C4E2677173D99A59DAD4F4CC6413CCE /* PBXTargetDependency */,
+				CD6D904D4B3990BC8E8A93FE293A5C74 /* PBXTargetDependency */,
+				7E2608ABB8F525DEC692EC99B9D8A5E2 /* PBXTargetDependency */,
+				9B0B5AEB77E0249E6BF5389B3A675AC7 /* PBXTargetDependency */,
 			);
 			name = DiaryContent;
 			productName = DiaryContent;
@@ -280,11 +290,11 @@
 		};
 		7B8BB438F4224C99EA412AE50A202B25 /* DiaryContent-DiaryContentResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 418FBFD63AAA7F18624C9D330D758B05 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */;
+			buildConfigurationList = 1B59ED9ECA5CB1982DDAEE6CF3C9B838 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */;
 			buildPhases = (
-				D2234DE83A7A9D0A72C178DAC358F760 /* Sources */,
-				5B957BB5DC78DDFBEC816489DD7FD4BF /* Frameworks */,
-				A83BA2710DFB7CB8C435B3B082886FB9 /* Resources */,
+				D8D058638916E2F022DC53F36F544369 /* Sources */,
+				676706F201A140173A36B92FCCE65D9F /* Frameworks */,
+				77F65A06169576398FA920C5396720D8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,7 +327,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation */;
+					ProjectRef = A6948D5687BF6CFD9703F2234AB26E09 /* DiaryCoordinator */;
+				},
+				{
+					ProjectRef = 2EEA9B64D708EB51C00641CC019C3871 /* DiaryFoundation */;
 				},
 			);
 			projectRoot = "";
@@ -329,17 +342,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A83BA2710DFB7CB8C435B3B082886FB9 /* Resources */ = {
+		77F65A06169576398FA920C5396720D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43767851DE12BBB81BC31A9BA228AFF /* ImageContentViewController.xib in Resources */,
-				56539ADB7E1A1384B2ACFB2BD2326958 /* Images.xcassets in Resources */,
-				B8D1FD66A559A8D3244D31301C88BE53 /* VideoContentViewController.xib in Resources */,
+				AF4C22B6B81A517D529BDE8C1885A6D8 /* ImageContentViewController.xib in Resources */,
+				FD95F0A19D12B892B969F8C7978E5314 /* Images.xcassets in Resources */,
+				1F88E026FDE7A01A682DE01E34F2DA22 /* VideoContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F08272AEA99FDD79147B9442A6D4F259 /* Resources */ = {
+		C9C971DE6148EAE100B693E390401411 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,21 +362,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88DB7FF45911F20E54636740ABF260A4 /* Sources */ = {
+		73CCBE5F3700129E7CB8C360DF8C138E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7865818888DEDA4E02F9ADC9F5D1E514 /* DiaryContent-dummy.m in Sources */,
-				81F274780BFD4C9BF7EF609AEEE93C84 /* DiaryContentCoordinator.swift in Sources */,
-				E69941B49DBA500DE65D8926AC80F121 /* DiaryContentInternalUtils.swift in Sources */,
-				A2D8C31BC4C0994DFF1C289151DDBE6D /* ImageContentViewController.swift in Sources */,
-				643768C9AE8A327A71C1821C64742692 /* ImageContentViewModel.swift in Sources */,
-				0B6A36A8A6AB046019E27E654F950AB9 /* VideoContentViewController.swift in Sources */,
-				8BF35DD2E782E7323704CA53468FB434 /* VideoContentViewModel.swift in Sources */,
+				2016D38E748D6A30D95617481218455D /* DiaryContent-dummy.m in Sources */,
+				BF45702CB8CE19667218A8CD6C204CF2 /* DiaryContentInternalUtils.swift in Sources */,
+				D02AC9412E401C9B71329E592B6A9A95 /* DiaryContentNavigator.swift in Sources */,
+				5C6DF32F9476BB1F6F7EC3F79ED09BAF /* ImageContentViewController.swift in Sources */,
+				03BFDBD4AE2E38BC771B644A8F1CA65E /* ImageContentViewModel.swift in Sources */,
+				3247984FC7FD912147F1E74B5B418A6E /* VideoContentViewController.swift in Sources */,
+				3DFD156D681A7BAA553AF074B6F543A3 /* VideoContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2234DE83A7A9D0A72C178DAC358F760 /* Sources */ = {
+		D8D058638916E2F022DC53F36F544369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,20 +386,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C4E2677173D99A59DAD4F4CC6413CCE /* PBXTargetDependency */ = {
+		7E2608ABB8F525DEC692EC99B9D8A5E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryCoordinator;
+			targetProxy = D08B9C5C685FD7973A32DDA03BC53CBD /* PBXContainerItemProxy */;
+		};
+		9B0B5AEB77E0249E6BF5389B3A675AC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiaryFoundation;
-			targetProxy = 0C2A2F2B456A4074127139A6A0A0677D /* PBXContainerItemProxy */;
+			targetProxy = CB25C62EB5DB3EFECAC62BB03B91E442 /* PBXContainerItemProxy */;
 		};
-		C39BC2C677C80D1EF141251F2F262194 /* PBXTargetDependency */ = {
+		CD6D904D4B3990BC8E8A93FE293A5C74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DiaryContent-DiaryContentResources";
 			target = 7B8BB438F4224C99EA412AE50A202B25 /* DiaryContent-DiaryContentResources */;
-			targetProxy = 4A1BAF5D7BFAE2A2196254F80D77D1DE /* PBXContainerItemProxy */;
+			targetProxy = 4FE4874D8A7E03D295CB79684C5F2BBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		10C485363A8DE8574F4D94237B48168C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58697BB54F1339180765C3AB35908A55 /* DiaryContent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DiaryContent";
+				IBSC_MODULE = DiaryContent;
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/ResourceBundle-DiaryContentResources-DiaryContent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = DiaryContentResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		189E2C86027EA7ED3A426DFF2B5D6082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC4C0D5D8145770A666B2FA7C7F7FB1 /* DiaryContent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiaryContent/DiaryContent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiaryContent/DiaryContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DiaryContent/DiaryContent.modulemap";
+				PRODUCT_MODULE_NAME = DiaryContent;
+				PRODUCT_NAME = DiaryContent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1972746D3D8E7ECDB80C481FE475DAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -453,9 +524,9 @@
 			};
 			name = Debug;
 		};
-		5BF5CA0B8044B7C62BB109F99B97A784 /* Release */ = {
+		81476062F7C31DB50C7ED89AF4F36D5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA03D433E6BCA430229014E2E0767CCC /* DiaryContent.release.xcconfig */;
+			baseConfigurationReference = 58697BB54F1339180765C3AB35908A55 /* DiaryContent.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -490,62 +561,9 @@
 			};
 			name = Release;
 		};
-		663BC7D4B659D15753B6CE2C22DF5750 /* Release */ = {
+		A68F797E8F43E3CDE8CE32DA3882C588 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA03D433E6BCA430229014E2E0767CCC /* DiaryContent.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DiaryContent";
-				IBSC_MODULE = DiaryContent;
-				INFOPLIST_FILE = "Target Support Files/DiaryContent/ResourceBundle-DiaryContentResources-DiaryContent-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = DiaryContentResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		96BA3E6A96C27570B7341DFD9D9E1C47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE73A6642981E1AB41D0F1E65EEAC936 /* DiaryContent.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DiaryContent/DiaryContent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DiaryContent/DiaryContent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/DiaryContent/DiaryContent.modulemap";
-				PRODUCT_MODULE_NAME = DiaryContent;
-				PRODUCT_NAME = DiaryContent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BB0E38D963660D2EBC75934E359DC281 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE73A6642981E1AB41D0F1E65EEAC936 /* DiaryContent.debug.xcconfig */;
+			baseConfigurationReference = 8DC4C0D5D8145770A666B2FA7C7F7FB1 /* DiaryContent.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DiaryContent";
@@ -625,20 +643,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		385ECCE900B5049585A2AB8644AB65EA /* Build configuration list for PBXNativeTarget "DiaryContent" */ = {
+		1B59ED9ECA5CB1982DDAEE6CF3C9B838 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96BA3E6A96C27570B7341DFD9D9E1C47 /* Debug */,
-				5BF5CA0B8044B7C62BB109F99B97A784 /* Release */,
+				A68F797E8F43E3CDE8CE32DA3882C588 /* Debug */,
+				10C485363A8DE8574F4D94237B48168C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		418FBFD63AAA7F18624C9D330D758B05 /* Build configuration list for PBXNativeTarget "DiaryContent-DiaryContentResources" */ = {
+		670F4BE8E9D01ADDB070E9EA9EA6CBA6 /* Build configuration list for PBXNativeTarget "DiaryContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB0E38D963660D2EBC75934E359DC281 /* Debug */,
-				663BC7D4B659D15753B6CE2C22DF5750 /* Release */,
+				189E2C86027EA7ED3A426DFF2B5D6082 /* Debug */,
+				81476062F7C31DB50C7ED89AF4F36D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

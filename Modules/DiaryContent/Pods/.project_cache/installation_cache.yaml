@@ -5,16 +5,16 @@ CACHE_KEYS:
   DiaryContent:
     BUILD_SETTINGS_CHECKSUM:
       DiaryContent:
-        :debug: 6b27bc26ab1394d1a48399619bfc24f7
-        :release: 6b27bc26ab1394d1a48399619bfc24f7
-    CHECKSUM: fb7125788ff3d22028d6d4ab2fb78aa0835f2270
+        :debug: 73a76a24a73f95f99840c5363683682d
+        :release: 73a76a24a73f95f99840c5363683682d
+    CHECKSUM: afd945994fcb2da010f5f3cb1c5e5280c083c411
     FILES:
-      - "../DiaryContent/Coordinator/DiaryContentCoordinator.swift"
       - "../DiaryContent/DiaryContent.h"
       - "../DiaryContent/ImageContentView/ImageContentViewController.swift"
       - "../DiaryContent/ImageContentView/ImageContentViewController.xib"
       - "../DiaryContent/ImageContentView/ImageContentViewModel.swift"
       - "../DiaryContent/Internal/DiaryContentInternalUtils.swift"
+      - "../DiaryContent/Navigator/DiaryContentNavigator.swift"
       - "../DiaryContent/VideoContentView/VideoContentViewController.swift"
       - "../DiaryContent/VideoContentView/VideoContentViewController.xib"
       - "../DiaryContent/VideoContentView/VideoContentViewModel.swift"
@@ -22,6 +22,24 @@ CACHE_KEYS:
     PROJECT_NAME: DiaryContent
     SPECS:
       - DiaryContent (0.1.0)
+  DiaryCoordinator:
+    BUILD_SETTINGS_CHECKSUM:
+      DiaryCoordinator:
+        :debug: 9c0cf7a77e5132600472bc45ff83cf7e
+        :release: 9c0cf7a77e5132600472bc45ff83cf7e
+    CHECKSUM: 337f9f408241fd22803ce6d207b136b1caf3758d
+    FILES:
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/AuthenticationDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/DiaryContentDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/GlobalDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/SettingsDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/DiaryCoordinator.h"
+      - "../../DiaryCoordinator/DiaryCoordinator/Main/BaseNavigator.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Main/GlobalCoordinator.swift"
+      - "../../DiaryCoordinator/DiaryCoordinatorResources/Images.xcassets"
+    PROJECT_NAME: DiaryCoordinator
+    SPECS:
+      - DiaryCoordinator (0.1.0)
   DiaryFoundation:
     BUILD_SETTINGS_CHECKSUM:
       DiaryFoundation:
@@ -40,18 +58,23 @@ CACHE_KEYS:
       - DiaryFoundation (0.1.0)
   Pods-DiaryContent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: d0af029837d446579bef864658d7520e
-      Release: d0af029837d446579bef864658d7520e
+      Debug: 46b81fa03c711d072ece7b92509570fa
+      Release: 46b81fa03c711d072ece7b92509570fa
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
   Pods-DiaryContent-DiaryContentTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: b64ab6b6fe5ab9a48cd9687ef1d1bc32
-      Release: b64ab6b6fe5ab9a48cd9687ef1d1bc32
+      Debug: a420d79e67bbb7ad4c144d7141b41d6a
+      Release: a420d79e67bbb7ad4c144d7141b41d6a
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
   Pods-SandboxApp:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 33a175fc6ff436ff5a8142a2e8e99b76
-      Release: 33a175fc6ff436ff5a8142a2e8e99b76
+      Debug: f35eb1ab81adad359623e81ac80fd348
+      Release: f35eb1ab81adad359623e81ac80fd348
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryContent/DiaryContentResources.bundle"
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
 INSTALLATION_OPTIONS:
   clean: true
   deduplicate_targets: true

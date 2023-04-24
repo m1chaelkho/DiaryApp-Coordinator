@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
                                'DiaryContentResources/Images.xcassets']
   }
 
+  s.dependency 'DiaryCoordinator'
   s.dependency 'DiaryFoundation'
 end

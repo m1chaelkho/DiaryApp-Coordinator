@@ -2,6 +2,10 @@ DiaryContent:
   LABEL: DiaryContent
   PROJECT_PATH: DiaryContent.xcodeproj
   UUID: 3076B5A7626A58966385963CBC743075
+DiaryCoordinator:
+  LABEL: DiaryCoordinator
+  PROJECT_PATH: DiaryCoordinator.xcodeproj
+  UUID: F80A184C4053EEA252E52204D55711A2
 DiaryFoundation:
   LABEL: DiaryFoundation
   PROJECT_PATH: DiaryFoundation.xcodeproj

@@ -35,9 +35,7 @@ extension AppDelegate {
             router: { destination, navigationController in
                 switch destination {
                 case .auth(let authDestination):
-                    let navigator = AuthNavigator(
-                        coordinator: GlobalCoordinator.shared,
-                        navigationController: navigationController)
+                    let navigator = AuthNavigator(navigationController: navigationController)
                     navigator.navigate(authDestination)
                 case let .home(sessionId, name, accessKey):
                     assert(name == "some-name")

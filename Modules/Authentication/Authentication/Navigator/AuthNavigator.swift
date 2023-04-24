@@ -13,7 +13,7 @@ public final class AuthNavigator {
     private let coordinator: GlobalCoordinatorProtocol
     private let navigationController: UINavigationController
 
-    public init(coordinator: GlobalCoordinatorProtocol,
+    public init(coordinator: GlobalCoordinatorProtocol = GlobalCoordinator.shared,
                 navigationController: UINavigationController) {
         self.coordinator = coordinator
         self.navigationController = navigationController

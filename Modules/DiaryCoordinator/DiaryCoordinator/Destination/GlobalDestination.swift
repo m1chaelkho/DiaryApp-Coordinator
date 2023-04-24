@@ -11,7 +11,7 @@ public enum GlobalDestination {
     case auth(AuthenticationDestination)
     case settings(profileId: String)
     case home(sessionId: String, name: String, accessKey: String)
-    case content
+    case content(DiaryContentDestination)
     case back
     case popToRootVC
 }

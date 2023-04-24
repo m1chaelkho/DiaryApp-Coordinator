@@ -7,138 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0296C69060FC86008F11095843FBFFBB /* Pods-DiaryContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D880ED7A176D06D20759D995A7100BA /* Pods-DiaryContent-dummy.m */; };
-		0FDA967E132D12AEF833581D5DC8AED4 /* Pods-DiaryContent-DiaryContentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF94F096C28C62F6EA480D81EF4C7CA /* Pods-DiaryContent-DiaryContentTests-dummy.m */; };
-		58AE54AEFCACC5914EA815EDE1EB5250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5B7248D1E0BB5B9348CB8C028621A356 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5BF63C68EA8C396AD0612D31D27BEDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BBE343CCD98DC802F2BAFCD51718FBD3 /* Pods-SandboxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B063E91AF5B118FC2F7564D610CADD4 /* Pods-SandboxApp-dummy.m */; };
-		C93F2CC0DBA07B506AC21FD47C641B49 /* Pods-DiaryContent-DiaryContentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C95E51670EC57D1E8E8942732C1B22F8 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFCE46B8BB1498267D0CC42F898C99FC /* Pods-SandboxApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A746A5D828C516EE54083DE9FC9808D3 /* Pods-SandboxApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F735B9432CA5CA53EAB23BF9A8C6D6AB /* Pods-DiaryContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13039401EEDDDF8E4688DC9E5E46CF00 /* Pods-DiaryContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9B89F8D62A807201B8A61CA3D34616 /* Pods-DiaryContent-DiaryContentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C795E975C5E0737618109030AF07BE /* Pods-DiaryContent-DiaryContentTests-dummy.m */; };
+		806F991628FFE4CC9A1D90C8A62FEC5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5D0B0BFFE5FAC50741CA4D600819024 /* Pods-DiaryContent-DiaryContentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B6BD237922CBB25B704390539A2557 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D4997E72095EC901EE30BF4E2CF1BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C63A75B120D82ABC3E017F4CA1A7C6F6 /* Pods-SandboxApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B664A712112423E3A848D081B2DA4F /* Pods-SandboxApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3907EC877F88149FF7DF026CC4A76B2 /* Pods-DiaryContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E717871C8DF2E33BE0D3999C8CA5C96 /* Pods-DiaryContent-dummy.m */; };
+		E76498661E74357D14835E7D504EC3E9 /* Pods-SandboxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AB9B26C5AAB8770D7FC3AC9F898CA /* Pods-SandboxApp-dummy.m */; };
+		EAD34D8B9340CEC2F929F5EB3DB82B17 /* Pods-DiaryContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB831BD8FC802381D33E31C12BC68BC /* Pods-DiaryContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F080D43A585A7C496E0915A0CB5C4B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		096F4FBFC072B7F435E6964486412EDD /* PBXContainerItemProxy */ = {
+		2F97A39C36FE166A3B6743DED5892E9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation.xcodeproj */;
+			containerPortal = E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
 			remoteInfo = DiaryFoundation;
 		};
-		47CE4B757A1226728B2989FC5243FAA0 /* PBXContainerItemProxy */ = {
+		6F6170CC8C3B930F1536A5C45FE00BFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation.xcodeproj */;
+			containerPortal = 995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A184C4053EEA252E52204D55711A2;
+			remoteInfo = DiaryCoordinator;
+		};
+		9A996A929A154D3BCAB1CC583B124C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
 			remoteInfo = DiaryFoundation;
 		};
-		4A88156C6BBF4F01DF54154740E807DD /* PBXContainerItemProxy */ = {
+		9CC6A570C7AEF54EF17C033983453047 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3A14CE9DA92E249AB5F2D8247B84B88 /* DiaryContent.xcodeproj */;
+			containerPortal = 995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A184C4053EEA252E52204D55711A2;
+			remoteInfo = DiaryCoordinator;
+		};
+		9F6B17FDC293FD506C1BB2F9C20B3186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A184C4053EEA252E52204D55711A2;
+			remoteInfo = DiaryCoordinator;
+		};
+		CBA5489FDC777F02B34C315E9A1039B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
+			remoteInfo = DiaryFoundation;
+		};
+		F2338AE6EB6A3C73C6BB8E912FBBFCC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D0AA8C4C84EC631A5006CFA4A708D7 /* DiaryContent.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 3076B5A7626A58966385963CBC743075;
 			remoteInfo = DiaryContent;
 		};
-		D4AED4750CCAC60A700E28DE8380929B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
-			remoteInfo = DiaryFoundation;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		098AFBBA665E591E7592848D6F58AF5C /* Pods-DiaryContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiaryContent.modulemap"; sourceTree = "<group>"; };
-		1043B812B03D3CF52E8DC881B17CE707 /* Pods-DiaryContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent.debug.xcconfig"; sourceTree = "<group>"; };
-		13039401EEDDDF8E4688DC9E5E46CF00 /* Pods-DiaryContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiaryContent-umbrella.h"; sourceTree = "<group>"; };
-		14977C2441D2676C9A2DD7DA2583E84F /* Pods-DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-Info.plist"; sourceTree = "<group>"; };
-		1FF1CCF5A603064A3475BADD81B6C1A5 /* Pods-DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent.release.xcconfig"; sourceTree = "<group>"; };
+		05CD81AE0E776B634D7BD870DD0FB2BD /* Pods-DiaryContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent.debug.xcconfig"; sourceTree = "<group>"; };
+		09B664A712112423E3A848D081B2DA4F /* Pods-SandboxApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SandboxApp-umbrella.h"; sourceTree = "<group>"; };
+		0E717871C8DF2E33BE0D3999C8CA5C96 /* Pods-DiaryContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiaryContent-dummy.m"; sourceTree = "<group>"; };
+		11C795E975C5E0737618109030AF07BE /* Pods-DiaryContent-DiaryContentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiaryContent-DiaryContentTests-dummy.m"; sourceTree = "<group>"; };
+		14B6BD237922CBB25B704390539A2557 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiaryContent-DiaryContentTests-umbrella.h"; sourceTree = "<group>"; };
+		1CE6D87FBD3C1B8320B9658011E1251D /* Pods-SandboxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandboxApp.debug.xcconfig"; sourceTree = "<group>"; };
+		20A6CB9479F3B401C2221AC20050DA76 /* Pods-SandboxApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SandboxApp.modulemap"; sourceTree = "<group>"; };
+		21AEA12187BBDB5E255FA7BB02ED608B /* Pods-DiaryContent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiaryContent-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26ECCCA195181AA80FD5368315B201B1 /* Pods-DiaryContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-Info.plist"; sourceTree = "<group>"; };
+		2C0AB9B26C5AAB8770D7FC3AC9F898CA /* Pods-SandboxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SandboxApp-dummy.m"; sourceTree = "<group>"; };
 		30DBF091281A4DA7C75693BC772C9A29 /* Pods-DiaryContent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiaryContent"; path = Pods_DiaryContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1B61603D739037C43AEEEA27816488 /* Pods-DiaryContent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiaryContent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E6E3CA86840A12A1D1CBA476EFFDDA9 /* Pods-DiaryContent-DiaryContentTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiaryContent-DiaryContentTests"; path = Pods_DiaryContent_DiaryContentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryFoundation; path = DiaryFoundation.xcodeproj; sourceTree = "<group>"; };
-		4BF4CA277D42856E610B786119DEC7B4 /* Pods-DiaryContent-DiaryContentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiaryContent-DiaryContentTests.modulemap"; sourceTree = "<group>"; };
-		5B063E91AF5B118FC2F7564D610CADD4 /* Pods-SandboxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SandboxApp-dummy.m"; sourceTree = "<group>"; };
-		5BF4E975C184F9ACB25250BFCE742436 /* Pods-SandboxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandboxApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5D880ED7A176D06D20759D995A7100BA /* Pods-DiaryContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiaryContent-dummy.m"; sourceTree = "<group>"; };
-		6DFA6FC92C9DD67113623462C9B6CE17 /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent-DiaryContentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F375EDAD90235FFEB8CD09259262A9A /* Pods-DiaryContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiaryContent.modulemap"; sourceTree = "<group>"; };
+		47D0AA8C4C84EC631A5006CFA4A708D7 /* DiaryContent */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryContent; path = DiaryContent.xcodeproj; sourceTree = "<group>"; };
+		4A93B6A78B351D35981B23C618377A51 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-DiaryContentTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79B22795DBBD9C7F3D640576897B351F /* Pods-SandboxApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SandboxApp"; path = Pods_SandboxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7C4FEEE82C275B3BC346CB1B64CC26 /* Pods-SandboxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SandboxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8913AB0B1EF6B3D6DD6F24593EBC56FE /* Pods-SandboxApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandboxApp-Info.plist"; sourceTree = "<group>"; };
+		995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryCoordinator; path = DiaryCoordinator.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B363680A396475876094BF2715C093 /* Pods-SandboxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandboxApp.release.xcconfig"; sourceTree = "<group>"; };
-		A225A3D32F406E415C23CFF99D46DC18 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-DiaryContentTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A56602D3CB3FD26871BF9399725534A9 /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent-DiaryContentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A746A5D828C516EE54083DE9FC9808D3 /* Pods-SandboxApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SandboxApp-umbrella.h"; sourceTree = "<group>"; };
-		ADD166FB61B08718398B0B1BEF8C1761 /* Pods-SandboxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandboxApp-resources.sh"; sourceTree = "<group>"; };
-		ADF94F096C28C62F6EA480D81EF4C7CA /* Pods-DiaryContent-DiaryContentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiaryContent-DiaryContentTests-dummy.m"; sourceTree = "<group>"; };
-		B7CEBC4EF787A3B78D24628795DFD48D /* Pods-DiaryContent-DiaryContentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-DiaryContentTests-Info.plist"; sourceTree = "<group>"; };
-		BC642F2CCEAA55582C957847B25D5BF9 /* Pods-SandboxApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandboxApp-Info.plist"; sourceTree = "<group>"; };
-		C95E51670EC57D1E8E8942732C1B22F8 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiaryContent-DiaryContentTests-umbrella.h"; sourceTree = "<group>"; };
-		D3A14CE9DA92E249AB5F2D8247B84B88 /* DiaryContent */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryContent; path = DiaryContent.xcodeproj; sourceTree = "<group>"; };
-		D8C541F71C2B670766BD821502F0A476 /* Pods-SandboxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandboxApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAC7049B2B20DB249AB06ED21F77FAC1 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F81773274A58AC56EA285BF0416D9FB5 /* Pods-DiaryContent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-acknowledgements.plist"; sourceTree = "<group>"; };
-		F88B2059219BF73989AD5F83DEE3AD9F /* Pods-SandboxApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SandboxApp.modulemap"; sourceTree = "<group>"; };
+		ABB831BD8FC802381D33E31C12BC68BC /* Pods-DiaryContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiaryContent-umbrella.h"; sourceTree = "<group>"; };
+		AEA28B722048544018015D527566FD35 /* Pods-DiaryContent-DiaryContentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiaryContent-DiaryContentTests-resources.sh"; sourceTree = "<group>"; };
+		B9DC6431543F5F4AC07E837A360F3CBC /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent-DiaryContentTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5A595DCFFDF89843034054D973FC5F /* Pods-DiaryContent-DiaryContentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-DiaryContentTests-Info.plist"; sourceTree = "<group>"; };
+		BFD4CEB76DFDCC5E372F29A3E09951B2 /* Pods-SandboxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SandboxApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFB9105CCD57F8D32F678B9948201DF5 /* Pods-DiaryContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent.release.xcconfig"; sourceTree = "<group>"; };
+		DA2A16E737594066D95B7136B59C36D0 /* Pods-SandboxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SandboxApp.release.xcconfig"; sourceTree = "<group>"; };
+		DE029A53906F38E6B60A52A91D3D6A7E /* Pods-SandboxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SandboxApp-resources.sh"; sourceTree = "<group>"; };
+		E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DiaryFoundation; path = DiaryFoundation.xcodeproj; sourceTree = "<group>"; };
+		EC0BF2F8E76AB3EBF4EA49925823FFF3 /* Pods-DiaryContent-DiaryContentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiaryContent-DiaryContentTests.modulemap"; sourceTree = "<group>"; };
+		F1AC98FB100D289DC7885728E5796C12 /* Pods-SandboxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SandboxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F68514CBB158863442D6A8B2BF59E87E /* Pods-DiaryContent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiaryContent-acknowledgements.plist"; sourceTree = "<group>"; };
+		F68C54C40CE27D38C0751A5600443ADF /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiaryContent-DiaryContentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F78038356B330291F1294E11380A1537 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBBF506C90EF28E7BFBBFD08A04068EB /* Pods-DiaryContent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiaryContent-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A797CA826E8A46B7969E16B003160BB8 /* Frameworks */ = {
+		0189E841E069A3B698360AA6CB9251B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF63C68EA8C396AD0612D31D27BEDE5 /* Foundation.framework in Frameworks */,
+				F080D43A585A7C496E0915A0CB5C4B1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2780DE543C521453153AE69E42E15EF /* Frameworks */ = {
+		27ACF37F10D01F78649BE36A5506FB94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7248D1E0BB5B9348CB8C028621A356 /* Foundation.framework in Frameworks */,
+				806F991628FFE4CC9A1D90C8A62FEC5B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3EB21A61A19BE263176B6A62E8383BC /* Frameworks */ = {
+		B64A98B15641755ED1DF95F334C09EC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AE54AEFCACC5914EA815EDE1EB5250 /* Foundation.framework in Frameworks */,
+				A7D4997E72095EC901EE30BF4E2CF1BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11E2FAE78AB7D9B298F4EF6F9469DA7B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D6728936B3B94EB734B1C6C84A07D50 /* Pods-DiaryContent */,
-				B8650632761527536D58C950F7A28C28 /* Pods-DiaryContent-DiaryContentTests */,
-				43287516E55211356B4FFD3F0743876B /* Pods-SandboxApp */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		43287516E55211356B4FFD3F0743876B /* Pods-SandboxApp */ = {
-			isa = PBXGroup;
-			children = (
-				F88B2059219BF73989AD5F83DEE3AD9F /* Pods-SandboxApp.modulemap */,
-				8C7C4FEEE82C275B3BC346CB1B64CC26 /* Pods-SandboxApp-acknowledgements.markdown */,
-				D8C541F71C2B670766BD821502F0A476 /* Pods-SandboxApp-acknowledgements.plist */,
-				5B063E91AF5B118FC2F7564D610CADD4 /* Pods-SandboxApp-dummy.m */,
-				BC642F2CCEAA55582C957847B25D5BF9 /* Pods-SandboxApp-Info.plist */,
-				ADD166FB61B08718398B0B1BEF8C1761 /* Pods-SandboxApp-resources.sh */,
-				A746A5D828C516EE54083DE9FC9808D3 /* Pods-SandboxApp-umbrella.h */,
-				5BF4E975C184F9ACB25250BFCE742436 /* Pods-SandboxApp.debug.xcconfig */,
-				A0B363680A396475876094BF2715C093 /* Pods-SandboxApp.release.xcconfig */,
-			);
-			name = "Pods-SandboxApp";
-			path = "Target Support Files/Pods-SandboxApp";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,55 +144,85 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D6728936B3B94EB734B1C6C84A07D50 /* Pods-DiaryContent */ = {
+		59A1681B073FA8768B19D4F2C07FD64D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				098AFBBA665E591E7592848D6F58AF5C /* Pods-DiaryContent.modulemap */,
-				3E1B61603D739037C43AEEEA27816488 /* Pods-DiaryContent-acknowledgements.markdown */,
-				F81773274A58AC56EA285BF0416D9FB5 /* Pods-DiaryContent-acknowledgements.plist */,
-				5D880ED7A176D06D20759D995A7100BA /* Pods-DiaryContent-dummy.m */,
-				14977C2441D2676C9A2DD7DA2583E84F /* Pods-DiaryContent-Info.plist */,
-				13039401EEDDDF8E4688DC9E5E46CF00 /* Pods-DiaryContent-umbrella.h */,
-				1043B812B03D3CF52E8DC881B17CE707 /* Pods-DiaryContent.debug.xcconfig */,
-				1FF1CCF5A603064A3475BADD81B6C1A5 /* Pods-DiaryContent.release.xcconfig */,
+				A8E0AA3247BB65F7BF10056A59F0372A /* Pods-DiaryContent */,
+				699CE88BB30897F3AB2C6C6574E06E79 /* Pods-DiaryContent-DiaryContentTests */,
+				A2F0FDBD0FEE6BE68CCC3A897FF832AA /* Pods-SandboxApp */,
 			);
-			name = "Pods-DiaryContent";
-			path = "Target Support Files/Pods-DiaryContent";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		872B57E2222EB2A16D8D828D4B699ED9 /* Development Pods */ = {
+		699CE88BB30897F3AB2C6C6574E06E79 /* Pods-DiaryContent-DiaryContentTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3A14CE9DA92E249AB5F2D8247B84B88 /* DiaryContent */,
-				40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation */,
+				EC0BF2F8E76AB3EBF4EA49925823FFF3 /* Pods-DiaryContent-DiaryContentTests.modulemap */,
+				F78038356B330291F1294E11380A1537 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown */,
+				4A93B6A78B351D35981B23C618377A51 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.plist */,
+				11C795E975C5E0737618109030AF07BE /* Pods-DiaryContent-DiaryContentTests-dummy.m */,
+				BF5A595DCFFDF89843034054D973FC5F /* Pods-DiaryContent-DiaryContentTests-Info.plist */,
+				AEA28B722048544018015D527566FD35 /* Pods-DiaryContent-DiaryContentTests-resources.sh */,
+				14B6BD237922CBB25B704390539A2557 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */,
+				F68C54C40CE27D38C0751A5600443ADF /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */,
+				B9DC6431543F5F4AC07E837A360F3CBC /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */,
+			);
+			name = "Pods-DiaryContent-DiaryContentTests";
+			path = "Target Support Files/Pods-DiaryContent-DiaryContentTests";
+			sourceTree = "<group>";
+		};
+		7B5CF85D69C43D6FC11F5067F01BA9A8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47D0AA8C4C84EC631A5006CFA4A708D7 /* DiaryContent */,
+				995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator */,
+				E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B8650632761527536D58C950F7A28C28 /* Pods-DiaryContent-DiaryContentTests */ = {
+		A2F0FDBD0FEE6BE68CCC3A897FF832AA /* Pods-SandboxApp */ = {
 			isa = PBXGroup;
 			children = (
-				4BF4CA277D42856E610B786119DEC7B4 /* Pods-DiaryContent-DiaryContentTests.modulemap */,
-				DAC7049B2B20DB249AB06ED21F77FAC1 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.markdown */,
-				A225A3D32F406E415C23CFF99D46DC18 /* Pods-DiaryContent-DiaryContentTests-acknowledgements.plist */,
-				ADF94F096C28C62F6EA480D81EF4C7CA /* Pods-DiaryContent-DiaryContentTests-dummy.m */,
-				B7CEBC4EF787A3B78D24628795DFD48D /* Pods-DiaryContent-DiaryContentTests-Info.plist */,
-				C95E51670EC57D1E8E8942732C1B22F8 /* Pods-DiaryContent-DiaryContentTests-umbrella.h */,
-				A56602D3CB3FD26871BF9399725534A9 /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */,
-				6DFA6FC92C9DD67113623462C9B6CE17 /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */,
+				20A6CB9479F3B401C2221AC20050DA76 /* Pods-SandboxApp.modulemap */,
+				F1AC98FB100D289DC7885728E5796C12 /* Pods-SandboxApp-acknowledgements.markdown */,
+				BFD4CEB76DFDCC5E372F29A3E09951B2 /* Pods-SandboxApp-acknowledgements.plist */,
+				2C0AB9B26C5AAB8770D7FC3AC9F898CA /* Pods-SandboxApp-dummy.m */,
+				8913AB0B1EF6B3D6DD6F24593EBC56FE /* Pods-SandboxApp-Info.plist */,
+				DE029A53906F38E6B60A52A91D3D6A7E /* Pods-SandboxApp-resources.sh */,
+				09B664A712112423E3A848D081B2DA4F /* Pods-SandboxApp-umbrella.h */,
+				1CE6D87FBD3C1B8320B9658011E1251D /* Pods-SandboxApp.debug.xcconfig */,
+				DA2A16E737594066D95B7136B59C36D0 /* Pods-SandboxApp.release.xcconfig */,
 			);
-			name = "Pods-DiaryContent-DiaryContentTests";
-			path = "Target Support Files/Pods-DiaryContent-DiaryContentTests";
+			name = "Pods-SandboxApp";
+			path = "Target Support Files/Pods-SandboxApp";
+			sourceTree = "<group>";
+		};
+		A8E0AA3247BB65F7BF10056A59F0372A /* Pods-DiaryContent */ = {
+			isa = PBXGroup;
+			children = (
+				3F375EDAD90235FFEB8CD09259262A9A /* Pods-DiaryContent.modulemap */,
+				21AEA12187BBDB5E255FA7BB02ED608B /* Pods-DiaryContent-acknowledgements.markdown */,
+				F68514CBB158863442D6A8B2BF59E87E /* Pods-DiaryContent-acknowledgements.plist */,
+				0E717871C8DF2E33BE0D3999C8CA5C96 /* Pods-DiaryContent-dummy.m */,
+				26ECCCA195181AA80FD5368315B201B1 /* Pods-DiaryContent-Info.plist */,
+				FBBF506C90EF28E7BFBBFD08A04068EB /* Pods-DiaryContent-resources.sh */,
+				ABB831BD8FC802381D33E31C12BC68BC /* Pods-DiaryContent-umbrella.h */,
+				05CD81AE0E776B634D7BD870DD0FB2BD /* Pods-DiaryContent.debug.xcconfig */,
+				CFB9105CCD57F8D32F678B9948201DF5 /* Pods-DiaryContent.release.xcconfig */,
+			);
+			name = "Pods-DiaryContent";
+			path = "Target Support Files/Pods-DiaryContent";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				872B57E2222EB2A16D8D828D4B699ED9 /* Development Pods */,
+				7B5CF85D69C43D6FC11F5067F01BA9A8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D313A5CCEAC6F66A29C6411DC5E1BF1B /* Products */,
-				11E2FAE78AB7D9B298F4EF6F9469DA7B /* Targets Support Files */,
+				59A1681B073FA8768B19D4F2C07FD64D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,27 +247,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		38BFB77B3B2810E04E6AC7CA4A20A9A6 /* Headers */ = {
+		02F0EE13D2CD06155E35E83B42AD64F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCE46B8BB1498267D0CC42F898C99FC /* Pods-SandboxApp-umbrella.h in Headers */,
+				A5D0B0BFFE5FAC50741CA4D600819024 /* Pods-DiaryContent-DiaryContentTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		699338F4BB8160E8175AC30AA0EC8E85 /* Headers */ = {
+		83F7FD60C25AE632A619C8FFD073A8F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F735B9432CA5CA53EAB23BF9A8C6D6AB /* Pods-DiaryContent-umbrella.h in Headers */,
+				C63A75B120D82ABC3E017F4CA1A7C6F6 /* Pods-SandboxApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86F99CD0B2EEAFE760A82C4035C6B03B /* Headers */ = {
+		FDDCCA5B1DBE58E29EE626F30FED803C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93F2CC0DBA07B506AC21FD47C641B49 /* Pods-DiaryContent-DiaryContentTests-umbrella.h in Headers */,
+				EAD34D8B9340CEC2F929F5EB3DB82B17 /* Pods-DiaryContent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +276,18 @@
 /* Begin PBXNativeTarget section */
 		07560172DDE7F15498EE89893FC361B7 /* Pods-DiaryContent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CB087F2B5E8D2F99C0C1F0C77F736DE /* Build configuration list for PBXNativeTarget "Pods-DiaryContent" */;
+			buildConfigurationList = 3EB79F63E46D2BC6A3DEE8C0A73EC4A3 /* Build configuration list for PBXNativeTarget "Pods-DiaryContent" */;
 			buildPhases = (
-				699338F4BB8160E8175AC30AA0EC8E85 /* Headers */,
-				4F9711AF670CFF0351821BF9B04A9410 /* Sources */,
-				C2780DE543C521453153AE69E42E15EF /* Frameworks */,
-				12C2ADFCDFB172FC0E503C0AB23C8D6A /* Resources */,
+				FDDCCA5B1DBE58E29EE626F30FED803C /* Headers */,
+				B6B19B620FD2A016B0A6369C2AA68924 /* Sources */,
+				0189E841E069A3B698360AA6CB9251B1 /* Frameworks */,
+				0126A9B3367828CDBB2919B8FF4007D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FFFD7D9486F56FFE662E836220653C82 /* PBXTargetDependency */,
+				784C9F9B1DF58EA62E1327687D42EDB5 /* PBXTargetDependency */,
+				0F48EB1BF6BEDA2E9EC67A3BD0DF4849 /* PBXTargetDependency */,
 			);
 			name = "Pods-DiaryContent";
 			productName = Pods_DiaryContent;
@@ -268,17 +296,18 @@
 		};
 		2EF15E4309E54CCCEF6DCB0CF0767EBD /* Pods-DiaryContent-DiaryContentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F4C860150154868A515FA3857E68F7 /* Build configuration list for PBXNativeTarget "Pods-DiaryContent-DiaryContentTests" */;
+			buildConfigurationList = DA96BE79C99647B3B2289921D89CD1DB /* Build configuration list for PBXNativeTarget "Pods-DiaryContent-DiaryContentTests" */;
 			buildPhases = (
-				86F99CD0B2EEAFE760A82C4035C6B03B /* Headers */,
-				265750B01BCEAD20234CEAC27AFCC757 /* Sources */,
-				A797CA826E8A46B7969E16B003160BB8 /* Frameworks */,
-				FDC48E1B16D463D4BECB14BBCD49CD1F /* Resources */,
+				02F0EE13D2CD06155E35E83B42AD64F3 /* Headers */,
+				D1EC0CC8EDCA29CFF580DA85A3AE953E /* Sources */,
+				27ACF37F10D01F78649BE36A5506FB94 /* Frameworks */,
+				7B77A2401F3DC25637666F912935221B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8CB0365DFCAF8AFCF12DD57C542F940 /* PBXTargetDependency */,
+				22D9AD00AF21073BD6D762C7E6328BEE /* PBXTargetDependency */,
+				3012B6422E067628BEC22D0CDE24B8F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-DiaryContent-DiaryContentTests";
 			productName = Pods_DiaryContent_DiaryContentTests;
@@ -287,18 +316,19 @@
 		};
 		750A491E89FAF1035A763196479F28B9 /* Pods-SandboxApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1337A6A27AF3ACA13C32DC7E6BB20E8E /* Build configuration list for PBXNativeTarget "Pods-SandboxApp" */;
+			buildConfigurationList = ED8F3DF87BDAF4B3E85FE28FC89788CF /* Build configuration list for PBXNativeTarget "Pods-SandboxApp" */;
 			buildPhases = (
-				38BFB77B3B2810E04E6AC7CA4A20A9A6 /* Headers */,
-				F9B9EAFE1C115FFA41474BFA3309E67E /* Sources */,
-				E3EB21A61A19BE263176B6A62E8383BC /* Frameworks */,
-				6FBBA2D744510805743CE34CEC9C7167 /* Resources */,
+				83F7FD60C25AE632A619C8FFD073A8F0 /* Headers */,
+				D1CDC12ED4FB106199600ED55AF98D56 /* Sources */,
+				B64A98B15641755ED1DF95F334C09EC4 /* Frameworks */,
+				126EBC9D484A09F3FF7DEF1033B04F78 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				788D447B28F54795E1BFC138FAEFF80B /* PBXTargetDependency */,
-				86EC7A867CB65AD9BC9802137A35DE6B /* PBXTargetDependency */,
+				CED83AF2AA08B6D6E64781D6AE67C28E /* PBXTargetDependency */,
+				655A27E627F1F5F656D07F4F7D828336 /* PBXTargetDependency */,
+				992E0ED51C183F99D8BA97416A51A9EC /* PBXTargetDependency */,
 			);
 			name = "Pods-SandboxApp";
 			productName = Pods_SandboxApp;
@@ -327,10 +357,13 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = D3A14CE9DA92E249AB5F2D8247B84B88 /* DiaryContent */;
+					ProjectRef = 47D0AA8C4C84EC631A5006CFA4A708D7 /* DiaryContent */;
 				},
 				{
-					ProjectRef = 40788A81B05DFBA4C5D04A3BA7750CBD /* DiaryFoundation */;
+					ProjectRef = 995CA2B2284D73FE71F6919F1F1DD60B /* DiaryCoordinator */;
+				},
+				{
+					ProjectRef = E6CC79C73D6D27430822695C8EA17843 /* DiaryFoundation */;
 				},
 			);
 			projectRoot = "";
@@ -343,21 +376,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12C2ADFCDFB172FC0E503C0AB23C8D6A /* Resources */ = {
+		0126A9B3367828CDBB2919B8FF4007D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FBBA2D744510805743CE34CEC9C7167 /* Resources */ = {
+		126EBC9D484A09F3FF7DEF1033B04F78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDC48E1B16D463D4BECB14BBCD49CD1F /* Resources */ = {
+		7B77A2401F3DC25637666F912935221B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,59 +400,224 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		265750B01BCEAD20234CEAC27AFCC757 /* Sources */ = {
+		B6B19B620FD2A016B0A6369C2AA68924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDA967E132D12AEF833581D5DC8AED4 /* Pods-DiaryContent-DiaryContentTests-dummy.m in Sources */,
+				E3907EC877F88149FF7DF026CC4A76B2 /* Pods-DiaryContent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9711AF670CFF0351821BF9B04A9410 /* Sources */ = {
+		D1CDC12ED4FB106199600ED55AF98D56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0296C69060FC86008F11095843FBFFBB /* Pods-DiaryContent-dummy.m in Sources */,
+				E76498661E74357D14835E7D504EC3E9 /* Pods-SandboxApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B9EAFE1C115FFA41474BFA3309E67E /* Sources */ = {
+		D1EC0CC8EDCA29CFF580DA85A3AE953E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE343CCD98DC802F2BAFCD51718FBD3 /* Pods-SandboxApp-dummy.m in Sources */,
+				6D9B89F8D62A807201B8A61CA3D34616 /* Pods-DiaryContent-DiaryContentTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		788D447B28F54795E1BFC138FAEFF80B /* PBXTargetDependency */ = {
+		0F48EB1BF6BEDA2E9EC67A3BD0DF4849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			targetProxy = 2F97A39C36FE166A3B6743DED5892E9C /* PBXContainerItemProxy */;
+		};
+		22D9AD00AF21073BD6D762C7E6328BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryCoordinator;
+			targetProxy = 9CC6A570C7AEF54EF17C033983453047 /* PBXContainerItemProxy */;
+		};
+		3012B6422E067628BEC22D0CDE24B8F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			targetProxy = 9A996A929A154D3BCAB1CC583B124C16 /* PBXContainerItemProxy */;
+		};
+		655A27E627F1F5F656D07F4F7D828336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryCoordinator;
+			targetProxy = 9F6B17FDC293FD506C1BB2F9C20B3186 /* PBXContainerItemProxy */;
+		};
+		784C9F9B1DF58EA62E1327687D42EDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryCoordinator;
+			targetProxy = 6F6170CC8C3B930F1536A5C45FE00BFF /* PBXContainerItemProxy */;
+		};
+		992E0ED51C183F99D8BA97416A51A9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiaryFoundation;
+			targetProxy = CBA5489FDC777F02B34C315E9A1039B1 /* PBXContainerItemProxy */;
+		};
+		CED83AF2AA08B6D6E64781D6AE67C28E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiaryContent;
-			targetProxy = 4A88156C6BBF4F01DF54154740E807DD /* PBXContainerItemProxy */;
-		};
-		86EC7A867CB65AD9BC9802137A35DE6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DiaryFoundation;
-			targetProxy = 47CE4B757A1226728B2989FC5243FAA0 /* PBXContainerItemProxy */;
-		};
-		B8CB0365DFCAF8AFCF12DD57C542F940 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DiaryFoundation;
-			targetProxy = D4AED4750CCAC60A700E28DE8380929B /* PBXContainerItemProxy */;
-		};
-		FFFD7D9486F56FFE662E836220653C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DiaryFoundation;
-			targetProxy = 096F4FBFC072B7F435E6964486412EDD /* PBXContainerItemProxy */;
+			targetProxy = F2338AE6EB6A3C73C6BB8E912FBBFCC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39B10922702823CC6C6E1C3B5372D7E1 /* Debug */ = {
+		0CB32788D145A2564FD5025337AC8B92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1043B812B03D3CF52E8DC881B17CE707 /* Pods-DiaryContent.debug.xcconfig */;
+			baseConfigurationReference = CFB9105CCD57F8D32F678B9948201DF5 /* Pods-DiaryContent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent/Pods-DiaryContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent/Pods-DiaryContent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		305FBA4E905D72EACC74ACFF9941B3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE6D87FBD3C1B8320B9658011E1251D /* Pods-SandboxApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		666011E798504B71744DD56F4D88DAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2A16E737594066D95B7136B59C36D0 /* Pods-SandboxApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72B3B6864BE5520515C1EFBBCD3DDB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68C54C40CE27D38C0751A5600443ADF /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8587424C2D802E96769CFD9CEEC336A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD81AE0E776B634D7BD870DD0FB2BD /* Pods-DiaryContent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -453,119 +651,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4105FB2FEC382D4A2870C8EB3D137DA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B363680A396475876094BF2715C093 /* Pods-SandboxApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54E89688C99AED120EE072A9DB6DB57F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF4E975C184F9ACB25250BFCE742436 /* Pods-SandboxApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SandboxApp/Pods-SandboxApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8BB3EE9CBF25F708856DEC9B7BA80C60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DFA6FC92C9DD67113623462C9B6CE17 /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -633,43 +718,6 @@
 			};
 			name = Debug;
 		};
-		90AEABE3F6E835F534AEC5C1EA43A37A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56602D3CB3FD26871BF9399725534A9 /* Pods-DiaryContent-DiaryContentTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -732,9 +780,9 @@
 			};
 			name = Release;
 		};
-		D622182224305CA3619AD9A1F723287D /* Release */ = {
+		E1782878BBD6A59FD07B97EF7AA24828 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FF1CCF5A603064A3475BADD81B6C1A5 /* Pods-DiaryContent.release.xcconfig */;
+			baseConfigurationReference = B9DC6431543F5F4AC07E837A360F3CBC /* Pods-DiaryContent-DiaryContentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -746,7 +794,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent/Pods-DiaryContent-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -755,7 +803,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent/Pods-DiaryContent.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DiaryContent-DiaryContentTests/Pods-DiaryContent-DiaryContentTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -773,20 +821,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1337A6A27AF3ACA13C32DC7E6BB20E8E /* Build configuration list for PBXNativeTarget "Pods-SandboxApp" */ = {
+		3EB79F63E46D2BC6A3DEE8C0A73EC4A3 /* Build configuration list for PBXNativeTarget "Pods-DiaryContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54E89688C99AED120EE072A9DB6DB57F /* Debug */,
-				4105FB2FEC382D4A2870C8EB3D137DA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CB087F2B5E8D2F99C0C1F0C77F736DE /* Build configuration list for PBXNativeTarget "Pods-DiaryContent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39B10922702823CC6C6E1C3B5372D7E1 /* Debug */,
-				D622182224305CA3619AD9A1F723287D /* Release */,
+				8587424C2D802E96769CFD9CEEC336A4 /* Debug */,
+				0CB32788D145A2564FD5025337AC8B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -800,11 +839,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F4C860150154868A515FA3857E68F7 /* Build configuration list for PBXNativeTarget "Pods-DiaryContent-DiaryContentTests" */ = {
+		DA96BE79C99647B3B2289921D89CD1DB /* Build configuration list for PBXNativeTarget "Pods-DiaryContent-DiaryContentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90AEABE3F6E835F534AEC5C1EA43A37A /* Debug */,
-				8BB3EE9CBF25F708856DEC9B7BA80C60 /* Release */,
+				72B3B6864BE5520515C1EFBBCD3DDB6C /* Debug */,
+				E1782878BBD6A59FD07B97EF7AA24828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8F3DF87BDAF4B3E85FE28FC89788CF /* Build configuration list for PBXNativeTarget "Pods-SandboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305FBA4E905D72EACC74ACFF9941B3F9 /* Debug */,
+				666011E798504B71744DD56F4D88DAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
