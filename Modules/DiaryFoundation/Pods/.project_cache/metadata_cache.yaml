@@ -1,7 +1,3 @@
-DiaryFoundation:
-  LABEL: DiaryFoundation
-  PROJECT_PATH: DiaryFoundation.xcodeproj
-  UUID: 240F8AE6B9F121D3523AA1DD3B6B07AD
 Pods-DiaryFoundation:
   LABEL: Pods-DiaryFoundation
   PROJECT_PATH: Pods.xcodeproj
@@ -10,7 +6,3 @@ Pods-DiaryFoundation-DiaryFoundationTests:
   LABEL: Pods-DiaryFoundation-DiaryFoundationTests
   PROJECT_PATH: Pods.xcodeproj
   UUID: 5A201B30E0E0767490797F9547766E45
-Pods-SandboxApp:
-  LABEL: Pods-SandboxApp
-  PROJECT_PATH: Pods.xcodeproj
-  UUID: 750A491E89FAF1035A763196479F28B9

@@ -2,17 +2,6 @@ BUILD_CONFIGURATIONS:
   Debug: :debug
   Release: :release
 CACHE_KEYS:
-  DiaryFoundation:
-    BUILD_SETTINGS_CHECKSUM:
-      DiaryFoundation:
-        :debug: 32d19eb0ea7d560aa60be12fc23972e0
-        :release: 32d19eb0ea7d560aa60be12fc23972e0
-    CHECKSUM: d5daa40e88c40783a37234b4ad677c39a23fa6bc
-    FILES:
-      - "../DiaryFoundation/DiaryFoundation.h"
-    PROJECT_NAME: DiaryFoundation
-    SPECS:
-      - DiaryFoundation (0.1.0)
   Pods-DiaryFoundation:
     BUILD_SETTINGS_CHECKSUM:
       Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
@@ -21,10 +10,6 @@ CACHE_KEYS:
     BUILD_SETTINGS_CHECKSUM:
       Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
       Release: a44bcbdc62ecdcff23c3a1fbbd61884f
-  Pods-SandboxApp:
-    BUILD_SETTINGS_CHECKSUM:
-      Debug: af6dff96baaad8c24f85a04e22e7c3e3
-      Release: af6dff96baaad8c24f85a04e22e7c3e3
 INSTALLATION_OPTIONS:
   clean: true
   deduplicate_targets: true

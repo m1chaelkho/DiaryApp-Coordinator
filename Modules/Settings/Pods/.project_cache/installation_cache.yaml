@@ -20,8 +20,8 @@ CACHE_KEYS:
       - DiaryFoundation (0.1.0)
   Pods-SandboxApp:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 4292d6f529f7c571ad8413df143d87bf
-      Release: 4292d6f529f7c571ad8413df143d87bf
+      Debug: cb676491a8a9a2b3de35b30dbf11f32c
+      Release: cb676491a8a9a2b3de35b30dbf11f32c
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/Settings/SettingsResources.bundle"
   Pods-Settings:
@@ -35,11 +35,15 @@ CACHE_KEYS:
   Settings:
     BUILD_SETTINGS_CHECKSUM:
       Settings:
-        :debug: 3016782e5cfae3088dbd346ac1673944
-        :release: 3016782e5cfae3088dbd346ac1673944
+        :debug: d539f21438f1687f28994d6e8a28603a
+        :release: d539f21438f1687f28994d6e8a28603a
     CHECKSUM: 54e0f885c871939962764fbc3dfb038449aa5928
     FILES:
+      - "../Settings/Coordinator/SettingsCoordinator.swift"
+      - "../Settings/Internal/SettingsInternalUtils.swift"
       - "../Settings/Settings.h"
+      - "../Settings/SettingsViewController.swift"
+      - "../Settings/SettingsViewController.xib"
       - "../SettingsResources/Images.xcassets"
     PROJECT_NAME: Settings
     SPECS:
@@ -60,6 +64,6 @@ INSTALLATION_OPTIONS:
   skip_pods_project_generation: false
   warn_for_multiple_pod_sources: true
   warn_for_unused_master_specs_repo: true
-OBJECT_VERSION: 50
+OBJECT_VERSION: 51
 PLUGINS:
   {}

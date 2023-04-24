@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		45762E1798D6C3855CAA55E413288E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F83298FB44359E57F330105B3E780D /* Settings.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F87CEC0F632C1B572F67A270C907F7;
+			remoteInfo = Settings;
+		};
 		8FECFE3AE05896EEC10B25494F3D561A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BF559F8BDC64830FE40258AD13DC931 /* DiaryFoundation.xcodeproj */;
@@ -32,13 +39,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
 			remoteInfo = DiaryFoundation;
-		};
-		DCFC7D2E7D11734BA020382015FA8ECF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A3F83298FB44359E57F330105B3E780D /* Settings.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 46F87CEC0F632C1B572F67A270C907F7;
-			remoteInfo = Settings;
 		};
 		DECACB38F3B1B7EB86ACC6EF43290AD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -260,7 +260,7 @@
 			);
 			dependencies = (
 				C0DF44D747F6C26B96E01DCF4B9FF9C8 /* PBXTargetDependency */,
-				6F81C12A8D70CFFB0F8B4C8B8F95B47D /* PBXTargetDependency */,
+				A761ECD1006CE17FD6EFD43BC231CC40 /* PBXTargetDependency */,
 			);
 			name = "Pods-SandboxApp";
 			productName = Pods_SandboxApp;
@@ -315,7 +315,7 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -399,10 +399,10 @@
 			name = DiaryFoundation;
 			targetProxy = DECACB38F3B1B7EB86ACC6EF43290AD8 /* PBXContainerItemProxy */;
 		};
-		6F81C12A8D70CFFB0F8B4C8B8F95B47D /* PBXTargetDependency */ = {
+		A761ECD1006CE17FD6EFD43BC231CC40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Settings;
-			targetProxy = DCFC7D2E7D11734BA020382015FA8ECF /* PBXContainerItemProxy */;
+			targetProxy = 45762E1798D6C3855CAA55E413288E51 /* PBXContainerItemProxy */;
 		};
 		B8CA945170CCDC42822D6D8A2175F301 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

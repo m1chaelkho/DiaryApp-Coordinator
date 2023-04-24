@@ -23,19 +23,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C2A2F2B456A4074127139A6A0A0677D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
-			remoteInfo = DiaryFoundation;
-		};
 		4A1BAF5D7BFAE2A2196254F80D77D1DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42F3E9E4850F95E827DCAA9D4AE0E10E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B8BB438F4224C99EA412AE50A202B25;
 			remoteInfo = "DiaryContent-DiaryContentResources";
+		};
+		4CA03F7A56CE3586E2BD286A6BE70772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64851AA9114BFF4873E6429C97DE7D1 /* DiaryFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
+			remoteInfo = DiaryFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -271,7 +271,7 @@
 			);
 			dependencies = (
 				C39BC2C677C80D1EF141251F2F262194 /* PBXTargetDependency */,
-				6C4E2677173D99A59DAD4F4CC6413CCE /* PBXTargetDependency */,
+				944B83FD8027D42E0836A729DC61941E /* PBXTargetDependency */,
 			);
 			name = DiaryContent;
 			productName = DiaryContent;
@@ -373,10 +373,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C4E2677173D99A59DAD4F4CC6413CCE /* PBXTargetDependency */ = {
+		944B83FD8027D42E0836A729DC61941E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiaryFoundation;
-			targetProxy = 0C2A2F2B456A4074127139A6A0A0677D /* PBXContainerItemProxy */;
+			targetProxy = 4CA03F7A56CE3586E2BD286A6BE70772 /* PBXContainerItemProxy */;
 		};
 		C39BC2C677C80D1EF141251F2F262194 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

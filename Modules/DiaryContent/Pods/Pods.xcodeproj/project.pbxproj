@@ -33,7 +33,7 @@
 			remoteGlobalIDString = 240F8AE6B9F121D3523AA1DD3B6B07AD;
 			remoteInfo = DiaryFoundation;
 		};
-		4A88156C6BBF4F01DF54154740E807DD /* PBXContainerItemProxy */ = {
+		8EB8EEDB41EFE897FE7628C798EEEAE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D3A14CE9DA92E249AB5F2D8247B84B88 /* DiaryContent.xcodeproj */;
 			proxyType = 1;
@@ -297,7 +297,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				788D447B28F54795E1BFC138FAEFF80B /* PBXTargetDependency */,
+				4FED34DFD2C97B109406F63E4CF8B7DF /* PBXTargetDependency */,
 				86EC7A867CB65AD9BC9802137A35DE6B /* PBXTargetDependency */,
 			);
 			name = "Pods-SandboxApp";
@@ -394,10 +394,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		788D447B28F54795E1BFC138FAEFF80B /* PBXTargetDependency */ = {
+		4FED34DFD2C97B109406F63E4CF8B7DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiaryContent;
-			targetProxy = 4A88156C6BBF4F01DF54154740E807DD /* PBXContainerItemProxy */;
+			targetProxy = 8EB8EEDB41EFE897FE7628C798EEEAE3 /* PBXContainerItemProxy */;
 		};
 		86EC7A867CB65AD9BC9802137A35DE6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
