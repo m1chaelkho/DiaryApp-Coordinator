@@ -8,6 +8,6 @@
 import Foundation
 
 public enum AuthenticationDestination {
-    case login
+    case login(someVariable: String)
     case otp
 }

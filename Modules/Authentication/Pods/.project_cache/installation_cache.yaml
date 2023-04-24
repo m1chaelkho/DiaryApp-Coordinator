@@ -5,9 +5,9 @@ CACHE_KEYS:
   Authentication:
     BUILD_SETTINGS_CHECKSUM:
       Authentication:
-        :debug: 05cbfbf3dd3891d53fc25d3590f241ef
-        :release: 05cbfbf3dd3891d53fc25d3590f241ef
-    CHECKSUM: 3c64503f1c1469c69b071f24c576357b84d90a1f
+        :debug: d49a91ba185745ffa39aa34614a71528
+        :release: d49a91ba185745ffa39aa34614a71528
+    CHECKSUM: a89efd0d657fd597e9eccc73c5dd627c4383f1fa
     FILES:
       - "../Authentication/Auth/AuthViewController.swift"
       - "../Authentication/Auth/AuthViewController.xib"
@@ -22,6 +22,22 @@ CACHE_KEYS:
     PROJECT_NAME: Authentication
     SPECS:
       - Authentication (0.1.0)
+  DiaryCoordinator:
+    BUILD_SETTINGS_CHECKSUM:
+      DiaryCoordinator:
+        :debug: 9c0cf7a77e5132600472bc45ff83cf7e
+        :release: 9c0cf7a77e5132600472bc45ff83cf7e
+    CHECKSUM: 337f9f408241fd22803ce6d207b136b1caf3758d
+    FILES:
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/AuthenticationDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Destination/GlobalDestination.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/DiaryCoordinator.h"
+      - "../../DiaryCoordinator/DiaryCoordinator/Main/BaseNavigator.swift"
+      - "../../DiaryCoordinator/DiaryCoordinator/Main/GlobalCoordinator.swift"
+      - "../../DiaryCoordinator/DiaryCoordinatorResources/Images.xcassets"
+    PROJECT_NAME: DiaryCoordinator
+    SPECS:
+      - DiaryCoordinator (0.1.0)
   DiaryFoundation:
     BUILD_SETTINGS_CHECKSUM:
       DiaryFoundation:
@@ -40,18 +56,21 @@ CACHE_KEYS:
       - DiaryFoundation (0.1.0)
   Pods-Authentication:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: d0af029837d446579bef864658d7520e
-      Release: d0af029837d446579bef864658d7520e
+      Debug: 46b81fa03c711d072ece7b92509570fa
+      Release: 46b81fa03c711d072ece7b92509570fa
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
   Pods-AuthenticationTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 19ca392ba3da9676dc56367c931be73b
-      Release: 19ca392ba3da9676dc56367c931be73b
+      Debug: 2747039f21393829960a05ddd6fa8596
+      Release: 2747039f21393829960a05ddd6fa8596
   Pods-SandboxApp:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: ab4b0ef861f2a7d5fd172814691b9ef0
-      Release: ab4b0ef861f2a7d5fd172814691b9ef0
+      Debug: 732e5bf4a3e8123dfcadb2f2af1b8404
+      Release: 732e5bf4a3e8123dfcadb2f2af1b8404
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/Authentication/AuthenticationResources.bundle"
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
 INSTALLATION_OPTIONS:
   clean: true
   deduplicate_targets: true

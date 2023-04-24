@@ -2,6 +2,10 @@ Authentication:
   LABEL: Authentication
   PROJECT_PATH: Authentication.xcodeproj
   UUID: FE6205C3F5217004B52B5F9813230664
+DiaryCoordinator:
+  LABEL: DiaryCoordinator
+  PROJECT_PATH: DiaryCoordinator.xcodeproj
+  UUID: F80A184C4053EEA252E52204D55711A2
 DiaryFoundation:
   LABEL: DiaryFoundation
   PROJECT_PATH: DiaryFoundation.xcodeproj

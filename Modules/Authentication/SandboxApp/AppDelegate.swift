@@ -6,6 +6,7 @@
 //
 
 import Authentication
+import DiaryCoordinator
 import DiaryFoundation
 import UIKit
 
@@ -21,35 +22,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
 
-        let coordinator = AuthCoordinator(
-            navigationController: navigationController,
-            secretPassword: "test")
-        coordinator.start()
-        
+        setupGlobalCoordinator()
+        GlobalCoordinator.shared.navigate(.auth(.login(someVariable: "test")))
         return true
     }
 }
 
-// mock inter module navigation here
-extension AppDelegate: AppCoordinatorProtocol {
+// Setup Global Coordinator Here
+extension AppDelegate {
+    func setupGlobalCoordinator() {
+        GlobalCoordinator.shared = GlobalCoordinator(
+            router: { destination, navigationController in
+                switch destination {
+                case .auth(let authDestination):
+                    let navigator = AuthNavigator(
+                        coordinator: GlobalCoordinator.shared,
+                        navigationController: navigationController)
+                    navigator.navigate(authDestination)
+                case let .home(sessionId, name, accessKey):
+                    assert(name == "some-name")
+                    assert(accessKey == "some-accessKey")
 
-    func navigateTo(destination: Destination) {
-        switch destination {
-        case let .homePage(name, accessKey):
-            assert(name == "some-name")
-            assert(accessKey == "some-accessKey")
+                    let dummyVC = UIViewController()
+                    dummyVC.view.backgroundColor = .brown
+                    navigationController.pushViewController(dummyVC, animated: true)
+                case .settings(let profileId):
+                    assert(profileId == "some-profile-id")
 
-            let dummyVC = UIViewController()
-            dummyVC.view.backgroundColor = .brown
-            navigationController.pushViewController(dummyVC, animated: true)
-        case let .settingPage(profileId):
-            assert(profileId == "some-profile-id")
-            
-            let dummyVC = UIViewController()
-            dummyVC.view.backgroundColor = .red
-            navigationController.pushViewController(dummyVC, animated: true)
-        default:
-            break
-        }
+                    let dummyVC = UIViewController()
+                    dummyVC.view.backgroundColor = .red
+                    navigationController.pushViewController(dummyVC, animated: true)
+                case .back:
+                    navigationController.popViewController(animated: true)
+                case .popToRootVC:
+                    navigationController.popToRootViewController(animated: true)
+                default:
+                    break
+                }
+            },
+            navigationController: navigationController)
     }
 }

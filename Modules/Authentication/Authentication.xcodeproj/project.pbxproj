@@ -13,7 +13,7 @@
 		4C31C3C029BEFA2700584456 /* DiaryFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C31C3BF29BEFA2700584456 /* DiaryFoundation.framework */; };
 		4C31C3EC29BF007C00584456 /* AuthInternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C3EB29BF007C00584456 /* AuthInternalUtils.swift */; };
 		4C31C3F829BF030D00584456 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C3F629BF030D00584456 /* OTPViewController.swift */; };
-		4C31C3FB29BF041700584456 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C3FA29BF041700584456 /* AuthCoordinator.swift */; };
+		4C31C3FB29BF041700584456 /* AuthNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C3FA29BF041700584456 /* AuthNavigator.swift */; };
 		4C31C40929BF076600584456 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C40829BF076600584456 /* AuthViewModel.swift */; };
 		4C31C40B29BF076F00584456 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31C40A29BF076F00584456 /* OTPViewModel.swift */; };
 		4CC481BB29C8401D00104D70 /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC481BA29C8401D00104D70 /* MockNavigationController.swift */; };
@@ -44,7 +44,7 @@
 		4C31C3EB29BF007C00584456 /* AuthInternalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInternalUtils.swift; sourceTree = "<group>"; };
 		4C31C3F629BF030D00584456 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		4C31C3F729BF030D00584456 /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
-		4C31C3FA29BF041700584456 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		4C31C3FA29BF041700584456 /* AuthNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigator.swift; sourceTree = "<group>"; };
 		4C31C40829BF076600584456 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		4C31C40A29BF076F00584456 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 		4C3F19C328F8DD0000E918FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,12 +143,12 @@
 			path = OTP;
 			sourceTree = "<group>";
 		};
-		4C31C3F929BF040A00584456 /* Coordinator */ = {
+		4C31C3F929BF040A00584456 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
-				4C31C3FA29BF041700584456 /* AuthCoordinator.swift */,
+				4C31C3FA29BF041700584456 /* AuthNavigator.swift */,
 			);
-			path = Coordinator;
+			path = Navigator;
 			sourceTree = "<group>";
 		};
 		4CC481B529C8337C00104D70 /* Coordinator */ = {
@@ -205,7 +205,7 @@
 		B1B16EFF24165E6E0057E2A7 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				4C31C3F929BF040A00584456 /* Coordinator */,
+				4C31C3F929BF040A00584456 /* Navigator */,
 				4C31C3EA29BF004A00584456 /* Internal */,
 				4C31C3AE29BEF67000584456 /* Auth */,
 				4C31C3F529BF02FB00584456 /* OTP */,
@@ -276,6 +276,7 @@
 				B1B16EF824165E6E0057E2A7 /* Headers */,
 				B1B16EF924165E6E0057E2A7 /* Sources */,
 				B1B16EFA24165E6E0057E2A7 /* Frameworks */,
+				7E92CC76FA088B5FACF21C78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,6 +409,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7E92CC76FA088B5FACF21C78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authentication/Pods-Authentication-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authentication/Pods-Authentication-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authentication/Pods-Authentication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		849B53AE84EDF1E0376F8F41 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,7 +498,7 @@
 				4C31C3F829BF030D00584456 /* OTPViewController.swift in Sources */,
 				4C31C40B29BF076F00584456 /* OTPViewModel.swift in Sources */,
 				4C31C3EC29BF007C00584456 /* AuthInternalUtils.swift in Sources */,
-				4C31C3FB29BF041700584456 /* AuthCoordinator.swift in Sources */,
+				4C31C3FB29BF041700584456 /* AuthNavigator.swift in Sources */,
 				4C31C3B129BEF67000584456 /* AuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

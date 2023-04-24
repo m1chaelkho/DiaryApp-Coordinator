@@ -5,6 +5,7 @@
 //  Created by Michael Kho on 2023/03/13.
 //
 
+import DiaryCoordinator
 import Foundation
 
 public protocol OTPViewModelProtocol {
@@ -15,21 +16,25 @@ public protocol OTPViewModelProtocol {
 
 public final class OTPViewModel: OTPViewModelProtocol {
 
-    private var coordinator: AuthCoordinatorProtocol
+    private var coordinator: GlobalCoordinatorProtocol
 
-    init(coordinator: AuthCoordinatorProtocol) {
+    init(coordinator: GlobalCoordinatorProtocol = GlobalCoordinator.shared) {
         self.coordinator = coordinator
     }
 
     public func goToSettingsButtonDidTapped() {
-        coordinator.navigateToSettingsPage(profileId: "some-profile-id")
+        coordinator.navigate(.settings(
+            profileId: "some-profile-id"))
     }
 
     public func confirmButtonDidTapped() {
-        coordinator.navigateToDiaryHome(sessionId: "some-session-id")
+        coordinator.navigate(.home(
+            sessionId: "some-session-id",
+            name: "some-name",
+            accessKey: "some-accessKey"))
     }
 
     public func cancelButtonDidTapped() {
-        coordinator.popViewController()
+        coordinator.navigate(.back)
     }
 }
