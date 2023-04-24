@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -164,7 +164,7 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = A8868632854FB4FB5FDEB3131B2CD573 /* Build configuration list for PBXProject "DiaryFoundation" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

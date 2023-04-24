@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
-// Setup Global Coordinator Here
+// Setup Global Coordinator for Authentication Sandbox Here
 extension AppDelegate {
     func setupGlobalCoordinator() {
         GlobalCoordinator.shared = GlobalCoordinator(

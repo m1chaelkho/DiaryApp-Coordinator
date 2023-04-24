@@ -1,22 +1,28 @@
 PODS:
+  - DiaryCoordinator (0.1.0)
   - DiaryFoundation (0.1.0)
   - Settings (0.1.0):
+    - DiaryCoordinator
     - DiaryFoundation
 
 DEPENDENCIES:
+  - DiaryCoordinator (from `../DiaryCoordinator`)
   - DiaryFoundation (from `../DiaryFoundation`)
   - Settings (from `.`)
 
 EXTERNAL SOURCES:
+  DiaryCoordinator:
+    :path: "../DiaryCoordinator"
   DiaryFoundation:
     :path: "../DiaryFoundation"
   Settings:
     :path: "."
 
 SPEC CHECKSUMS:
+  DiaryCoordinator: 337f9f408241fd22803ce6d207b136b1caf3758d
   DiaryFoundation: d5daa40e88c40783a37234b4ad677c39a23fa6bc
-  Settings: 54e0f885c871939962764fbc3dfb038449aa5928
+  Settings: 5126b8d889441e04f36c9728d907d05f25e22a6c
 
-PODFILE CHECKSUM: aefbbf13da080f555d3c7af3765a98912aea4b84
+PODFILE CHECKSUM: 1ce79f2a045047121d4de2caf0246badb01f0bb8
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
