@@ -1,0 +1,6 @@
+framework module Pods_DiaryCoordinator_DiaryCoordinatorTests {
+  umbrella header "Pods-DiaryCoordinator-DiaryCoordinatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

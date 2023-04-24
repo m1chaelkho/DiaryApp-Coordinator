@@ -1,0 +1,25 @@
+{
+  "name": "DiaryCoordinator",
+  "version": "0.1.0",
+  "summary": "A short description of DiaryCoordinator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/michaelkho/DiaryCoordinator",
+  "authors": {
+    "michaelkho": "michael.kho@paypay-corp.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/michaelkho/DiaryCoordinator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "DiaryCoordinator/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "DiaryCoordinatorResources": [
+      "DiaryCoordinator/**/*.xib",
+      "DiaryCoordinatorResources/**/*.xib",
+      "DiaryCoordinatorResources/Images.xcassets"
+    ]
+  }
+}

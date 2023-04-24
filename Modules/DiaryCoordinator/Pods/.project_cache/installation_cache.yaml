@@ -1,0 +1,49 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  DiaryCoordinator:
+    BUILD_SETTINGS_CHECKSUM:
+      DiaryCoordinator:
+        :debug: 2e30926b402a7601b42758aac61dffd8
+        :release: 2e30926b402a7601b42758aac61dffd8
+    CHECKSUM: 337f9f408241fd22803ce6d207b136b1caf3758d
+    FILES:
+      - "../DiaryCoordinator/DiaryCoordinator.h"
+      - "../DiaryCoordinatorResources/Images.xcassets"
+    PROJECT_NAME: DiaryCoordinator
+    SPECS:
+      - DiaryCoordinator (0.1.0)
+  Pods-DiaryCoordinator:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+  Pods-DiaryCoordinator-DiaryCoordinatorTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+  Pods-SandboxApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 802789a9a6d8152f5b0ed5ad902cd3f9
+      Release: 802789a9a6d8152f5b0ed5ad902cd3f9
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/DiaryCoordinator/DiaryCoordinatorResources.bundle"
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  parallel_pod_download_thread_pool_size: 40
+  parallel_pod_downloads: false
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 50
+PLUGINS:
+  {}
